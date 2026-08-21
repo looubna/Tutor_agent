@@ -1,0 +1,70 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model User {
+  id                       String                    @id @default(cuid())
+  name                     String
+  email                    String                    @unique
+  passwordHash             String
+  createdAt                DateTime                  @default(now())
+  bookings                 Booking[]
+  googleCalendarConnection GoogleCalendarConnection?
+}
+
+enum BookingStatus {
+  UPCOMING
+  COMPLETED
+  CANCELLED
+}
+
+model Booking {
+  id             String          @id @default(cuid())
+  studentId      String
+  student        User            @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  subject        String          @default("Math")
+  startTime      DateTime
+  endTime        DateTime
+  status         BookingStatus   @default(UPCOMING)
+  createdAt      DateTime        @default(now())
+  messages       LessonMessage[]
+  googleEventId  String?
+  reminderSentAt DateTime?
+
+  @@index([studentId])
+}
+
+model GoogleCalendarConnection {
+  id           String   @id @default(cuid())
+  userId       String   @unique
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  accessToken  String
+  refreshToken String
+  expiryDate   DateTime
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+enum MessageRole {
+  STUDENT
+  TUTOR
+}
+
+model LessonMessage {
+  id        String      @id @default(cuid())
+  bookingId String
+  booking   Booking     @relation(fields: [bookingId], references: [id], onDelete: Cascade)
+  role      MessageRole
+  content   String
+  createdAt DateTime    @default(now())
+
+  @@index([bookingId])
+}

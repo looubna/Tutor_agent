@@ -81,6 +81,75 @@ curriculum items) and **German A1**.
 
 The authoritative diagram is `apps/agent/architecture.excalidraw.json`.
 
+### Orchestration
+
+The preparation pipeline is one ADK `Workflow` declared as an edge list. Four
+patterns, each chosen because the work needs it.
+
+| Pattern | Where | Why |
+|---|---|---|
+| **Sequential** | `START → curriculum → diagnostic → objective` | Each needs the one before. The curriculum agent must name a target lesson before the diagnostic agent can judge readiness *for that lesson*. Running these in parallel would not be faster, it would be wrong. |
+| **Conditional branch** | `route_by_domain` | Splits to the language or the STEM planner. An unknown subject routes to STEM rather than failing — its structure is the more general of the two. |
+| **Join** | both branches → `quality_checker` | One checker grades both branches, so quality is defined once. |
+| **Bounded loop** | `quality_gate` → back to the material agent | Failed material is rewritten, then re-checked. |
+
+```
+START → curriculum → diagnostic → objective → route_by_domain
+                                                 ╱          ╲
+                                    language_planner      stem_planner
+                                            │                  │
+                                    material_planner           │
+                                            │                  │
+                                    language_material    stem_material
+                                            ╲                  ╱
+                                            quality_checker
+                                                   │
+                                             quality_gate ──PASS──▶ done
+                                                   │
+                                                   └──REVISE──▶ back to material
+```
+
+### Failure tolerance
+
+The judging question for a graph like this is what happens when a worker loops
+or hallucinates. Three answers:
+
+- **The loop is bounded, and the model cannot argue with the bound.**
+  `MAX_QUALITY_ATTEMPTS = 3`, and the counter lives in session state
+  (`quality_attempts`) — not in the checker's report, which a model writes.
+- **Giving up is recorded, not disguised.** On exhaustion the gate passes the
+  lesson with `gave_up: true` and leaves the unresolved issues in the report.
+  A lesson that stopped converging is teachable; a silent one is a lie.
+- **Revision is targeted.** The gate writes `regeneration_request` into state
+  and the material agent rewrites only the items that failed. Re-improvising
+  the whole lesson would lose everything that was already right.
+
+### State between agents
+
+Data moves through **session state**, never through the prompt. Each agent
+declares an `output_key`; the next agent's instruction reads it back as
+`{that_key}`. A missing key **raises** rather than quietly producing an answer
+from nothing — the failure mode worth having, because an objective agent
+inventing objectives with no placement to work from looks perfectly plausible.
+
+| Key | Written by |
+|---|---|
+| `curriculum_placement` | curriculum agent |
+| `diagnostic_report` | diagnostic agent |
+| `lesson_objectives` | objective agent |
+| `lesson_plan` | the branch planner |
+| `material_blueprint` | material planner |
+| `material_package` | the branch material agent |
+| `quality_report` | quality checker |
+
+### The live tutor is not a graph
+
+It is a single ADK `LlmAgent` with **22 tools**, run through `run_live()` on a
+bidirectional audio stream. A graph would be the wrong shape: a lesson is one
+continuous conversation, and the branching is the student's, not the pipeline's.
+The tools are what constrain it — it can turn a page, write a line, circle a
+word, fill a gap, or record an observation, and nothing else.
+
 ### How the pieces talk
 
 | Link | Transport | Why |

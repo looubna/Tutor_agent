@@ -15,7 +15,7 @@ questions, guides step by step, and records what it learns about the student.
 |  | |
 |---|---|
 | 🧠 **Model** | `gemini-3.5-flash` (lesson preparation) · `gemini-3.1-flash-live-preview` (live class) |
-| 🧩 **Agent framework** | Google ADK (`google-adk`) — a 12-node graph, plus a 22-tool live agent |
+| 🧩 **Agent framework** | Google ADK (`google-adk`) — an 11-stage preparation graph, plus a tool-using live agent |
 | ☁️ **Google Cloud** | Cloud Run (agent service) · Firestore (curriculum, lesson cache, profiles, history) |
 | 🖥️ **Front end** | Next.js 16 · React 19 · Prisma |
 | 🙂 **Face & voice** | Gemini Live audio, streamed into a Simli avatar for lip sync |
@@ -68,7 +68,7 @@ curriculum items) and **German A1**.
    │            │ ─────────────► │  Cloud Run: agent      │
    │  Browser   │                │  ADK live tutor        │
    │  Next.js   │ ◄───────────── │  gemini-3.1-flash-live │
-   │            │  PCM 24kHz +   │  22 tools              │
+   │            │  PCM 24kHz +   │  12 tools              │
    │            │  JSON events   └───────────┬────────────┘
    └─────┬──────┘                            │ writes marks
          │                                   ▼
@@ -144,11 +144,19 @@ inventing objectives with no placement to work from looks perfectly plausible.
 
 ### The live tutor is not a graph
 
-It is a single ADK `LlmAgent` with **22 tools**, run through `run_live()` on a
-bidirectional audio stream. A graph would be the wrong shape: a lesson is one
-continuous conversation, and the branching is the student's, not the pipeline's.
-The tools are what constrain it — it can turn a page, write a line, circle a
-word, fill a gap, or record an observation, and nothing else.
+It is a single ADK `LlmAgent` run through `run_live()` on a bidirectional audio
+stream. A graph would be the wrong shape: a lesson is one continuous
+conversation, and the branching is the student's, not the pipeline's.
+
+The tools are what constrain it, and the spoken tutor gets **12** where the
+typed one gets 20. The eight it loses are all *read* tools. In a typed lesson
+"check the status before you answer" costs one round trip and buys accuracy; in
+a spoken one the model called four of them before every single utterance —
+status, paper, profile, material — and the turn often died mid-lookup without
+producing a word. None of what they return changes between one sentence and the
+next, so it moved into the briefing and the tutor kept only the tools that
+*do* something: turn a page, write a line, circle a word, fill a gap, put
+material up, record an observation.
 
 ### How the pieces talk
 
@@ -252,7 +260,7 @@ not `localhost` — otherwise it teaches but cannot reach the worksheet, and
 apps/agent/          Python. The tutor.
   server.py          FastAPI: /prepare, /lesson/turn, ws /lesson/live
   src/zanoba_agent/
-    agents/          ADK agents — the graph, and the live tutor's 22 tools
+    agents/          ADK agents — the graph, and the live tutor's tools
     live/            audio config, paper, session registry
     workflows/       the preparation pipeline
     store/           Firestore profiles and history

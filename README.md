@@ -232,6 +232,62 @@ It prints the URL. Open it, press **Join audio**, and the tutor greets you.
 > ⚠️ `lesson:now` cancels any booking that overlaps the slot it takes.
 > Use a test account if you care about the data.
 
+## Reproducible testing
+
+### Offline, no keys, no cost
+
+Everything here runs without a network call or a Gemini credit.
+
+```bash
+cd apps/agent && uv run pytest -q          # 393 tests
+cd apps/web   && npm test                  # 40 tests
+cd apps/web   && npx tsc --noEmit          # types
+cd apps/web   && npx eslint src            # lint
+cd apps/web   && npm run build             # production build
+```
+
+### Is it wired up?
+
+With both services running, the agent reports what it can actually reach:
+
+```bash
+curl localhost:8080/health
+```
+
+It returns the models in use, every node in the preparation graph, and
+`paper_reachable` — whether the agent can fetch a student's worksheet. A `false`
+there means the tutor will teach but nothing will appear on the paper.
+
+### Does the tutor actually teach?
+
+This is the one that matters, and the one the unit tests cannot answer.
+
+```bash
+cd apps/web
+npm run lesson:now                         # prints a lesson URL
+npm run check:live -- <bookingId>
+```
+
+It opens the agent's socket exactly as the browser does, streams silence up as
+a microphone would, and counts what comes back:
+
+```
++0.1s  ready
++4.7s  tool
++5.2s  tutor: Hello! Welcome to our German class. Today, we're going to be...
++13.4s turn_complete
+
+audio: 49 frames, 570723 bytes = 11.9s of speech
+PASS — the tutor is teaching.
+```
+
+Every real bug in the live path passed the type checker, the linter and both
+suites. They were found by counting frames on this socket: the first honest
+measurement read `1 frame, 3 bytes` where a working lesson sends fifty frames
+and twelve seconds of speech. A tutor that has stopped is obvious; a tutor that
+smiles and says nothing looks exactly like one that is thinking. This is how
+you tell them apart.
+
 ### Deploying the agent to Cloud Run
 
 ```bash

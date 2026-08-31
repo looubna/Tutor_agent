@@ -16,7 +16,8 @@
     "deck:preview": "tsx --conditions=react-server scripts/preview-deck.ts",
     "convert:decks": "tsx --env-file=.env --conditions=react-server scripts/convert-decks.ts",
     "check:fit": "tsx --conditions=react-server scripts/check-fit.ts",
-    "build:fr-maths": "tsx --conditions=react-server scripts/build-fr-maths.ts"
+    "build:fr-maths": "tsx --conditions=react-server scripts/build-fr-maths.ts",
+    "check:live": "tsx --env-file=.env --conditions=react-server scripts/check-live.ts"
   },
   "dependencies": {
     "@prisma/adapter-better-sqlite3": "^7.9.1",

@@ -79,7 +79,12 @@ curriculum items) and **German A1**.
    └────────────┘
 ```
 
-The authoritative diagram is `apps/agent/architecture.excalidraw.json`.
+📐 **[Open the full architecture diagram](https://excalidraw.com/#json=RtvzN9rLjSqDsqISQEfBm,d8SS6vFdDcisUOkoymxCfA)** — every agent, the state
+schema each one reads and writes, and the tools each is given.
+
+The same diagram is committed as `apps/agent/architecture.excalidraw.json`, so
+it stays readable if the link ever expires: drop the file into excalidraw.com
+to open it.
 
 ### Orchestration
 

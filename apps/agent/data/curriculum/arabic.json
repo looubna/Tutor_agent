@@ -1,0 +1,678 @@
+{
+  "curriculum_id": "lang.arabic.cefr",
+  "subject": "arabic",
+  "target_language": "ar",
+  "framework": "CEFR",
+  "levels": [
+    {
+      "id": "a1-1",
+      "band": "A1",
+      "label": "A1.1 — مبتدئ",
+      "order": 1,
+      "description": "",
+      "chapters": [
+        {
+          "id": "a1-1.script",
+          "title": "I can read and write the alphabet",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.script.l1",
+              "title": "الحروف والأصوات",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.script.l2",
+              "title": "الحركات",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.script.l3",
+              "title": "Check: قراءة كلمات بسيطة",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-1.intro",
+          "title": "I can introduce myself in Arabic",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.intro.l1",
+              "title": "التحية والتعريف بالنفس",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.intro.l2",
+              "title": "الجملة الاسمية",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.intro.l3",
+              "title": "Check: التعريف بالنفس",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-1.family",
+          "title": "I can talk about my family",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.family.l1",
+              "title": "الضمائر والإضافة",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.family.l2",
+              "title": "المفرد والجمع",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.family.l3",
+              "title": "Check: عن عائلتي",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-2",
+      "band": "A1",
+      "label": "A1.2 — مبتدئ",
+      "order": 2,
+      "description": "",
+      "chapters": []
+    },
+    {
+      "id": "a2-1",
+      "band": "A2",
+      "label": "A2.1 — ما قبل المتوسط",
+      "order": 3,
+      "description": "",
+      "chapters": [
+        {
+          "id": "a2-1.daily",
+          "title": "I can describe my day",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a2-1.daily.l1",
+              "title": "الفعل المضارع",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.daily.l2",
+              "title": "ظروف الزمان",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.daily.l3",
+              "title": "Check: يومي في المدرسة",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a2-1.shop",
+          "title": "I can shop and ask prices",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a2-1.shop.l1",
+              "title": "الأعداد والأسعار",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.shop.l2",
+              "title": "المذكر والمؤنث",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.shop.l3",
+              "title": "Check: في السوق",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a2-1.past",
+          "title": "I can talk about last week",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a2-1.past.l1",
+              "title": "الفعل الماضي",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.past.l2",
+              "title": "النفي بـ ما ولم",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.past.l3",
+              "title": "Check: عطلة نهاية الأسبوع",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-2",
+      "band": "A2",
+      "label": "A2.2 — ما قبل المتوسط",
+      "order": 4,
+      "description": "",
+      "chapters": []
+    },
+    {
+      "id": "b1-1",
+      "band": "B1",
+      "label": "B1.1 — متوسط",
+      "order": 5,
+      "description": "",
+      "chapters": [
+        {
+          "id": "b1-1.verbs",
+          "title": "I can use verb forms with confidence",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b1-1.verbs.l1",
+              "title": "الفعل الماضي والمضارع",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.verbs.l2",
+              "title": "أوزان الفعل",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.verbs.l3",
+              "title": "Check: سرد قصة",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "b1-1.cases",
+          "title": "I can use case endings correctly",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b1-1.cases.l1",
+              "title": "الرفع والنصب والجر",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.cases.l2",
+              "title": "كان وإنّ وأخواتهما",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.cases.l3",
+              "title": "Check: إعراب جمل",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "b1-1.opinion",
+          "title": "I can express an opinion",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b1-1.opinion.l1",
+              "title": "أدوات الربط",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.opinion.l2",
+              "title": "التعبير عن الرأي",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.opinion.l3",
+              "title": "Check: نقاش قصير",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-2",
+      "band": "B1",
+      "label": "B1.2 — متوسط",
+      "order": 6,
+      "description": "",
+      "chapters": []
+    },
+    {
+      "id": "b2-1",
+      "band": "B2",
+      "label": "B2.1 — فوق المتوسط",
+      "order": 7,
+      "description": "",
+      "chapters": [
+        {
+          "id": "b2-1.forms",
+          "title": "I can use the derived verb forms",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b2-1.forms.l1",
+              "title": "أوزان الفعل المزيد",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.forms.l2",
+              "title": "المصدر واسم الفاعل",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.forms.l3",
+              "title": "Check: اشتقاق الكلمات",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "b2-1.passive",
+          "title": "I can report and describe",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b2-1.passive.l1",
+              "title": "المبني للمجهول",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.passive.l2",
+              "title": "الجملة الشرطية",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.passive.l3",
+              "title": "Check: تقرير قصير",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "b2-1.style",
+          "title": "I can write in a formal register",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b2-1.style.l1",
+              "title": "أدوات الربط في النص",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.style.l2",
+              "title": "الحال والمفعول المطلق",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.style.l3",
+              "title": "Check: رسالة رسمية",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-2",
+      "band": "B2",
+      "label": "B2.2 — فوق المتوسط",
+      "order": 8,
+      "description": "",
+      "chapters": []
+    },
+    {
+      "id": "c1-1",
+      "band": "C1",
+      "label": "C1.1 — متقدم",
+      "order": 9,
+      "description": "",
+      "chapters": [
+        {
+          "id": "c1-1.rhetoric",
+          "title": "I can appreciate style and rhetoric",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "c1-1.rhetoric.l1",
+              "title": "التشبيه والاستعارة",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.rhetoric.l2",
+              "title": "الكناية والجناس",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.rhetoric.l3",
+              "title": "Check: تحليل نص أدبي",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "c1-1.media",
+          "title": "I can follow the press and the media",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "c1-1.media.l1",
+              "title": "لغة الصحافة",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.media.l2",
+              "title": "المصطلحات السياسية والاقتصادية",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.media.l3",
+              "title": "Check: تلخيص مقال",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "c1-1.debate",
+          "title": "I can build and defend a long argument",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "c1-1.debate.l1",
+              "title": "الحجاج والإقناع",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.debate.l2",
+              "title": "الاعتراض والتسليم",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.debate.l3",
+              "title": "Check: مناظرة قصيرة",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-2",
+      "band": "C1",
+      "label": "C1.2 — متقدم",
+      "order": 10,
+      "description": "",
+      "chapters": []
+    }
+  ]
+}

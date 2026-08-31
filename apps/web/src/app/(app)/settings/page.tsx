@@ -2,6 +2,7 @@ import { getCurrentUser } from "@/lib/dal";
 import { prisma } from "@/lib/prisma";
 import { isGoogleCalendarConfigured } from "@/lib/googleCalendar";
 import { T } from "@/components/T";
+import { HelpLanguagePicker } from "@/components/HelpLanguagePicker";
 
 export default async function SettingsPage({
   searchParams,
@@ -35,6 +36,12 @@ export default async function SettingsPage({
         <T k="settings.accountHeading" as="h2" className="text-sm font-semibold text-foreground font-display" />
         <p className="mt-2 text-sm text-foreground">{user?.name}</p>
         <p className="text-sm text-muted">{user?.email}</p>
+      </div>
+
+      <div className="mt-6 rounded-xl border border-border bg-surface p-6 shadow-sm">
+        <T k="settings.helpLanguageHeading" as="h2" className="text-sm font-semibold text-foreground font-display" />
+        <T k="settings.helpLanguageBody" as="p" className="mt-2 max-w-md text-sm text-muted" />
+        <HelpLanguagePicker current={user?.supportLanguage ?? null} />
       </div>
 
       <div className="mt-6 rounded-xl border border-border bg-surface p-6 shadow-sm">

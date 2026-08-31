@@ -1,0 +1,2798 @@
+{
+ "curriculum_id": "lang.english.cefr",
+ "subject": "english",
+ "target_language": "en",
+ "framework": "CEFR",
+ "levels": [
+  {
+   "id": "a1-1",
+   "band": "A1",
+   "label": "A1.1 — Beginner",
+   "order": 1,
+   "description": "",
+   "chapters": [
+    {
+     "id": "a1-1.intro",
+     "title": "I can introduce myself",
+     "order": 1,
+     "emoji": "👋",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-1.intro.l1",
+       "title": "Introduce yourself!",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "The words you need to say who you are: your name, where you are from, what you do — and the greetings that come before all of them.",
+       "objectives": [
+        "I can greet someone and say goodbye at the right time of day.",
+        "I can say my name, my country and my job.",
+        "I can ask someone the same three questions."
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-1.intro.l2",
+       "title": "Making friends",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "A first conversation with someone you have just met: how it opens, what you ask next, and how to keep it going when you have not understood.",
+       "objectives": [
+        "I can start a conversation with someone I have just met.",
+        "I can ask a follow-up question and answer one about myself.",
+        "I can ask someone to repeat something or spell it."
+       ],
+       "prerequisites": [
+        "a1-1.intro.l1"
+       ]
+      },
+      {
+       "id": "a1-1.intro.l3",
+       "title": "Personal pronouns",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "I, you, he, she, it, we, they — the words that replace a name, and the forms of 'to be' that go with each of them.",
+       "objectives": [
+        "I can identify the subject pronoun that replaces a name or a thing.",
+        "I can use subject pronouns in short sentences with am, is and are.",
+        "I can tell the singular pronouns from the plural ones."
+       ],
+       "prerequisites": [
+        "a1-1.intro.l2"
+       ]
+      },
+      {
+       "id": "a1-1.intro.l4",
+       "title": "Hi! My name is Kim!",
+       "order": 4,
+       "focus": "reading",
+       "kind": "lesson",
+       "summary": "A short self-introduction to read: who Kim is, where she lives and what she does — and the questions that check you have understood it.",
+       "objectives": [
+        "I can understand a short written self-introduction.",
+        "I can find someone's name, country and job in a text.",
+        "I can write four sentences introducing myself."
+       ],
+       "prerequisites": [
+        "a1-1.intro.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-1.classroom",
+     "title": "I can survive in an English classroom",
+     "order": 2,
+     "emoji": "🎒",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-1.classroom.l1",
+       "title": "Useful phrases",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can survive in an English classroom"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-1.classroom.l2",
+       "title": "Let's spell!",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can survive in an English classroom"
+       ],
+       "prerequisites": [
+        "a1-1.classroom.l1"
+       ]
+      },
+      {
+       "id": "a1-1.classroom.l3",
+       "title": "The verb 'to be'",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can survive in an English classroom"
+       ],
+       "prerequisites": [
+        "a1-1.classroom.l2"
+       ]
+      },
+      {
+       "id": "a1-1.classroom.l4",
+       "title": "Talking about yourself",
+       "order": 4,
+       "focus": "speaking",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can survive in an English classroom"
+       ],
+       "prerequisites": [
+        "a1-1.classroom.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-1.origins",
+     "title": "I can say where I'm from",
+     "order": 3,
+     "emoji": "🌍",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-1.origins.l1",
+       "title": "Countries and nationalities",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can say where I'm from"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-1.origins.l2",
+       "title": "Contractions and apostrophes",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can say where I'm from"
+       ],
+       "prerequisites": [
+        "a1-1.origins.l1"
+       ]
+      },
+      {
+       "id": "a1-1.origins.l3",
+       "title": "Plural nouns",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can say where I'm from"
+       ],
+       "prerequisites": [
+        "a1-1.origins.l2"
+       ]
+      },
+      {
+       "id": "a1-1.origins.l4",
+       "title": "We like sports!",
+       "order": 4,
+       "focus": "reading",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can say where I'm from"
+       ],
+       "prerequisites": [
+        "a1-1.origins.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-1.city",
+     "title": "I can talk about where I live",
+     "order": 4,
+     "emoji": "🏙️",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-1.city.l1",
+       "title": "The big city",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about where I live"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-1.city.l2",
+       "title": "Count to 20!",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about where I live"
+       ],
+       "prerequisites": [
+        "a1-1.city.l1"
+       ]
+      },
+      {
+       "id": "a1-1.city.l3",
+       "title": "The present simple",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about where I live"
+       ],
+       "prerequisites": [
+        "a1-1.city.l2"
+       ]
+      },
+      {
+       "id": "a1-1.city.l4",
+       "title": "Talking about where you are from",
+       "order": 4,
+       "focus": "speaking",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about where I live"
+       ],
+       "prerequisites": [
+        "a1-1.city.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-1.family",
+     "title": "I can talk about my family",
+     "order": 5,
+     "emoji": "👪",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-1.family.l1",
+       "title": "This is my family",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about my family"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-1.family.l2",
+       "title": "My family is big",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about my family"
+       ],
+       "prerequisites": [
+        "a1-1.family.l1"
+       ]
+      },
+      {
+       "id": "a1-1.family.l3",
+       "title": "Possessive determiners",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about my family"
+       ],
+       "prerequisites": [
+        "a1-1.family.l2"
+       ]
+      },
+      {
+       "id": "a1-1.family.l4",
+       "title": "Meet our family",
+       "order": 4,
+       "focus": "reading",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about my family"
+       ],
+       "prerequisites": [
+        "a1-1.family.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-1.details",
+     "title": "I can ask for and give personal details",
+     "order": 6,
+     "emoji": "📇",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-1.details.l1",
+       "title": "Descriptive adjectives",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can ask for and give personal details"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-1.details.l2",
+       "title": "How tall are you?",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can ask for and give personal details"
+       ],
+       "prerequisites": [
+        "a1-1.details.l1"
+       ]
+      },
+      {
+       "id": "a1-1.details.l3",
+       "title": "Simple wh- questions",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can ask for and give personal details"
+       ],
+       "prerequisites": [
+        "a1-1.details.l2"
+       ]
+      },
+      {
+       "id": "a1-1.details.l4",
+       "title": "Talking about my family",
+       "order": 4,
+       "focus": "speaking",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can ask for and give personal details"
+       ],
+       "prerequisites": [
+        "a1-1.details.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-1.routine",
+     "title": "I can talk about my routine",
+     "order": 7,
+     "emoji": "⏰",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-1.routine.l1",
+       "title": "What day is it?",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about my routine"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-1.routine.l2",
+       "title": "What time is it?",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about my routine"
+       ],
+       "prerequisites": [
+        "a1-1.routine.l1"
+       ]
+      },
+      {
+       "id": "a1-1.routine.l3",
+       "title": "Wh- question words",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about my routine"
+       ],
+       "prerequisites": [
+        "a1-1.routine.l2"
+       ]
+      },
+      {
+       "id": "a1-1.routine.l4",
+       "title": "I love weekends!",
+       "order": 4,
+       "focus": "reading",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about my routine"
+       ],
+       "prerequisites": [
+        "a1-1.routine.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-1.transport",
+     "title": "I can talk about forms of transport",
+     "order": 8,
+     "emoji": "🚌",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-1.transport.l1",
+       "title": "Transport and mobility",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about forms of transport"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-1.transport.l2",
+       "title": "Do-questions and negative questions",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about forms of transport"
+       ],
+       "prerequisites": [
+        "a1-1.transport.l1"
+       ]
+      },
+      {
+       "id": "a1-1.transport.l3",
+       "title": "Adverbs of time",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about forms of transport"
+       ],
+       "prerequisites": [
+        "a1-1.transport.l2"
+       ]
+      },
+      {
+       "id": "a1-1.transport.l4",
+       "title": "Talking about my daily routine",
+       "order": 4,
+       "focus": "speaking",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about forms of transport"
+       ],
+       "prerequisites": [
+        "a1-1.transport.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-1.weather",
+     "title": "I can talk about the weather and seasons",
+     "order": 9,
+     "emoji": "🌦️",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-1.weather.l1",
+       "title": "Weather",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about the weather and seasons"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-1.weather.l2",
+       "title": "Months and seasons of the year",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about the weather and seasons"
+       ],
+       "prerequisites": [
+        "a1-1.weather.l1"
+       ]
+      },
+      {
+       "id": "a1-1.weather.l3",
+       "title": "Negation with 'not'",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about the weather and seasons"
+       ],
+       "prerequisites": [
+        "a1-1.weather.l2"
+       ]
+      },
+      {
+       "id": "a1-1.weather.l4",
+       "title": "I'm going to build a snowman!",
+       "order": 4,
+       "focus": "reading",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about the weather and seasons"
+       ],
+       "prerequisites": [
+        "a1-1.weather.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-1.hobbies",
+     "title": "I can talk about sports and hobbies",
+     "order": 10,
+     "emoji": "⚽",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-1.hobbies.l1",
+       "title": "Hobbies",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about sports and hobbies"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-1.hobbies.l2",
+       "title": "I like sports!",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about sports and hobbies"
+       ],
+       "prerequisites": [
+        "a1-1.hobbies.l1"
+       ]
+      },
+      {
+       "id": "a1-1.hobbies.l3",
+       "title": "All about negation",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about sports and hobbies"
+       ],
+       "prerequisites": [
+        "a1-1.hobbies.l2"
+       ]
+      },
+      {
+       "id": "a1-1.hobbies.l4",
+       "title": "Talking about the weather",
+       "order": 4,
+       "focus": "speaking",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about sports and hobbies"
+       ],
+       "prerequisites": [
+        "a1-1.hobbies.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-1.supermarket",
+     "title": "I can buy food at the supermarket",
+     "order": 11,
+     "emoji": "🛒",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-1.supermarket.l1",
+       "title": "At the supermarket",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can buy food at the supermarket"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-1.supermarket.l2",
+       "title": "Making a grocery list",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can buy food at the supermarket"
+       ],
+       "prerequisites": [
+        "a1-1.supermarket.l1"
+       ]
+      },
+      {
+       "id": "a1-1.supermarket.l3",
+       "title": "The present continuous: part I",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can buy food at the supermarket"
+       ],
+       "prerequisites": [
+        "a1-1.supermarket.l2"
+       ]
+      },
+      {
+       "id": "a1-1.supermarket.l4",
+       "title": "Food Fight",
+       "order": 4,
+       "focus": "reading",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can buy food at the supermarket"
+       ],
+       "prerequisites": [
+        "a1-1.supermarket.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-1.food",
+     "title": "I can talk about the food I like and don't like",
+     "order": 12,
+     "emoji": "🍽️",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-1.food.l1",
+       "title": "I'm hungry",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about the food I like and don't like"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-1.food.l2",
+       "title": "Let's eat!",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about the food I like and don't like"
+       ],
+       "prerequisites": [
+        "a1-1.food.l1"
+       ]
+      },
+      {
+       "id": "a1-1.food.l3",
+       "title": "The present continuous: part II",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about the food I like and don't like"
+       ],
+       "prerequisites": [
+        "a1-1.food.l2"
+       ]
+      },
+      {
+       "id": "a1-1.food.l4",
+       "title": "Talking about food",
+       "order": 4,
+       "focus": "speaking",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about the food I like and don't like"
+       ],
+       "prerequisites": [
+        "a1-1.food.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-1.level-check",
+     "title": "Level check English A1.1",
+     "order": 13,
+     "emoji": "✅",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-1.level-check.l1",
+       "title": "My first piece of writing in English",
+       "order": 1,
+       "focus": null,
+       "kind": "review",
+       "summary": "",
+       "objectives": [
+        "Level check English A1.1"
+       ],
+       "prerequisites": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a1-2",
+   "band": "A1",
+   "label": "A1.2 — Beginner",
+   "order": 2,
+   "description": "",
+   "chapters": [
+    {
+     "id": "a1-2.work",
+     "title": "I can say what I do for work",
+     "order": 1,
+     "emoji": "💼",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-2.work.l1",
+       "title": "At work",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can say what I do for work"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-2.work.l2",
+       "title": "Writing a to-do list",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can say what I do for work"
+       ],
+       "prerequisites": [
+        "a1-2.work.l1"
+       ]
+      },
+      {
+       "id": "a1-2.work.l3",
+       "title": "The present simple vs the present continuous",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can say what I do for work"
+       ],
+       "prerequisites": [
+        "a1-2.work.l2"
+       ]
+      },
+      {
+       "id": "a1-2.work.l4",
+       "title": "Steve loves his job",
+       "order": 4,
+       "focus": "reading",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can say what I do for work"
+       ],
+       "prerequisites": [
+        "a1-2.work.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-2.office",
+     "title": "I can have a simple conversation at the office",
+     "order": 2,
+     "emoji": "🗂️",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-2.office.l1",
+       "title": "Communication",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can have a simple conversation at the office"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-2.office.l2",
+       "title": "Writing a text message",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can have a simple conversation at the office"
+       ],
+       "prerequisites": [
+        "a1-2.office.l1"
+       ]
+      },
+      {
+       "id": "a1-2.office.l3",
+       "title": "Object pronouns",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can have a simple conversation at the office"
+       ],
+       "prerequisites": [
+        "a1-2.office.l2"
+       ]
+      },
+      {
+       "id": "a1-2.office.l4",
+       "title": "Talking about work",
+       "order": 4,
+       "focus": "speaking",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can have a simple conversation at the office"
+       ],
+       "prerequisites": [
+        "a1-2.office.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-2.house",
+     "title": "I can talk about my house",
+     "order": 3,
+     "emoji": "🏠",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-2.house.l1",
+       "title": "My house",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about my house"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-2.house.l2",
+       "title": "Come on over!",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about my house"
+       ],
+       "prerequisites": [
+        "a1-2.house.l1"
+       ]
+      },
+      {
+       "id": "a1-2.house.l3",
+       "title": "The comparative of adjectives",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about my house"
+       ],
+       "prerequisites": [
+        "a1-2.house.l2"
+       ]
+      },
+      {
+       "id": "a1-2.house.l4",
+       "title": "A day off at home",
+       "order": 4,
+       "focus": "reading",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about my house"
+       ],
+       "prerequisites": [
+        "a1-2.house.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-2.room",
+     "title": "I can describe a room in my home",
+     "order": 4,
+     "emoji": "🛋️",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-2.room.l1",
+       "title": "Furniture",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can describe a room in my home"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-2.room.l2",
+       "title": "That was then, this is now!",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can describe a room in my home"
+       ],
+       "prerequisites": [
+        "a1-2.room.l1"
+       ]
+      },
+      {
+       "id": "a1-2.room.l3",
+       "title": "The superlative of adjectives",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can describe a room in my home"
+       ],
+       "prerequisites": [
+        "a1-2.room.l2"
+       ]
+      },
+      {
+       "id": "a1-2.room.l4",
+       "title": "Talking about where I live",
+       "order": 4,
+       "focus": "speaking",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can describe a room in my home"
+       ],
+       "prerequisites": [
+        "a1-2.room.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-2.doctor",
+     "title": "I can go to the doctor",
+     "order": 5,
+     "emoji": "🩺",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-2.doctor.l1",
+       "title": "My health",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can go to the doctor"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-2.doctor.l2",
+       "title": "Going to the doctor",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can go to the doctor"
+       ],
+       "prerequisites": [
+        "a1-2.doctor.l1"
+       ]
+      },
+      {
+       "id": "a1-2.doctor.l3",
+       "title": "'Can' and 'can't'",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can go to the doctor"
+       ],
+       "prerequisites": [
+        "a1-2.doctor.l2"
+       ]
+      },
+      {
+       "id": "a1-2.doctor.l4",
+       "title": "Staying healthy",
+       "order": 4,
+       "focus": "reading",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can go to the doctor"
+       ],
+       "prerequisites": [
+        "a1-2.doctor.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-2.feelings",
+     "title": "I can talk about how I'm feeling",
+     "order": 6,
+     "emoji": "😊",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-2.feelings.l1",
+       "title": "My body",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about how I'm feeling"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-2.feelings.l2",
+       "title": "I feel great!",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about how I'm feeling"
+       ],
+       "prerequisites": [
+        "a1-2.feelings.l1"
+       ]
+      },
+      {
+       "id": "a1-2.feelings.l3",
+       "title": "'Should' and 'could'",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about how I'm feeling"
+       ],
+       "prerequisites": [
+        "a1-2.feelings.l2"
+       ]
+      },
+      {
+       "id": "a1-2.feelings.l4",
+       "title": "Talking about your health",
+       "order": 4,
+       "focus": "speaking",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about how I'm feeling"
+       ],
+       "prerequisites": [
+        "a1-2.feelings.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-2.clothes",
+     "title": "I can describe an item of clothing",
+     "order": 7,
+     "emoji": "👕",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-2.clothes.l1",
+       "title": "Clothes",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can describe an item of clothing"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-2.clothes.l2",
+       "title": "Green shirt, blue jeans!",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can describe an item of clothing"
+       ],
+       "prerequisites": [
+        "a1-2.clothes.l1"
+       ]
+      },
+      {
+       "id": "a1-2.clothes.l3",
+       "title": "Expressing possession",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can describe an item of clothing"
+       ],
+       "prerequisites": [
+        "a1-2.clothes.l2"
+       ]
+      },
+      {
+       "id": "a1-2.clothes.l4",
+       "title": "Clothes shopping",
+       "order": 4,
+       "focus": "reading",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can describe an item of clothing"
+       ],
+       "prerequisites": [
+        "a1-2.clothes.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-2.shopping",
+     "title": "I can go clothes shopping",
+     "order": 8,
+     "emoji": "🛍️",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-2.shopping.l1",
+       "title": "Shopping",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can go clothes shopping"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-2.shopping.l2",
+       "title": "At the mall",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can go clothes shopping"
+       ],
+       "prerequisites": [
+        "a1-2.shopping.l1"
+       ]
+      },
+      {
+       "id": "a1-2.shopping.l3",
+       "title": "Forming different types of questions",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can go clothes shopping"
+       ],
+       "prerequisites": [
+        "a1-2.shopping.l2"
+       ]
+      },
+      {
+       "id": "a1-2.shopping.l4",
+       "title": "Talking about shopping",
+       "order": 4,
+       "focus": "speaking",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can go clothes shopping"
+       ],
+       "prerequisites": [
+        "a1-2.shopping.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-2.travel",
+     "title": "I can talk about travel",
+     "order": 9,
+     "emoji": "✈️",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-2.travel.l1",
+       "title": "Travel",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about travel"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-2.travel.l2",
+       "title": "Writing a postcard",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about travel"
+       ],
+       "prerequisites": [
+        "a1-2.travel.l1"
+       ]
+      },
+      {
+       "id": "a1-2.travel.l3",
+       "title": "The past simple: 'to be' and 'to have'",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about travel"
+       ],
+       "prerequisites": [
+        "a1-2.travel.l2"
+       ]
+      },
+      {
+       "id": "a1-2.travel.l4",
+       "title": "Getting ready for a trip",
+       "order": 4,
+       "focus": "reading",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about travel"
+       ],
+       "prerequisites": [
+        "a1-2.travel.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-2.directions",
+     "title": "I can ask for and give directions",
+     "order": 10,
+     "emoji": "🧭",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-2.directions.l1",
+       "title": "Giving directions",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can ask for and give directions"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-2.directions.l2",
+       "title": "Learn the imperative",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can ask for and give directions"
+       ],
+       "prerequisites": [
+        "a1-2.directions.l1"
+       ]
+      },
+      {
+       "id": "a1-2.directions.l3",
+       "title": "The past simple: regular verbs",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can ask for and give directions"
+       ],
+       "prerequisites": [
+        "a1-2.directions.l2"
+       ]
+      },
+      {
+       "id": "a1-2.directions.l4",
+       "title": "Talking about holidays",
+       "order": 4,
+       "focus": "speaking",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can ask for and give directions"
+       ],
+       "prerequisites": [
+        "a1-2.directions.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-2.celebrations",
+     "title": "I can talk about celebrations",
+     "order": 11,
+     "emoji": "🎉",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-2.celebrations.l1",
+       "title": "Holidays",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about celebrations"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-2.celebrations.l2",
+       "title": "Celebrations",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about celebrations"
+       ],
+       "prerequisites": [
+        "a1-2.celebrations.l1"
+       ]
+      },
+      {
+       "id": "a1-2.celebrations.l3",
+       "title": "The past simple: common irregular verbs",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about celebrations"
+       ],
+       "prerequisites": [
+        "a1-2.celebrations.l2"
+       ]
+      },
+      {
+       "id": "a1-2.celebrations.l4",
+       "title": "Getting ready to celebrate",
+       "order": 4,
+       "focus": "reading",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about celebrations"
+       ],
+       "prerequisites": [
+        "a1-2.celebrations.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-2.invitations",
+     "title": "I can invite someone to an event",
+     "order": 12,
+     "emoji": "💌",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-2.invitations.l1",
+       "title": "Writing an invitation",
+       "order": 1,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can invite someone to an event"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-2.invitations.l2",
+       "title": "Let's party!",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can invite someone to an event"
+       ],
+       "prerequisites": [
+        "a1-2.invitations.l1"
+       ]
+      },
+      {
+       "id": "a1-2.invitations.l3",
+       "title": "Asking questions with the present and simple past",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can invite someone to an event"
+       ],
+       "prerequisites": [
+        "a1-2.invitations.l2"
+       ]
+      },
+      {
+       "id": "a1-2.invitations.l4",
+       "title": "Talking about parties",
+       "order": 4,
+       "focus": "speaking",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can invite someone to an event"
+       ],
+       "prerequisites": [
+        "a1-2.invitations.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a1-2.level-check",
+     "title": "Level check English A1.2",
+     "order": 13,
+     "emoji": "✅",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a1-2.level-check.l1",
+       "title": "Real writing: level check",
+       "order": 1,
+       "focus": null,
+       "kind": "review",
+       "summary": "",
+       "objectives": [
+        "Level check English A1.2"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a1-2.level-check.l2",
+       "title": "Real conversation: level check",
+       "order": 2,
+       "focus": null,
+       "kind": "review",
+       "summary": "",
+       "objectives": [
+        "Level check English A1.2"
+       ],
+       "prerequisites": [
+        "a1-2.level-check.l1"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a2-1",
+   "band": "A2",
+   "label": "A2.1 — Elementary",
+   "order": 3,
+   "description": "",
+   "chapters": [
+    {
+     "id": "a2-1.relationships",
+     "title": "I can talk about relationships",
+     "order": 1,
+     "emoji": "🤝",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a2-1.relationships.l1",
+       "title": "Friends and family",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about relationships"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a2-1.relationships.l2",
+       "title": "My favourite place",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about relationships"
+       ],
+       "prerequisites": [
+        "a2-1.relationships.l1"
+       ]
+      },
+      {
+       "id": "a2-1.relationships.l3",
+       "title": "Prepositions of place and time",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about relationships"
+       ],
+       "prerequisites": [
+        "a2-1.relationships.l2"
+       ]
+      },
+      {
+       "id": "a2-1.relationships.l4",
+       "title": "Can you introduce me to your friend?",
+       "order": 4,
+       "focus": "reading",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about relationships"
+       ],
+       "prerequisites": [
+        "a2-1.relationships.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a2-1.restaurant",
+     "title": "I can order at a restaurant",
+     "order": 2,
+     "emoji": "🍝",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a2-1.restaurant.l1",
+       "title": "Going out in my city",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can order at a restaurant"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a2-1.restaurant.l2",
+       "title": "At a restaurant",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can order at a restaurant"
+       ],
+       "prerequisites": [
+        "a2-1.restaurant.l1"
+       ]
+      },
+      {
+       "id": "a2-1.restaurant.l3",
+       "title": "Reviewing the present tense",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can order at a restaurant"
+       ],
+       "prerequisites": [
+        "a2-1.restaurant.l2"
+       ]
+      },
+      {
+       "id": "a2-1.restaurant.l4",
+       "title": "A conversation about my city",
+       "order": 4,
+       "focus": "speaking",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can order at a restaurant"
+       ],
+       "prerequisites": [
+        "a2-1.restaurant.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a2-1.phone",
+     "title": "I can answer a phone call at work",
+     "order": 3,
+     "emoji": "📞",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a2-1.phone.l1",
+       "title": "A lot of work!",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can answer a phone call at work"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a2-1.phone.l2",
+       "title": "On the phone",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can answer a phone call at work"
+       ],
+       "prerequisites": [
+        "a2-1.phone.l1"
+       ]
+      },
+      {
+       "id": "a2-1.phone.l3",
+       "title": "Reviewing wh- and yes/no questions",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can answer a phone call at work"
+       ],
+       "prerequisites": [
+        "a2-1.phone.l2"
+       ]
+      },
+      {
+       "id": "a2-1.phone.l4",
+       "title": "A meeting with the boss",
+       "order": 4,
+       "focus": "reading",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can answer a phone call at work"
+       ],
+       "prerequisites": [
+        "a2-1.phone.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a2-1.jobs",
+     "title": "I can talk about jobs",
+     "order": 4,
+     "emoji": "🧑‍💼",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a2-1.jobs.l1",
+       "title": "Looking for a job",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about jobs"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a2-1.jobs.l2",
+       "title": "Verbs for work",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about jobs"
+       ],
+       "prerequisites": [
+        "a2-1.jobs.l1"
+       ]
+      },
+      {
+       "id": "a2-1.jobs.l3",
+       "title": "More prepositions of time",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about jobs"
+       ],
+       "prerequisites": [
+        "a2-1.jobs.l2"
+       ]
+      },
+      {
+       "id": "a2-1.jobs.l4",
+       "title": "A conversation about work",
+       "order": 4,
+       "focus": "speaking",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about jobs"
+       ],
+       "prerequisites": [
+        "a2-1.jobs.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a2-1.moving",
+     "title": "I can look for a new place to live",
+     "order": 5,
+     "emoji": "📦",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a2-1.moving.l1",
+       "title": "We are moving out!",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can look for a new place to live"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a2-1.moving.l2",
+       "title": "I'm looking for a place",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can look for a new place to live"
+       ],
+       "prerequisites": [
+        "a2-1.moving.l1"
+       ]
+      },
+      {
+       "id": "a2-1.moving.l3",
+       "title": "Reviewing the past simple",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can look for a new place to live"
+       ],
+       "prerequisites": [
+        "a2-1.moving.l2"
+       ]
+      },
+      {
+       "id": "a2-1.moving.l4",
+       "title": "It's moving day",
+       "order": 4,
+       "focus": "reading",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can look for a new place to live"
+       ],
+       "prerequisites": [
+        "a2-1.moving.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a2-1.home",
+     "title": "I can describe my home",
+     "order": 6,
+     "emoji": "🛏️",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a2-1.home.l1",
+       "title": "My new house",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can describe my home"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a2-1.home.l2",
+       "title": "I prefer my new house",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can describe my home"
+       ],
+       "prerequisites": [
+        "a2-1.home.l1"
+       ]
+      },
+      {
+       "id": "a2-1.home.l3",
+       "title": "Verb patterns for expressing preferences",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can describe my home"
+       ],
+       "prerequisites": [
+        "a2-1.home.l2"
+       ]
+      },
+      {
+       "id": "a2-1.home.l4",
+       "title": "A conversation about my new house",
+       "order": 4,
+       "focus": "speaking",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can describe my home"
+       ],
+       "prerequisites": [
+        "a2-1.home.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a2-1.films",
+     "title": "I can talk about films",
+     "order": 7,
+     "emoji": "🎬",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a2-1.films.l1",
+       "title": "All about films",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about films"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a2-1.films.l2",
+       "title": "My favourite film",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about films"
+       ],
+       "prerequisites": [
+        "a2-1.films.l1"
+       ]
+      },
+      {
+       "id": "a2-1.films.l3",
+       "title": "Using possessive pronouns",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about films"
+       ],
+       "prerequisites": [
+        "a2-1.films.l2"
+       ]
+      },
+      {
+       "id": "a2-1.films.l4",
+       "title": "I like science fiction films!",
+       "order": 4,
+       "focus": "reading",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about films"
+       ],
+       "prerequisites": [
+        "a2-1.films.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a2-1.culture",
+     "title": "I can suggest things to do in my city",
+     "order": 8,
+     "emoji": "🎭",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a2-1.culture.l1",
+       "title": "Culture in my city",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can suggest things to do in my city"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a2-1.culture.l2",
+       "title": "Suggesting an activity",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can suggest things to do in my city"
+       ],
+       "prerequisites": [
+        "a2-1.culture.l1"
+       ]
+      },
+      {
+       "id": "a2-1.culture.l3",
+       "title": "Irregular verbs in the simple past",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can suggest things to do in my city"
+       ],
+       "prerequisites": [
+        "a2-1.culture.l2"
+       ]
+      },
+      {
+       "id": "a2-1.culture.l4",
+       "title": "A conversation about films and culture",
+       "order": 4,
+       "focus": "speaking",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can suggest things to do in my city"
+       ],
+       "prerequisites": [
+        "a2-1.culture.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a2-1.hobbies",
+     "title": "I can talk about hobbies",
+     "order": 9,
+     "emoji": "🏸",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a2-1.hobbies.l1",
+       "title": "Sports and games",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about hobbies"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a2-1.hobbies.l2",
+       "title": "I have lots of hobbies",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about hobbies"
+       ],
+       "prerequisites": [
+        "a2-1.hobbies.l1"
+       ]
+      },
+      {
+       "id": "a2-1.hobbies.l3",
+       "title": "Past continuous",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about hobbies"
+       ],
+       "prerequisites": [
+        "a2-1.hobbies.l2"
+       ]
+      },
+      {
+       "id": "a2-1.hobbies.l4",
+       "title": "Let's get some exercise!",
+       "order": 4,
+       "focus": "reading",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about hobbies"
+       ],
+       "prerequisites": [
+        "a2-1.hobbies.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a2-1.fitness",
+     "title": "I can explain how to stay fit",
+     "order": 10,
+     "emoji": "🏋️",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a2-1.fitness.l1",
+       "title": "Staying fit",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can explain how to stay fit"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a2-1.fitness.l2",
+       "title": "Could you help me with this?",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can explain how to stay fit"
+       ],
+       "prerequisites": [
+        "a2-1.fitness.l1"
+       ]
+      },
+      {
+       "id": "a2-1.fitness.l3",
+       "title": "Modals of obligation",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can explain how to stay fit"
+       ],
+       "prerequisites": [
+        "a2-1.fitness.l2"
+       ]
+      },
+      {
+       "id": "a2-1.fitness.l4",
+       "title": "A conversation about sports",
+       "order": 4,
+       "focus": "speaking",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can explain how to stay fit"
+       ],
+       "prerequisites": [
+        "a2-1.fitness.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a2-1.plans",
+     "title": "I can make plans",
+     "order": 11,
+     "emoji": "📅",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a2-1.plans.l1",
+       "title": "Making plans",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can make plans"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a2-1.plans.l2",
+       "title": "I am looking forward to that!",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can make plans"
+       ],
+       "prerequisites": [
+        "a2-1.plans.l1"
+       ]
+      },
+      {
+       "id": "a2-1.plans.l3",
+       "title": "Future simple",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can make plans"
+       ],
+       "prerequisites": [
+        "a2-1.plans.l2"
+       ]
+      },
+      {
+       "id": "a2-1.plans.l4",
+       "title": "See you this weekend!",
+       "order": 4,
+       "focus": "reading",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can make plans"
+       ],
+       "prerequisites": [
+        "a2-1.plans.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a2-1.future",
+     "title": "I can talk about my goals for the future",
+     "order": 12,
+     "emoji": "🎯",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a2-1.future.l1",
+       "title": "Talking about the future",
+       "order": 1,
+       "focus": "vocabulary",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about my goals for the future"
+       ],
+       "prerequisites": []
+      },
+      {
+       "id": "a2-1.future.l2",
+       "title": "My goals in life",
+       "order": 2,
+       "focus": "communication",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about my goals for the future"
+       ],
+       "prerequisites": [
+        "a2-1.future.l1"
+       ]
+      },
+      {
+       "id": "a2-1.future.l3",
+       "title": "Future with 'be going to'",
+       "order": 3,
+       "focus": "grammar",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about my goals for the future"
+       ],
+       "prerequisites": [
+        "a2-1.future.l2"
+       ]
+      },
+      {
+       "id": "a2-1.future.l4",
+       "title": "A conversation about the future",
+       "order": 4,
+       "focus": "speaking",
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [
+        "I can talk about my goals for the future"
+       ],
+       "prerequisites": [
+        "a2-1.future.l3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "a2-1.level-check",
+     "title": "Level check English A2.1",
+     "order": 13,
+     "emoji": "✅",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "a2-1.level-check.l1",
+       "title": "Writing a letter",
+       "order": 1,
+       "focus": null,
+       "kind": "review",
+       "summary": "",
+       "objectives": [
+        "Level check English A2.1"
+       ],
+       "prerequisites": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a2-2",
+   "band": "A2",
+   "label": "A2.2 — Elementary",
+   "order": 4,
+   "description": "",
+   "chapters": []
+  },
+  {
+   "id": "b1-1",
+   "band": "B1",
+   "label": "B1.1 — Intermediate",
+   "order": 5,
+   "description": "",
+   "chapters": [
+    {
+     "id": "b1-1.past",
+     "title": "I can tell a story about my past",
+     "order": 1,
+     "emoji": "",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "b1-1.past.l1",
+       "title": "Past simple and continuous",
+       "order": 1,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      },
+      {
+       "id": "b1-1.past.l2",
+       "title": "Used to and would",
+       "order": 2,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      },
+      {
+       "id": "b1-1.past.l3",
+       "title": "Check: telling a story",
+       "order": 3,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      }
+     ]
+    },
+    {
+     "id": "b1-1.plans",
+     "title": "I can talk about future plans",
+     "order": 2,
+     "emoji": "",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "b1-1.plans.l1",
+       "title": "Will, going to, present continuous",
+       "order": 1,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      },
+      {
+       "id": "b1-1.plans.l2",
+       "title": "First conditional",
+       "order": 2,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      },
+      {
+       "id": "b1-1.plans.l3",
+       "title": "Check: making arrangements",
+       "order": 3,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      }
+     ]
+    },
+    {
+     "id": "b1-1.opinion",
+     "title": "I can give and defend an opinion",
+     "order": 3,
+     "emoji": "",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "b1-1.opinion.l1",
+       "title": "Agreeing and disagreeing",
+       "order": 1,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      },
+      {
+       "id": "b1-1.opinion.l2",
+       "title": "Linking arguments",
+       "order": 2,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      },
+      {
+       "id": "b1-1.opinion.l3",
+       "title": "Check: a short debate",
+       "order": 3,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b1-2",
+   "band": "B1",
+   "label": "B1.2 — Intermediate",
+   "order": 6,
+   "description": "",
+   "chapters": []
+  },
+  {
+   "id": "b2-1",
+   "band": "B2",
+   "label": "B2.1 — Upper intermediate",
+   "order": 7,
+   "description": "",
+   "chapters": [
+    {
+     "id": "b2-1.narrative",
+     "title": "I can tell a detailed story",
+     "order": 1,
+     "emoji": "",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "b2-1.narrative.l1",
+       "title": "Past perfect and narrative tenses",
+       "order": 1,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      },
+      {
+       "id": "b2-1.narrative.l2",
+       "title": "Reported speech",
+       "order": 2,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      },
+      {
+       "id": "b2-1.narrative.l3",
+       "title": "Check: retelling a news story",
+       "order": 3,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      }
+     ]
+    },
+    {
+     "id": "b2-1.hypothetical",
+     "title": "I can talk about unreal situations",
+     "order": 2,
+     "emoji": "",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "b2-1.hypothetical.l1",
+       "title": "Second and third conditionals",
+       "order": 1,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      },
+      {
+       "id": "b2-1.hypothetical.l2",
+       "title": "Wish and if only",
+       "order": 2,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      },
+      {
+       "id": "b2-1.hypothetical.l3",
+       "title": "Check: regrets and what-ifs",
+       "order": 3,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      }
+     ]
+    },
+    {
+     "id": "b2-1.register",
+     "title": "I can adapt how formal I sound",
+     "order": 3,
+     "emoji": "",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "b2-1.register.l1",
+       "title": "The passive in reports",
+       "order": 1,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      },
+      {
+       "id": "b2-1.register.l2",
+       "title": "Hedging and softening",
+       "order": 2,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      },
+      {
+       "id": "b2-1.register.l3",
+       "title": "Check: a formal email",
+       "order": 3,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b2-2",
+   "band": "B2",
+   "label": "B2.2 — Upper intermediate",
+   "order": 8,
+   "description": "",
+   "chapters": []
+  },
+  {
+   "id": "c1-1",
+   "band": "C1",
+   "label": "C1.1 — Advanced",
+   "order": 9,
+   "description": "",
+   "chapters": [
+    {
+     "id": "c1-1.nuance",
+     "title": "I can express fine shades of meaning",
+     "order": 1,
+     "emoji": "",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "c1-1.nuance.l1",
+       "title": "Inversion for emphasis",
+       "order": 1,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      },
+      {
+       "id": "c1-1.nuance.l2",
+       "title": "Cleft sentences",
+       "order": 2,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      },
+      {
+       "id": "c1-1.nuance.l3",
+       "title": "Check: rewriting for emphasis",
+       "order": 3,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      }
+     ]
+    },
+    {
+     "id": "c1-1.idiom",
+     "title": "I can use idiom and collocation naturally",
+     "order": 2,
+     "emoji": "",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "c1-1.idiom.l1",
+       "title": "Phrasal verbs in context",
+       "order": 1,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      },
+      {
+       "id": "c1-1.idiom.l2",
+       "title": "Collocation and connotation",
+       "order": 2,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      },
+      {
+       "id": "c1-1.idiom.l3",
+       "title": "Check: sounding natural",
+       "order": 3,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      }
+     ]
+    },
+    {
+     "id": "c1-1.argue",
+     "title": "I can build and defend a long argument",
+     "order": 3,
+     "emoji": "",
+     "theme": "",
+     "lessons": [
+      {
+       "id": "c1-1.argue.l1",
+       "title": "Discourse markers",
+       "order": 1,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      },
+      {
+       "id": "c1-1.argue.l2",
+       "title": "Concession and counter-argument",
+       "order": 2,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      },
+      {
+       "id": "c1-1.argue.l3",
+       "title": "Check: a structured debate",
+       "order": 3,
+       "focus": null,
+       "kind": "lesson",
+       "summary": "",
+       "objectives": [],
+       "prerequisites": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c1-2",
+   "band": "C1",
+   "label": "C1.2 — Advanced",
+   "order": 10,
+   "description": "",
+   "chapters": []
+  }
+ ]
+}

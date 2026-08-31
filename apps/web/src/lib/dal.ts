@@ -18,6 +18,18 @@ export const getCurrentUser = cache(async () => {
 
   return prisma.user.findUnique({
     where: { id: session.userId },
-    select: { id: true, name: true, email: true },
+    select: { id: true, name: true, email: true, image: true, supportLanguage: true },
   });
 });
+
+/**
+ * Who is allowed to read the material for this booking.
+ *
+ * `verifySession` redirects to /login on failure, which is right for a page and
+ * wrong for a route a browser fetches, so this returns null instead and lets the
+ * route answer 401.
+ */
+export async function verifyLessonAccess(): Promise<{ userId: string } | null> {
+  const session = await getSession();
+  return session?.userId ? { userId: session.userId } : null;
+}

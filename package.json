@@ -1,0 +1,19 @@
+{
+  "name": "zanoba",
+  "private": true,
+  "description": "Zanoba — a tutoring platform. The app lives in apps/web.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/require-node.cjs && npm --prefix apps/web run dev",
+    "build": "node scripts/require-node.cjs && npm --prefix apps/web run build",
+    "lint": "node scripts/require-node.cjs && npm --prefix apps/web run lint",
+    "test": "node scripts/require-node.cjs && npm --prefix apps/web run test",
+    "publish:worksheet": "node scripts/require-node.cjs && npm --prefix apps/web run publish --",
+    "lesson:now": "node scripts/require-node.cjs && npm --prefix apps/web run lesson:now --",
+    "check:worksheet": "node scripts/require-node.cjs && npm --prefix apps/web run check:worksheet",
+    "check:fit": "node scripts/require-node.cjs && npm --prefix apps/web run check:fit --",
+    "check:words": "node scripts/require-node.cjs && npx tsx scripts/check-words.ts"
+  }
+}

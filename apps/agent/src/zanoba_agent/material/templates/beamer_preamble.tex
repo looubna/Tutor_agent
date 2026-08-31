@@ -1,0 +1,96 @@
+\documentclass[aspectratio=169]{beamer}
+
+% Theme and Color Setup
+\usetheme{Madrid}
+\usecolortheme{whale}
+\useinnertheme{rectangles}
+\useoutertheme{miniframes}
+
+% Additional Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{positioning}
+\usepackage{hyperref}
+
+% Custom Colors
+\definecolor{myblue}{RGB}{31, 73, 125}
+\definecolor{mygray}{RGB}{100, 100, 100}
+\definecolor{mygreen}{RGB}{0, 128, 0}
+\definecolor{myorange}{RGB}{230, 126, 34}
+\definecolor{mycodebackground}{RGB}{245, 245, 245}
+
+% Set Theme Colors
+\setbeamercolor{structure}{fg=myblue}
+\setbeamercolor{frametitle}{fg=white, bg=myblue}
+\setbeamercolor{title}{fg=myblue}
+\setbeamercolor{section in toc}{fg=myblue}
+\setbeamercolor{item projected}{fg=white, bg=myblue}
+\setbeamercolor{block title}{bg=myblue!20, fg=myblue}
+\setbeamercolor{block body}{bg=myblue!10}
+\setbeamercolor{alerted text}{fg=myorange}
+
+% Set Fonts
+\setbeamerfont{title}{size=\Large, series=\bfseries}
+\setbeamerfont{frametitle}{size=\large, series=\bfseries}
+\setbeamerfont{caption}{size=\small}
+\setbeamerfont{footnote}{size=\tiny}
+
+% Code Listing Style
+\lstdefinestyle{customcode}{
+  backgroundcolor=\color{mycodebackground},
+  basicstyle=\footnotesize\ttfamily,
+  breakatwhitespace=false,
+  breaklines=true,
+  commentstyle=\color{mygreen}\itshape,
+  keywordstyle=\color{blue}\bfseries,
+  stringstyle=\color{myorange},
+  numbers=left,
+  numbersep=8pt,
+  numberstyle=\tiny\color{mygray},
+  frame=single,
+  framesep=5pt,
+  rulecolor=\color{mygray},
+  showspaces=false,
+  showstringspaces=false,
+  showtabs=false,
+  tabsize=2,
+  captionpos=b
+}
+\lstset{style=customcode}
+
+% Custom Commands
+\newcommand{\hilight}[1]{\colorbox{myorange!30}{#1}}
+\newcommand{\source}[1]{\vspace{0.2cm}\hfill{\tiny\textcolor{mygray}{Source: #1}}}
+\newcommand{\concept}[1]{\textcolor{myblue}{\textbf{#1}}}
+\newcommand{\separator}{\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}}
+
+% Footer and Navigation Setup
+\setbeamertemplate{footline}{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.3\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertshortauthor
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\insertshorttitle
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.2\paperwidth,ht=2.25ex,dp=1ex,center]{date in head/foot}%
+    \usebeamerfont{date in head/foot}
+    \insertframenumber{} / \inserttotalframenumber
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+% Turn off navigation symbols
+\setbeamertemplate{navigation symbols}{}
+
+% Document Start

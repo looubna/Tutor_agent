@@ -1,7 +1,14 @@
 import { addDays, addMinutes, setHours, setMinutes, startOfDay, isBefore } from "date-fns";
 
 export const LESSON_DURATION_MINUTES = 50;
-export const SLOT_STEP_MINUTES = 60;
+/**
+ * Lessons start on the hour and on the half hour. Because a lesson runs longer
+ * than the step, two offered slots can overlap each other — 1:00 and 1:30 are
+ * both bookable, but only one of them at a time. Callers that let a student
+ * pick several slots at once must reject overlapping picks themselves;
+ * `generateAvailableSlots` only knows about bookings already made.
+ */
+export const SLOT_STEP_MINUTES = 30;
 const DAY_START_HOUR = 0;
 const DAY_END_HOUR = 24;
 const DAYS_AHEAD = 60;

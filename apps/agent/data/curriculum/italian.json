@@ -1,0 +1,678 @@
+{
+  "curriculum_id": "lang.italian.cefr",
+  "subject": "italian",
+  "target_language": "it",
+  "framework": "CEFR",
+  "levels": [
+    {
+      "id": "a1-1",
+      "band": "A1",
+      "label": "A1.1 — Principiante",
+      "order": 1,
+      "description": "",
+      "chapters": [
+        {
+          "id": "a1-1.intro",
+          "title": "I can introduce myself in Italian",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.intro.l1",
+              "title": "Saluti e presentazioni",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.intro.l2",
+              "title": "Essere e avere",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.intro.l3",
+              "title": "Check: presentarsi",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-1.food",
+          "title": "I can order in a restaurant",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.food.l1",
+              "title": "Al ristorante",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.food.l2",
+              "title": "L'articolo partitivo",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.food.l3",
+              "title": "Check: ordinare un pasto",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-1.routine",
+          "title": "I can describe my routine",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.routine.l1",
+              "title": "Presente indicativo",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.routine.l2",
+              "title": "I verbi riflessivi",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.routine.l3",
+              "title": "Check: la mia giornata",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-2",
+      "band": "A1",
+      "label": "A1.2 — Principiante",
+      "order": 2,
+      "description": "",
+      "chapters": []
+    },
+    {
+      "id": "a2-1",
+      "band": "A2",
+      "label": "A2.1 — Elementare",
+      "order": 3,
+      "description": "",
+      "chapters": [
+        {
+          "id": "a2-1.weekend",
+          "title": "I can talk about last weekend",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a2-1.weekend.l1",
+              "title": "Il passato prossimo",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.weekend.l2",
+              "title": "Le espressioni di tempo",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.weekend.l3",
+              "title": "Check: raccontare il weekend",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a2-1.city",
+          "title": "I can find my way around a city",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a2-1.city.l1",
+              "title": "Chiedere indicazioni",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.city.l2",
+              "title": "Le preposizioni di luogo",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.city.l3",
+              "title": "Check: orientarsi in città",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a2-1.plans",
+          "title": "I can make plans",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a2-1.plans.l1",
+              "title": "Il futuro semplice",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.plans.l2",
+              "title": "Proporre e accettare",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.plans.l3",
+              "title": "Check: prendere un appuntamento",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-2",
+      "band": "A2",
+      "label": "A2.2 — Elementare",
+      "order": 4,
+      "description": "",
+      "chapters": []
+    },
+    {
+      "id": "b1-1",
+      "band": "B1",
+      "label": "B1.1 — Intermedio",
+      "order": 5,
+      "description": "",
+      "chapters": [
+        {
+          "id": "b1-1.past",
+          "title": "I can talk about the past",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b1-1.past.l1",
+              "title": "Passato prossimo e imperfetto",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.past.l2",
+              "title": "Accordo del participio",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.past.l3",
+              "title": "Check: raccontare un viaggio",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "b1-1.pronouns",
+          "title": "I can use pronouns naturally",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b1-1.pronouns.l1",
+              "title": "Pronomi diretti e indiretti",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.pronouns.l2",
+              "title": "Ci e ne",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.pronouns.l3",
+              "title": "Check: una conversazione",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "b1-1.subj",
+          "title": "I can express doubt and opinion",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b1-1.subj.l1",
+              "title": "Congiuntivo presente",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.subj.l2",
+              "title": "Periodo ipotetico",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.subj.l3",
+              "title": "Check: esprimere un'opinione",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-2",
+      "band": "B1",
+      "label": "B1.2 — Intermedio",
+      "order": 6,
+      "description": "",
+      "chapters": []
+    },
+    {
+      "id": "b2-1",
+      "band": "B2",
+      "label": "B2.1 — Intermedio superiore",
+      "order": 7,
+      "description": "",
+      "chapters": [
+        {
+          "id": "b2-1.narrative",
+          "title": "I can tell a detailed story",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b2-1.narrative.l1",
+              "title": "Trapassato prossimo",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.narrative.l2",
+              "title": "Discorso indiretto",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.narrative.l3",
+              "title": "Check: riferire un racconto",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "b2-1.hypo",
+          "title": "I can talk about unreal situations",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b2-1.hypo.l1",
+              "title": "Congiuntivo imperfetto e trapassato",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.hypo.l2",
+              "title": "Il periodo ipotetico dell'irrealtà",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.hypo.l3",
+              "title": "Check: esprimere un rimpianto",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "b2-1.formal",
+          "title": "I can write in a formal register",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b2-1.formal.l1",
+              "title": "La forma passiva",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.formal.l2",
+              "title": "I connettivi testuali",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.formal.l3",
+              "title": "Check: una mail formale",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-2",
+      "band": "B2",
+      "label": "B2.2 — Intermedio superiore",
+      "order": 8,
+      "description": "",
+      "chapters": []
+    },
+    {
+      "id": "c1-1",
+      "band": "C1",
+      "label": "C1.1 — Avanzato",
+      "order": 9,
+      "description": "",
+      "chapters": [
+        {
+          "id": "c1-1.nuance",
+          "title": "I can express fine shades of meaning",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "c1-1.nuance.l1",
+              "title": "Concessive e dubitative",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.nuance.l2",
+              "title": "Si impersonale e passivante",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.nuance.l3",
+              "title": "Check: sfumare un'opinione",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "c1-1.idiom",
+          "title": "I can use idiom naturally",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "c1-1.idiom.l1",
+              "title": "Espressioni idiomatiche",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.idiom.l2",
+              "title": "Verbi pronominali: farcela, andarsene",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.idiom.l3",
+              "title": "Check: sembrare naturale",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "c1-1.argue",
+          "title": "I can build and defend a long argument",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "c1-1.argue.l1",
+              "title": "L'argomentazione scritta",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.argue.l2",
+              "title": "Obiettare e concedere",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.argue.l3",
+              "title": "Check: un dibattito strutturato",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-2",
+      "band": "C1",
+      "label": "C1.2 — Avanzato",
+      "order": 10,
+      "description": "",
+      "chapters": []
+    }
+  ]
+}

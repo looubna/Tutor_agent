@@ -1,0 +1,678 @@
+{
+  "curriculum_id": "lang.korean.cefr",
+  "subject": "korean",
+  "target_language": "ko",
+  "framework": "CEFR",
+  "levels": [
+    {
+      "id": "a1-1",
+      "band": "A1",
+      "label": "A1.1 — 입문",
+      "order": 1,
+      "description": "",
+      "chapters": [
+        {
+          "id": "a1-1.hangul",
+          "title": "I can read and write Hangul",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.hangul.l1",
+              "title": "자음과 모음",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.hangul.l2",
+              "title": "받침과 발음 규칙",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.hangul.l3",
+              "title": "Check: 한글 읽기",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-1.intro",
+          "title": "I can introduce myself in Korean",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.intro.l1",
+              "title": "저는 …입니다",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.intro.l2",
+              "title": "은/는 과 이/가",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.intro.l3",
+              "title": "Check: 자기소개",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-1.numbers",
+          "title": "I can use numbers, dates and times",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.numbers.l1",
+              "title": "한자어 수와 고유어 수",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.numbers.l2",
+              "title": "몇 시예요?",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.numbers.l3",
+              "title": "Check: 시간 말하기",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-2",
+      "band": "A1",
+      "label": "A1.2 — 입문",
+      "order": 2,
+      "description": "",
+      "chapters": []
+    },
+    {
+      "id": "a2-1",
+      "band": "A2",
+      "label": "A2.1 — 초급",
+      "order": 3,
+      "description": "",
+      "chapters": [
+        {
+          "id": "a2-1.day",
+          "title": "I can describe my day",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a2-1.day.l1",
+              "title": "-아요/어요",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.day.l2",
+              "title": "을/를, 에/에서",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.day.l3",
+              "title": "Check: 하루 일과",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a2-1.past",
+          "title": "I can talk about what I did",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a2-1.past.l1",
+              "title": "-았어요/었어요",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.past.l2",
+              "title": "시간 표현",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.past.l3",
+              "title": "Check: 주말 이야기",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a2-1.shop",
+          "title": "I can shop and order food",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a2-1.shop.l1",
+              "title": "주세요 와 있어요",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.shop.l2",
+              "title": "가격 묻기",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.shop.l3",
+              "title": "Check: 식당에서",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-2",
+      "band": "A2",
+      "label": "A2.2 — 초급",
+      "order": 4,
+      "description": "",
+      "chapters": []
+    },
+    {
+      "id": "b1-1",
+      "band": "B1",
+      "label": "B1.1 — 중급",
+      "order": 5,
+      "description": "",
+      "chapters": [
+        {
+          "id": "b1-1.connect",
+          "title": "I can link two ideas in one sentence",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b1-1.connect.l1",
+              "title": "-아서/어서, -(으)니까",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.connect.l2",
+              "title": "-지만, -는데",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.connect.l3",
+              "title": "Check: 이유 말하기",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "b1-1.honorific",
+          "title": "I can use polite and honorific speech",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b1-1.honorific.l1",
+              "title": "-(으)시-",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.honorific.l2",
+              "title": "반말과 존댓말",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.honorific.l3",
+              "title": "Check: 상황에 맞게 말하기",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "b1-1.plans",
+          "title": "I can talk about plans and intentions",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b1-1.plans.l1",
+              "title": "-(으)ㄹ 거예요",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.plans.l2",
+              "title": "-고 싶다, -(으)려고 하다",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.plans.l3",
+              "title": "Check: 계획 말하기",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-2",
+      "band": "B1",
+      "label": "B1.2 — 중급",
+      "order": 6,
+      "description": "",
+      "chapters": []
+    },
+    {
+      "id": "b2-1",
+      "band": "B2",
+      "label": "B2.1 — 중상급",
+      "order": 7,
+      "description": "",
+      "chapters": [
+        {
+          "id": "b2-1.modifiers",
+          "title": "I can build longer descriptive sentences",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b2-1.modifiers.l1",
+              "title": "관형형 -는/-(으)ㄴ/-(으)ㄹ",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.modifiers.l2",
+              "title": "간접 인용 -다고 하다",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.modifiers.l3",
+              "title": "Check: 들은 이야기 전하기",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "b2-1.passive",
+          "title": "I can use passives and causatives",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b2-1.passive.l1",
+              "title": "피동 표현",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.passive.l2",
+              "title": "사동 표현",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.passive.l3",
+              "title": "Check: 문장 바꾸기",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "b2-1.nuance",
+          "title": "I can soften and qualify what I say",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b2-1.nuance.l1",
+              "title": "-(으)ㄹ 것 같다",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.nuance.l2",
+              "title": "-잖아요, -더라고요",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.nuance.l3",
+              "title": "Check: 부드럽게 말하기",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-2",
+      "band": "B2",
+      "label": "B2.2 — 중상급",
+      "order": 8,
+      "description": "",
+      "chapters": []
+    },
+    {
+      "id": "c1-1",
+      "band": "C1",
+      "label": "C1.1 — 고급",
+      "order": 9,
+      "description": "",
+      "chapters": [
+        {
+          "id": "c1-1.formal",
+          "title": "I can write in a formal register",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "c1-1.formal.l1",
+              "title": "문어체와 격식체",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.formal.l2",
+              "title": "명사형 -(으)ㅁ, -기",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.formal.l3",
+              "title": "Check: 격식 있는 이메일",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "c1-1.idiom",
+          "title": "I can use idiom naturally",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "c1-1.idiom.l1",
+              "title": "관용 표현",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.idiom.l2",
+              "title": "속담과 사자성어",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.idiom.l3",
+              "title": "Check: 자연스러운 표현",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "c1-1.debate",
+          "title": "I can build and defend a long argument",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "c1-1.debate.l1",
+              "title": "논설문 구조",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.debate.l2",
+              "title": "반박과 양보",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.debate.l3",
+              "title": "Check: 토론하기",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-2",
+      "band": "C1",
+      "label": "C1.2 — 고급",
+      "order": 10,
+      "description": "",
+      "chapters": []
+    }
+  ]
+}

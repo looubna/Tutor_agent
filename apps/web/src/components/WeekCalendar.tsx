@@ -1,7 +1,10 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { useLanguage, useT } from "@/lib/i18n";
+import { dateLocale } from "@/lib/dates";
 import Link from "next/link";
+import type { Locale } from "date-fns";
 import {
   addDays,
   addWeeks,
@@ -28,15 +31,19 @@ function cellKey(day: Date, hour: number) {
   return `${format(day, "yyyy-MM-dd")}-${hour}`;
 }
 
-function formatWeekLabel(weekStart: Date, weekEnd: Date) {
+function formatWeekLabel(weekStart: Date, weekEnd: Date, locale: Locale) {
   const sameMonth = isSameMonth(weekStart, weekEnd);
   const sameYear = weekStart.getFullYear() === weekEnd.getFullYear();
-  if (sameMonth) return `${format(weekStart, "d")} – ${format(weekEnd, "d MMMM yyyy")}`;
-  if (sameYear) return `${format(weekStart, "d MMM")} – ${format(weekEnd, "d MMM yyyy")}`;
-  return `${format(weekStart, "d MMM yyyy")} – ${format(weekEnd, "d MMM yyyy")}`;
+  const f = (date: Date, pattern: string) => format(date, pattern, { locale });
+  if (sameMonth) return `${f(weekStart, "d")} – ${f(weekEnd, "d MMMM yyyy")}`;
+  if (sameYear) return `${f(weekStart, "d MMM")} – ${f(weekEnd, "d MMM yyyy")}`;
+  return `${f(weekStart, "d MMM yyyy")} – ${f(weekEnd, "d MMM yyyy")}`;
 }
 
 export function WeekCalendar({ bookings }: { bookings: Booking[] }) {
+  const t = useT();
+  const { lang } = useLanguage();
+  const locale = dateLocale(lang);
   const today = useMemo(() => startOfDay(new Date()), []);
   const [weekStart, setWeekStart] = useState(() => startOfWeek(today, { weekStartsOn: 1 }));
 
@@ -60,18 +67,18 @@ export function WeekCalendar({ bookings }: { bookings: Booking[] }) {
         <button
           type="button"
           onClick={() => setWeekStart((w) => addWeeks(w, -1))}
-          aria-label="Previous week"
+          aria-label={t("calendar.prevWeek")}
           className="flex h-8 w-8 items-center justify-center rounded-full text-foreground transition-colors hover:bg-primary-tint focus-visible:outline-2 focus-visible:outline-primary"
         >
           <ChevronIcon direction="left" />
         </button>
         <span className="font-display text-sm font-semibold text-foreground">
-          {formatWeekLabel(weekStart, weekEnd)}
+          {formatWeekLabel(weekStart, weekEnd, locale)}
         </span>
         <button
           type="button"
           onClick={() => setWeekStart((w) => addWeeks(w, 1))}
-          aria-label="Next week"
+          aria-label={t("calendar.nextWeek")}
           className="flex h-8 w-8 items-center justify-center rounded-full text-foreground transition-colors hover:bg-primary-tint focus-visible:outline-2 focus-visible:outline-primary"
         >
           <ChevronIcon direction="right" />
@@ -87,7 +94,7 @@ export function WeekCalendar({ bookings }: { bookings: Booking[] }) {
                 <span
                   className={`text-xs font-semibold ${isSameDay(day, today) ? "text-primary" : "text-foreground"}`}
                 >
-                  {format(day, "EEE")}
+                  {format(day, "EEE", { locale })}
                 </span>
                 <span className="font-mono text-[11px] text-muted">{format(day, "d.M")}</span>
               </div>
@@ -109,6 +116,7 @@ export function WeekCalendar({ bookings }: { bookings: Booking[] }) {
                     key={cellKey(day, hour)}
                     booking={booking}
                     now={now}
+                    locale={locale}
                   />
                 );
               }),
@@ -119,13 +127,13 @@ export function WeekCalendar({ bookings }: { bookings: Booking[] }) {
 
       <div className="mt-4 flex items-center gap-2 text-xs text-muted">
         <span className="inline-block h-0.5 w-4 rounded-full bg-primary" aria-hidden="true" />
-        booked lesson
+        {t("book.bookedLesson")}
       </div>
     </div>
   );
 }
 
-function Cell({ booking, now }: { booking: Booking | undefined; now: Date }) {
+function Cell({ booking, now, locale }: { booking: Booking | undefined; now: Date; locale: Locale }) {
   if (!booking) {
     return <div className="min-h-[52px] border-t border-l border-border bg-background" />;
   }
@@ -150,8 +158,11 @@ function Cell({ booking, now }: { booking: Booking | undefined; now: Date }) {
       >
         ∑
       </span>
-      <span className="text-[11px] font-medium leading-tight text-foreground">AI Math Tutor</span>
-      <span className="rounded bg-surface px-1 text-[10px] text-muted">Math</span>
+      {/* Lessons start on the half hour too, so the row's hour label alone
+          would place a 1:30 lesson at 1:00. */}
+      <span className="font-mono text-[11px] font-medium leading-tight text-foreground">
+        {format(start, "p", { locale })}
+      </span>
     </div>
   );
 

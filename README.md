@@ -1,106 +1,246 @@
-# Learnora — AI Math Tutor
+# Zanoba — an AI tutor that actually teaches a lesson
 
-A GoStudent-style tutoring platform where students book and take live video
-lessons with an AI Math tutor instead of a human. Two services:
+Zanoba is a **live tutoring agent**. A student books an hour, joins a call, and
+is taught — out loud, on a worksheet, by a tutor with a face.
 
-- **`apps/web`** — Next.js 16 app: signup/login, booking, calendar, and the
-  live lesson call screen.
-- **`apps/agent`** — Python FastAPI service hosting a Google ADK agent (the
-  tutor's "brain", powered by Gemini) that decides what the tutor says.
+It is not a chat window. The agent plans the hour before the student arrives,
+speaks and listens in real time, turns the pages of a worksheet, writes on it
+while it explains, and adapts when the student gets something wrong.
 
-The tutor's live video/voice in the call comes from HeyGen's LiveAvatar
-streaming API (the tutor's "face and voice") — a **paid, pay-as-you-go**
-service (~$0.20/min). Gemini's free tier powers the reasoning.
+**Category:** Collaborative Partner — the agent leads the session, asks
+questions, guides step by step, and records what it learns about the student.
 
-## Prerequisites
+🎬 **[Watch the demo](https://www.youtube.com/watch?v=VhYs4kiZe0k)**
 
-- Node.js 20.19+ / 22.12+ / 24+ (Prisma's floor). If your system Node is
-  older, install [nvm](https://github.com/nvm-sh/nvm) and run `nvm install 22`
-  inside `apps/web` before any `npm` command.
-- Python 3.11+
-- A [Gemini API key](https://aistudio.google.com/apikey) (free tier — Flash
-  models).
-- A [HeyGen API key](https://app.heygen.com/settings?nav=API) with a funded
-  pay-as-you-go wallet, for the LiveAvatar streaming API.
-
-## 1. Set up `apps/web`
-
-```bash
-cd apps/web
-npm install
-npx prisma migrate dev   # creates dev.db (SQLite)
-```
-
-Fill in `apps/web/.env`:
-
-| Variable | Where to get it |
+|  | |
 |---|---|
-| `DATABASE_URL` | Already set to `file:./dev.db` |
-| `SESSION_SECRET` | Already generated |
-| `GEMINI_API_KEY` | https://aistudio.google.com/apikey (only needed by `apps/agent`, not this app — leave as-is here) |
-| `HEYGEN_API_KEY` | https://app.heygen.com/settings?nav=API |
-| `HEYGEN_AVATAR_ID` | Pick a public avatar at https://labs.heygen.com/interactive-avatar → "Select Avatar", or create your own |
-| `AGENT_SERVICE_URL` | Already set to `http://localhost:8000` |
-| `NEXT_PUBLIC_APP_URL` | Already set to `http://localhost:3000` |
-| `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET` | Optional — Google Calendar sync. Create an OAuth client at https://console.cloud.google.com/apis/credentials (Web application), enable the Google Calendar API, add `http://localhost:3000/api/google-calendar/callback` as an authorized redirect URI. Leave blank to disable the feature (it degrades silently, no button shown) |
-| `RESEND_API_KEY` | Optional — sends a "your lesson starts in 1 hour" email. Get a key at https://resend.com/api-keys. Leave blank to disable (silently skipped) |
+| 🧠 **Model** | `gemini-3.5-flash` (lesson preparation) · `gemini-3.1-flash-live-preview` (live class) |
+| 🧩 **Agent framework** | Google ADK (`google-adk`) — a 12-node graph, plus a 22-tool live agent |
+| ☁️ **Google Cloud** | Cloud Run (agent service) · Firestore (curriculum, lesson cache, profiles, history) |
+| 🖥️ **Front end** | Next.js 16 · React 19 · Prisma |
+| 🙂 **Face & voice** | Gemini Live audio, streamed into a Simli avatar for lip sync |
 
-Run it:
+---
 
-```bash
-npm run dev
+## What it does
+
+| Step | What happens |
+|---|---|
+| 1. Book | Student picks a subject, level and slot. |
+| 2. Prepare | An ADK graph plans the lesson and writes the worksheet **before** the class. |
+| 3. Teach | The student joins a call. The tutor greets them and starts. |
+| 4. Work | The tutor turns pages, writes on the paper, circles answers, fills gaps. |
+| 5. Adapt | Wrong answers are marked, observed and remembered for next time. |
+
+Two subjects are wired end to end: **French mathematics** (Sixième, 299
+curriculum items) and **German A1**.
+
+---
+
+## Architecture
+
+```
+                        ┌──────────────────────────────────────────┐
+   BEFORE THE LESSON    │  ADK preparation graph  (gemini-3.5)     │
+                        │                                          │
+                        │  curriculum → diagnostic → objectives     │
+                        │                    │                     │
+                        │             route_by_domain              │
+                        │              ╱            ╲              │
+                        │      language          stem              │
+                        │      planner           planner           │
+                        │              ╲            ╱              │
+                        │            material_planner              │
+                        │              ╱            ╲              │
+                        │      language          stem              │
+                        │      material          material          │
+                        │              ╲            ╱              │
+                        │          quality_checker → gate          │
+                        └───────────────────┬──────────────────────┘
+                                            │ lesson plan + worksheet
+                                            ▼
+                                      ☁️ Firestore
+                                            │
+   ─────────────────────────────────────────┼───────────────────────────────
+                                            │
+   DURING THE LESSON                        ▼
+   ┌────────────┐   PCM 16kHz    ┌────────────────────────┐
+   │            │ ─────────────► │  Cloud Run: agent      │
+   │  Browser   │                │  ADK live tutor        │
+   │  Next.js   │ ◄───────────── │  gemini-3.1-flash-live │
+   │            │  PCM 24kHz +   │  22 tools              │
+   │            │  JSON events   └───────────┬────────────┘
+   └─────┬──────┘                            │ writes marks
+         │                                   ▼
+         │ 24k→16k                    worksheet API
+         ▼                            (Next.js + Prisma)
+   ┌────────────┐
+   │   Simli    │  lip-synced video of the tutor
+   └────────────┘
 ```
 
-Visit http://localhost:3000, sign up, and book a lesson.
+The authoritative diagram is `apps/agent/architecture.excalidraw.json`.
 
-## 2. Set up `apps/agent`
+### How the pieces talk
+
+| Link | Transport | Why |
+|---|---|---|
+| Browser → agent | WebSocket, raw PCM | A lesson is speech. HTTP turns would add a hop to every 20 ms of sound. |
+| Agent → browser | Same socket: audio frames + JSON events | One framing for the voice, the page turns, the marks and the board. |
+| Browser → Simli | WebRTC (LiveKit) | The tutor's own Gemini voice drives the mouth — no second text-to-speech. |
+| Agent → worksheet | HTTPS, shared secret | The agent has no user session; the web app signs a short-lived ticket instead. |
+
+### State
+
+- **Per lesson** — `LiveLesson` holds the plan, paper, board and state machine,
+  keyed by booking id. Cloud Run runs with `--session-affinity` so a student's
+  turns keep reaching the instance holding their hour.
+- **Across lessons** — Firestore keeps the student profile, the lesson history
+  and the prepared-material cache.
+- **In the browser** — nothing that matters. Refreshing mid-lesson reloads the
+  transcript from the database and rejoins.
+
+---
+
+## Spin-up
+
+### Prerequisites
+
+- Node.js **22+** (Prisma's floor)
+- Python **3.11+** and [`uv`](https://docs.astral.sh/uv/)
+- A Gemini API key with Live API access
+- A [Simli](https://app.simli.com) API key (free tier) for the tutor's face
+
+### 1. The agent
 
 ```bash
 cd apps/agent
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+cp .env.example .env          # set GOOGLE_API_KEY, AGENT_TOKEN, ZANOBA_WEB_URL
+uv sync
+uv run pytest -q              # 393 tests, no network, no cost
+uv run --env-file .env uvicorn server:app --port 8080
 ```
 
-Fill in `apps/agent/.env`:
+`GET localhost:8080/health` reports the model, the graph's nodes, and
+`paper_reachable` — whether the agent can actually reach a student's worksheet.
 
-| Variable | Where to get it |
-|---|---|
-| `GEMINI_API_KEY` | https://aistudio.google.com/apikey |
-| `WEB_ORIGIN` | Already set to `http://localhost:3000` |
-
-Run it:
+### 2. The web app
 
 ```bash
-uvicorn app.main:app --reload --port 8000
+cd apps/web
+cp .env.example .env          # set AGENT_URL + the same AGENT_TOKEN, and SIMLI_API_KEY
+npm install
+npx prisma migrate deploy
+npm run dev
 ```
 
-Check it's alive: `curl http://localhost:8000/health` → `{"status":"ok"}`.
+### 3. A lesson you can actually open
 
-## Taking a lesson
+The lesson page only admits you from ten minutes before a booking until it
+ends, so anything booked through the UI is in the future. Put one on the clock:
 
-1. Sign up / log in at http://localhost:3000.
-2. Book a lesson (slots are generated on the fly — the AI tutor has no real
-   capacity limit, so anything in the next two weeks works). You can start a
-   lesson up to 10 minutes before its scheduled time.
-3. Open the lesson — the app connects to HeyGen for the tutor's live video
-   and to your webcam. Speak (Chrome's built-in speech recognition transcribes
-   you); the FastAPI agent generates the tutor's reply via Gemini, and the
-   HeyGen avatar speaks it back.
+```bash
+cd apps/web
+npm run lesson:now                       # defaults to German A1
+npm run lesson:now you@example.com nombres-entiers-et-decimaux l1 mathematics fr.sixieme
+```
 
-## Known caveats / things to verify with your own keys
+It prints the URL. Open it, press **Join audio**, and the tutor greets you.
 
-- **HeyGen token endpoint**: `apps/web/src/app/api/heygen/token/route.ts`
-  calls `POST https://api.liveavatar.com/v1/sessions/token` with an
-  `X-API-KEY` header to mint a session token. This was confirmed against the
-  installed `@heygen/liveavatar-web-sdk`'s own base URL and REST path
-  conventions (`/v1/sessions/start`, `/stop`, `/keep-alive`), but the token
-  endpoint itself couldn't be hit live without a funded key. If it 404s or
-  errors once you add your key, check https://docs.liveavatar.com for the
-  current path/shape and update that one route — everything downstream (the
-  `@heygen/liveavatar-web-sdk` client usage in `CallScreen.tsx`) is verified
-  against the SDK's actual type definitions.
-- **Speech capture** requires Chrome (or another `SpeechRecognition`-capable
-  browser) and mic/camera permissions.
-- **`InMemoryRunner`** in `apps/agent` keeps ADK sessions in-process; fine for
-  a single dev server, not for multiple workers or production scale.
+> ⚠️ `lesson:now` cancels any booking that overlaps the slot it takes.
+> Use a test account if you care about the data.
+
+### Deploying the agent to Cloud Run
+
+```bash
+cd apps/agent
+set -a; . ./.env; set +a
+gcloud run deploy zanoba-agent --source . --project ai-tutor-zanoba \
+  --region europe-west1 --allow-unauthenticated --memory 1Gi --timeout 900 \
+  --session-affinity \
+  --set-env-vars "GOOGLE_API_KEY=${GOOGLE_API_KEY},GOOGLE_GENAI_USE_VERTEXAI=FALSE,GOOGLE_CLOUD_PROJECT=ai-tutor-zanoba,ZANOBA_WEB_URL=${ZANOBA_WEB_URL},AGENT_TOKEN=${AGENT_TOKEN}"
+```
+
+`--session-affinity` is not optional: a class lives in one instance's memory.
+
+The service is private by default. To let a browser (or a judge) reach it:
+
+```bash
+gcloud run services add-iam-policy-binding zanoba-agent \
+  --region europe-west1 --project ai-tutor-zanoba \
+  --member=allUsers --role=roles/run.invoker
+```
+
+A deployed agent also needs `ZANOBA_WEB_URL` pointing at the deployed web app,
+not `localhost` — otherwise it teaches but cannot reach the worksheet, and
+`/health` reports `paper_reachable: false`.
+
+---
+
+## Layout
+
+```
+apps/agent/          Python. The tutor.
+  server.py          FastAPI: /prepare, /lesson/turn, ws /lesson/live
+  src/zanoba_agent/
+    agents/          ADK agents — the graph, and the live tutor's 22 tools
+    live/            audio config, paper, session registry
+    workflows/       the preparation pipeline
+    store/           Firestore profiles and history
+  tests/             393 tests
+
+apps/web/            TypeScript. Everything the student sees.
+  src/app/           routes: booking, calendar, the lesson screen
+  src/components/    CallScreen, LessonPaper, Whiteboard
+  src/lib/           liveLesson (audio socket), tutorFace (avatar), curriculum
+```
+
+---
+
+## Data sources
+
+| Source | Used for |
+|---|---|
+| French *Sixième* mathematics programme | 299 curriculum items, hand-encoded |
+| German A1 word list (`data/words.de.json`) | Exercise generation, hand-checked |
+| Pexels | Illustrations in generated material |
+
+---
+
+## Known limitations
+
+Written down rather than discovered by a judge.
+
+| Limitation | Detail |
+|---|---|
+| **One lesson per instance** | `bind_session` points the live tutor's tools at a lesson through module-level globals, so two concurrent classes on one instance would collide. Cloud Run's `--session-affinity` plus low traffic hides it today; the fix is a per-session context object, not a bigger machine. |
+| **Avatar realism** | The tutor's face is built from a single photograph on a free tier, so she lip-syncs but does not gesture. A filmed avatar or a paid generator fixes it; nothing in the code changes. |
+| **Two subjects** | French *Sixième* maths and German A1 are wired end to end. The graph is subject-agnostic; the curricula are the work. |
+| **SQLite** | The web app uses Prisma on SQLite for the hackathon. Cloud SQL is a connection-string change. |
+
+---
+
+## What we learned
+
+**A live model does not speak first.** The socket opened, the queue sat empty,
+and the tutor waited for a student who was waiting for the tutor. Twenty
+seconds later a watchdog called it a failed connection. A spoken lesson that
+worked perfectly never once made a sound. Live sessions need an opening turn.
+
+**Never race a watchdog against the work it watches.** The same watchdog was one
+of three tasks in a `FIRST_COMPLETED` wait. The moment the tutor *did* speak,
+the watchdog finished — and cancelled the two tasks doing the teaching. The
+lesson ended 1.6 seconds in. It hid for as long as the model stayed silent.
+
+**Send the avatar audio, not text.** Handing a transcript to an avatar service
+means waiting for the turn to finish, paying for a second text-to-speech, and
+getting a different voice. Gemini Live emits PCM; the avatar accepts PCM. Piping
+one into the other removed a whole stage and made the tutor answer instantly.
+
+**Sample rates are not a detail.** Gemini speaks at 24 kHz, Simli listens at
+16 kHz. Getting it wrong does not error — it plays a third fast and a fifth
+high, and the lips agree with it perfectly.
+
+**Green tests are not a working feature.** Every bug above passed `tsc`, eslint
+and the full suite. They were only ever found by opening a browser and
+measuring what actually came down the socket.

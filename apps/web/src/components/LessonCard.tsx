@@ -4,7 +4,11 @@ import Link from "next/link";
 import { useActionState } from "react";
 import { format, isWithinInterval, subMinutes } from "date-fns";
 import { cancelBooking } from "@/app/actions/booking";
-import { useT } from "@/lib/i18n";
+import { useLanguage, useT } from "@/lib/i18n";
+import { findChapter } from "@/lib/curriculum";
+import { SUBJECTS } from "@/lib/subjects";
+import { TUTOR_NAME } from "@/lib/tutor";
+import { dateLocale } from "@/lib/dates";
 
 const START_WINDOW_MINUTES = 10;
 
@@ -14,14 +18,28 @@ export function LessonCard({
   endTime,
   status,
   sessionNumber,
+  subject: subjectId,
+  level,
+  chapter,
+  kind,
 }: {
   id: string;
   startTime: Date;
   endTime: Date;
   status: "UPCOMING" | "COMPLETED" | "CANCELLED";
   sessionNumber: number;
+  subject: string;
+  level: string | null;
+  chapter: string | null;
+  kind: "LESSON" | "FREESTYLE";
 }) {
   const t = useT();
+  const { lang } = useLanguage();
+  const locale = dateLocale(lang);
+  // Classes booked before subjects existed carry a name we can't resolve;
+  // those simply show no subject rather than a wrong one.
+  const subject = SUBJECTS.find((s) => s.id === subjectId) ?? null;
+  const chapterInfo = findChapter(subjectId, level, chapter);
   const [cancelState, cancelAction, cancelPending] = useActionState(cancelBooking.bind(null, id), undefined);
   const now = new Date();
   const canStart =
@@ -36,20 +54,35 @@ export function LessonCard({
       }`}
     >
       <div className="flex items-center gap-4">
-        <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary-tint text-lg font-semibold text-primary font-display">
-          ∑
+        <div
+          aria-hidden="true"
+          className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary-tint text-2xl"
+        >
+          {subject?.emoji ?? "\u2211"}
         </div>
         <div>
-          <span className="inline-flex items-center gap-1.5 text-xs font-medium text-muted">
+          <span className="inline-flex flex-wrap items-center gap-1.5 text-xs font-medium text-muted">
             <span className="font-mono tracking-tight">
               {t("lesson.number", { n: String(sessionNumber).padStart(2, "0") })}
             </span>
-            <span aria-hidden="true">·</span>
-            <span className="rounded-md bg-primary-tint px-1.5 py-0.5 text-primary">Math</span>
+            {subject && (
+              <>
+                <span aria-hidden="true">·</span>
+                <span className="rounded-md bg-primary-tint px-1.5 py-0.5 text-primary">
+                  {subject.name[lang]}
+                </span>
+              </>
+            )}
           </span>
-          <p className="mt-1 text-base font-semibold text-foreground font-mono">{format(startTime, "h:mm a")}</p>
-          <p className="text-sm text-muted">{format(startTime, "EEEE, MMMM d, yyyy")}</p>
-          <p className="text-sm text-muted">AI Math Tutor</p>
+          <p className="mt-1 text-base font-semibold text-foreground font-mono">{format(startTime, "p", { locale })}</p>
+          <p className="text-sm text-muted">{format(startTime, "PPPP", { locale })}</p>
+          {/* A freestyle class follows no chapter, so it names itself. */}
+          {kind === "FREESTYLE" ? (
+            <p className="text-sm text-foreground">{t("lesson.freestyle")}</p>
+          ) : (
+            chapterInfo && <p className="text-sm text-foreground">{chapterInfo.title}</p>
+          )}
+          <p className="text-sm text-muted">{TUTOR_NAME}</p>
         </div>
       </div>
 

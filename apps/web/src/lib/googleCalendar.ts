@@ -1,6 +1,8 @@
 import "server-only";
 import { google } from "googleapis";
 import { prisma } from "@/lib/prisma";
+import { subjectLabel } from "@/lib/subjects";
+import { TUTOR_NAME } from "@/lib/tutor";
 
 const SCOPES = ["https://www.googleapis.com/auth/calendar.events"];
 const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000";
@@ -83,7 +85,7 @@ export async function syncBookingToGoogleCalendar(booking: BookingLike, userId: 
     const res = await calendar.events.insert({
       calendarId: "primary",
       requestBody: {
-        summary: `${booking.subject} lesson with your AI Math tutor`,
+        summary: `${subjectLabel(booking.subject)} lesson with ${TUTOR_NAME}`,
         description: `Join your lesson: ${APP_URL}/lesson/${booking.id}`,
         start: { dateTime: booking.startTime.toISOString() },
         end: { dateTime: booking.endTime.toISOString() },

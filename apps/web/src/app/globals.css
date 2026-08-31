@@ -2,58 +2,67 @@
 
 :root {
   color-scheme: light dark;
-  --background: #f6f8fb;
-  --foreground: #101b2e;
+  --background: #fbf9f9;
+  --foreground: #17151d;
   --surface: #ffffff;
-  --border: #dfe5ee;
-  --muted: #5c6b82;
-  --primary: #1b4f9c;
-  --primary-hover: #143c79;
-  --primary-tint: #e7eef9;
+  --border: #e7e3e6;
+  --muted: #5d5866;
+  --primary: #743ee4;
+  --primary-hover: #5f33bb;
+  --primary-tint: #f4f0fd;
   --success: #1f8a5f;
   --success-tint: #e5f4ec;
   --danger: #c23b3b;
-  --board: #0f2647;
-  --board-foreground: #f3f6fb;
-  --accent: #d9a441;
-  --accent-tint: #fbf1de;
+  /* Photographic and always-dark surfaces: the call screen, the photo cards,
+     the auth panel and the footer. */
+  --board: #0c1226;
+  --board-foreground: #eef1f7;
+  /* The lime is drawn for dark grounds; --accent-ink is the same hue darkened
+     so it stays legible as ink on a light one. */
+  --accent: #c6f64d;
+  --accent-ink: #4d7c0f;
+  --accent-tint: #eef7d9;
+  /* The tutor's board is drawn, not photographic, so it follows the theme. */
+  --chalk-bg: #f2eaea;
+  --chalk-ink: #1b1820;
+  --brand: #743ee4;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --background: #0b1526;
-    --foreground: #edf1f7;
-    --surface: #142236;
-    --border: #253550;
-    --muted: #93a2bc;
-    --primary: #4c86e0;
-    --primary-hover: #6b9be8;
-    --primary-tint: #16273f;
+    --background: #080d1a;
+    --foreground: #eef1f7;
+    --surface: #101730;
+    --border: #232c4c;
+    --muted: #98a3bd;
+    --primary-tint: #1a0e32;
     --success: #34ac7d;
-    --success-tint: #123726;
+    --success-tint: #102b21;
     --danger: #e2685c;
-    --board-foreground: #f3f6fb;
-    --accent: #e8b65c;
-    --accent-tint: #3a2c13;
+    --accent-ink: #c6f64d;
+    --accent-tint: #1d2a10;
+    --chalk-bg: #0c1226;
+    --chalk-ink: #eef1f7;
+    --brand: #a582ed;
   }
 }
 
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --background: #0b1526;
-  --foreground: #edf1f7;
-  --surface: #142236;
-  --border: #253550;
-  --muted: #93a2bc;
-  --primary: #4c86e0;
-  --primary-hover: #6b9be8;
-  --primary-tint: #16273f;
+  --background: #080d1a;
+  --foreground: #eef1f7;
+  --surface: #101730;
+  --border: #232c4c;
+  --muted: #98a3bd;
+  --primary-tint: #1a0e32;
   --success: #34ac7d;
-  --success-tint: #123726;
+  --success-tint: #102b21;
   --danger: #e2685c;
-  --board-foreground: #f3f6fb;
-  --accent: #e8b65c;
-  --accent-tint: #3a2c13;
+  --accent-ink: #c6f64d;
+  --accent-tint: #1d2a10;
+  --chalk-bg: #0c1226;
+  --chalk-ink: #eef1f7;
+  --brand: #a582ed;
 }
 
 :root[data-theme="light"] {
@@ -75,6 +84,9 @@
   --color-board: var(--board);
   --color-board-foreground: var(--board-foreground);
   --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-chalk: var(--chalk-bg);
+  --color-chalk-ink: var(--chalk-ink);
   --color-accent-tint: var(--accent-tint);
   --font-display: var(--font-display);
   --font-sans: var(--font-plex-sans);
@@ -97,4 +109,101 @@ body {
   background-image:
     repeating-linear-gradient(to right, color-mix(in srgb, var(--foreground) 4%, transparent) 0 1px, transparent 1px 28px),
     repeating-linear-gradient(to bottom, color-mix(in srgb, var(--foreground) 4%, transparent) 0 1px, transparent 1px 28px);
+}
+
+/* The hero board rewriting itself when a new subject is picked — the chalk
+   line fades up rather than swapping instantly. */
+@keyframes chalk-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.animate-chalk-in {
+  animation: chalk-in 0.45s ease both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-chalk-in {
+    animation: none;
+  }
+}
+
+/* The hero replicates a supplied mockup and stays dark in both themes, so its
+   palette is scoped here rather than added to the app's tokens. */
+.hero-mock {
+  --mock-bg: #080d1a;
+  --mock-bg-2: #101730;
+  --mock-surface: #101730;
+  --mock-border: #232c4c;
+  --mock-text: #f5f7fb;
+  --mock-muted: #98a3bd;
+  --mock-lime: #c6f64d;
+  --mock-violet: #743ee4;
+  --mock-violet-hover: #5f33bb;
+}
+
+.bg-dot-grid {
+  background-image: radial-gradient(color-mix(in srgb, #a7b2ce 22%, transparent) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+
+
+/* Graph paper for the tutor's board, inked from whichever foreground the
+   current theme gives it. */
+.bg-grid-chalk {
+  background-image:
+    repeating-linear-gradient(to right, color-mix(in srgb, var(--chalk-ink) 7%, transparent) 0 1px, transparent 1px 32px),
+    repeating-linear-gradient(to bottom, color-mix(in srgb, var(--chalk-ink) 7%, transparent) 0 1px, transparent 1px 32px);
+}
+
+/*
+ * The tutor as a photograph, while she is only a photograph.
+ *
+ * A live avatar needs credits; a class does not stop because there are none.
+ * These three rules are what stands in for one: her picture fills the tile the
+ * way a camera feed would, and both the image and the light behind it are
+ * driven by `--voice`, the loudness of the audio actually being played. It is
+ * not lip sync and does not imitate it — no mouth is faked. It is the same
+ * thing a video call does with an active-speaker ring, which is enough to make
+ * a still frame read as the person who is currently talking.
+ *
+ * `--voice` is written straight onto the node by the call screen, so the
+ * transitions below are what smooth it: quick to rise with a syllable, slower
+ * to fall, which is roughly how a voice behaves.
+ */
+.tutor-still {
+  --voice: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.tutor-still-face {
+  transform: scale(calc(1.015 + var(--voice) * 0.022));
+  transition: transform 90ms ease-out, filter 220ms ease-out;
+  filter: brightness(calc(0.94 + var(--voice) * 0.13));
+  will-change: transform;
+}
+
+/* The light she is speaking into: warm, behind her, never over her face. */
+.tutor-still-glow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    120% 80% at 50% 108%,
+    rgba(224, 168, 96, calc(0.10 + var(--voice) * 0.40)) 0%,
+    rgba(224, 168, 96, 0) 62%
+  );
+  transition: background 140ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tutor-still-face { transform: none; transition: filter 220ms ease-out; }
 }

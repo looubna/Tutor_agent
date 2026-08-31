@@ -1,0 +1,678 @@
+{
+  "curriculum_id": "lang.chinese.cefr",
+  "subject": "chinese",
+  "target_language": "zh",
+  "framework": "CEFR",
+  "levels": [
+    {
+      "id": "a1-1",
+      "band": "A1",
+      "label": "A1.1 — 入门",
+      "order": 1,
+      "description": "",
+      "chapters": [
+        {
+          "id": "a1-1.pinyin",
+          "title": "I can read pinyin and the four tones",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.pinyin.l1",
+              "title": "声母和韵母",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.pinyin.l2",
+              "title": "四声与变调",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.pinyin.l3",
+              "title": "Check: 朗读拼音",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-1.intro",
+          "title": "I can introduce myself in Chinese",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.intro.l1",
+              "title": "你好，我叫……",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.intro.l2",
+              "title": "国籍和职业",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.intro.l3",
+              "title": "Check: 自我介绍",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-1.numbers",
+          "title": "I can use numbers, dates and times",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.numbers.l1",
+              "title": "数字与年月日",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.numbers.l2",
+              "title": "几点了？",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.numbers.l3",
+              "title": "Check: 说时间",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-2",
+      "band": "A1",
+      "label": "A1.2 — 入门",
+      "order": 2,
+      "description": "",
+      "chapters": []
+    },
+    {
+      "id": "a2-1",
+      "band": "A2",
+      "label": "A2.1 — 初级",
+      "order": 3,
+      "description": "",
+      "chapters": [
+        {
+          "id": "a2-1.family",
+          "title": "I can talk about my family",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a2-1.family.l1",
+              "title": "有和没有",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.family.l2",
+              "title": "常用量词",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.family.l3",
+              "title": "Check: 介绍我的家人",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a2-1.shop",
+          "title": "I can shop and ask prices",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a2-1.shop.l1",
+              "title": "多少钱？",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.shop.l2",
+              "title": "比较句：比",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.shop.l3",
+              "title": "Check: 在商店",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a2-1.past",
+          "title": "I can talk about what I did",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a2-1.past.l1",
+              "title": "了 的用法",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.past.l2",
+              "title": "过 表示经历",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.past.l3",
+              "title": "Check: 说说昨天",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-2",
+      "band": "A2",
+      "label": "A2.2 — 初级",
+      "order": 4,
+      "description": "",
+      "chapters": []
+    },
+    {
+      "id": "b1-1",
+      "band": "B1",
+      "label": "B1.1 — 中级",
+      "order": 5,
+      "description": "",
+      "chapters": [
+        {
+          "id": "b1-1.directions",
+          "title": "I can find my way around a city",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b1-1.directions.l1",
+              "title": "方位词",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.directions.l2",
+              "title": "怎么走？",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.directions.l3",
+              "title": "Check: 问路",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "b1-1.complements",
+          "title": "I can describe how an action goes",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b1-1.complements.l1",
+              "title": "结果补语",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.complements.l2",
+              "title": "程度补语（得）",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.complements.l3",
+              "title": "Check: 描述一件事",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "b1-1.plans",
+          "title": "I can talk about plans and intentions",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b1-1.plans.l1",
+              "title": "要、想、打算",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.plans.l2",
+              "title": "就 和 才",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.plans.l3",
+              "title": "Check: 我的计划",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-2",
+      "band": "B1",
+      "label": "B1.2 — 中级",
+      "order": 6,
+      "description": "",
+      "chapters": []
+    },
+    {
+      "id": "b2-1",
+      "band": "B2",
+      "label": "B2.1 — 中高级",
+      "order": 7,
+      "description": "",
+      "chapters": [
+        {
+          "id": "b2-1.ba",
+          "title": "I can use the 把 and 被 structures",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b2-1.ba.l1",
+              "title": "把字句",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.ba.l2",
+              "title": "被字句",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.ba.l3",
+              "title": "Check: 改写句子",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "b2-1.connect",
+          "title": "I can link ideas in longer speech",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b2-1.connect.l1",
+              "title": "虽然……但是……",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.connect.l2",
+              "title": "不但……而且……",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.connect.l3",
+              "title": "Check: 说一段话",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "b2-1.written",
+          "title": "I can read simple written Chinese",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b2-1.written.l1",
+              "title": "书面语与口语",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.written.l2",
+              "title": "常见成语",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.written.l3",
+              "title": "Check: 读一篇短文",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-2",
+      "band": "B2",
+      "label": "B2.2 — 中高级",
+      "order": 8,
+      "description": "",
+      "chapters": []
+    },
+    {
+      "id": "c1-1",
+      "band": "C1",
+      "label": "C1.1 — 高级",
+      "order": 9,
+      "description": "",
+      "chapters": [
+        {
+          "id": "c1-1.formal",
+          "title": "I can write in a formal register",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "c1-1.formal.l1",
+              "title": "书信与公文体",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.formal.l2",
+              "title": "被动句与无主句",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.formal.l3",
+              "title": "Check: 一封正式邮件",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "c1-1.idiom",
+          "title": "I can use idiom naturally",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "c1-1.idiom.l1",
+              "title": "成语与惯用语",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.idiom.l2",
+              "title": "歇后语",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.idiom.l3",
+              "title": "Check: 地道表达",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "c1-1.debate",
+          "title": "I can build and defend a long argument",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "c1-1.debate.l1",
+              "title": "议论文结构",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.debate.l2",
+              "title": "让步与反驳",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.debate.l3",
+              "title": "Check: 一场辩论",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-2",
+      "band": "C1",
+      "label": "C1.2 — 高级",
+      "order": 10,
+      "description": "",
+      "chapters": []
+    }
+  ]
+}

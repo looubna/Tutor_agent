@@ -3,11 +3,13 @@
 import Link from "next/link";
 import { useActionState } from "react";
 import { signup } from "@/app/actions/auth";
-import { useT } from "@/lib/i18n";
+import { useLanguage, useT } from "@/lib/i18n";
+import { LOCALES } from "@/lib/locales";
 
 export default function SignupPage() {
   const [state, action, pending] = useActionState(signup, undefined);
   const t = useT();
+  const { lang } = useLanguage();
 
   return (
     <>
@@ -60,6 +62,28 @@ export default function SignupPage() {
                 <li key={error}>{error}</li>
               ))}
             </ul>
+          )}
+        </div>
+
+        <div>
+          <label htmlFor="supportLanguage" className="mb-1 block text-sm font-medium text-foreground">
+            {t("auth.supportLanguageLabel")}
+          </label>
+          <select
+            id="supportLanguage"
+            name="supportLanguage"
+            defaultValue={lang}
+            className="w-full rounded-lg border border-border bg-surface px-3 py-2 text-sm outline-none focus:border-primary"
+          >
+            {LOCALES.map((l) => (
+              <option key={l.code} value={l.code}>
+                {l.label}
+              </option>
+            ))}
+          </select>
+          <p className="mt-1 text-xs text-muted">{t("auth.supportLanguageHint")}</p>
+          {state?.errors?.supportLanguage && (
+            <p className="mt-1 text-xs text-danger">{state.errors.supportLanguage[0]}</p>
           )}
         </div>
 

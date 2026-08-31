@@ -15,9 +15,19 @@ model User {
   name                     String
   email                    String                    @unique
   passwordHash             String
+  /// Profile picture, shown on the learner's tile during a class. Null falls
+  /// back to the first letter of their name.
+  image                    String?
+  /// The language the tutor may explain in when the student is stuck or asks.
+  /// NOT the language being learnt — that comes from the booking's subject.
+  /// Null means English.
+  supportLanguage          String?
   createdAt                DateTime                  @default(now())
   bookings                 Booking[]
   googleCalendarConnection GoogleCalendarConnection?
+  mastery                  Mastery[]
+  exerciseAttempts         ExerciseAttempt[]
+  papers                   StudentLessonDoc[]
 }
 
 enum BookingStatus {
@@ -26,16 +36,36 @@ enum BookingStatus {
   CANCELLED
 }
 
+enum BookingKind {
+  LESSON
+  FREESTYLE
+}
+
 model Booking {
   id             String          @id @default(cuid())
   studentId      String
   student        User            @relation(fields: [studentId], references: [id], onDelete: Cascade)
-  subject        String          @default("Math")
+  /// A subject id from `subjects.ts` — "german", "mathematics". Always set at
+  /// booking time; there is no sensible default for "what are we studying".
+  subject        String
+  /// Curriculum level and chapter ids, so a class knows what it covers.
+  level          String?
+  chapter        String?
+  /// Which lesson of that chapter. Null means the first one, which is what
+  /// booking a chapter has always meant — `lessonIdFor` has resolved it that
+  /// way from the start. Naming it explicitly is what lets a class be booked
+  /// against a specific lesson's paper and prepared material.
+  lesson         String?
+  /// What kind of class this is. A FREESTYLE conversation follows no chapter.
+  kind           BookingKind     @default(LESSON)
+  /// What the learner asked to talk about, when they said.
+  topic          String?
   startTime      DateTime
   endTime        DateTime
   status         BookingStatus   @default(UPCOMING)
   createdAt      DateTime        @default(now())
   messages       LessonMessage[]
+  session        LessonSession?
   googleEventId  String?
   reminderSentAt DateTime?
 
@@ -67,4 +97,222 @@ model LessonMessage {
   createdAt DateTime    @default(now())
 
   @@index([bookingId])
+}
+
+/// What a student knows about one skill, and how fast they are forgetting it.
+/// One row per student per skill; the update rule lives in `lib/mastery.ts`.
+model Mastery {
+  id     String @id @default(cuid())
+  userId String
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  /// `subject.level.chapter.skill` — built from curriculum.ts, never invented.
+  skillId String
+
+  /// Confidence from 0 to 1, before forgetting is applied. Read it through
+  /// `effective()`, which decays it by how long ago the skill was last seen.
+  score        Float    @default(0)
+  attempts     Int      @default(0)
+  correct      Int      @default(0)
+  /// Consecutive correct answers. Any wrong answer resets it to zero.
+  streak       Int      @default(0)
+  /// Days until the score is worth half as much. Grows on success, halves on
+  /// failure, and never drops below one day.
+  halfLifeDays Float    @default(1)
+  lastSeenAt   DateTime @default(now())
+  /// When this skill should come back around. lastSeenAt + halfLifeDays.
+  dueAt        DateTime
+  /// A JSON array of short tags like "der-vs-die". SQLite has no array type.
+  errorTags    String   @default("[]")
+
+  @@unique([userId, skillId])
+  @@index([userId, dueAt])
+}
+
+/// One class, from the moment it opens to the moment it ends.
+model LessonSession {
+  id        String    @id @default(cuid())
+  bookingId String    @unique
+  booking   Booking   @relation(fields: [bookingId], references: [id], onDelete: Cascade)
+  startedAt DateTime  @default(now())
+  endedAt   DateTime?
+  /// The step plan the orchestrator built, as JSON.
+  plan      String?
+  /// Which step of that plan the lesson is on, and what has happened during it.
+  /// The orchestrator owns both — the tutor cannot move the lesson forward by
+  /// deciding that it has.
+  stepIndex Int      @default(0)
+  progress  String   @default("{}")
+  /// The agent's final live state when the call ended, as JSON. Kept for replay
+  /// and for working out what went wrong afterwards.
+  finalState String?
+  summary   String?
+  /// What the lesson cost us, in cents. Null until the call is over.
+  costCents Int?
+
+  /// The exercise the student is in the middle of, if any. The agent is
+  /// stateless and starts each turn fresh, so the question it asked last turn
+  /// has to be remembered here rather than in the model's head — otherwise
+  /// `check_answer` would be marking whatever the model thinks it asked.
+  openExerciseId    String?
+  openExerciseAt    DateTime?
+  openExerciseHints Int       @default(0)
+
+  events   LessonEvent[]
+  attempts ExerciseAttempt[]
+}
+
+/// Anything worth knowing that happened during a class, in order: a silence, an
+/// interruption, a tool call, a mark on the worksheet.
+model LessonEvent {
+  id        String        @id @default(cuid())
+  sessionId String
+  session   LessonSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  at        DateTime      @default(now())
+  /// "long_silence" · "interruption" · "board_write" · "tool_call" · "hint"
+  type      String
+  /// Whatever that event needs to carry, as JSON.
+  payload   String        @default("{}")
+
+  @@index([sessionId, at])
+}
+
+/// One answer to one exercise. This is the only thing that moves Mastery — a
+/// score never changes without a row here explaining why.
+model ExerciseAttempt {
+  id        String        @id @default(cuid())
+  sessionId String
+  session   LessonSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  userId    String
+  user      User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  skillId   String
+
+  /// `templateId#slot=value` — enough to rebuild the exact question asked.
+  exerciseId String
+  /// The question as the student saw it, gaps and all.
+  shown      String
+  /// What the rule computed. Never what a model guessed.
+  expected   String
+  answer     String
+  correct    Boolean
+
+  latencyMs     Int?
+  hintsUsed     Int      @default(0)
+  /// 1 for the first ask, 2 for the similar exercise that follows a mistake.
+  attemptNumber Int      @default(1)
+  /// Why it was wrong, when the rule can tell: "der-vs-die", "wrong-case".
+  errorTag      String?
+  at            DateTime @default(now())
+
+  @@index([sessionId])
+  @@index([userId, skillId])
+}
+
+enum DocStatus {
+  DRAFT
+  IN_REVIEW
+  PUBLISHED
+}
+
+/// The gate between the textbook and the agent (§13.2).
+///
+/// A person reads the source and writes this; the material agent is given this
+/// and nothing else. It has no tool that can open a book, so "don't copy" is a
+/// property of the wiring rather than a line in a prompt.
+model LessonSpec {
+  id       String @id @default(cuid())
+  /// `subject.level.chapter.lesson` — the id the specs on disk are named by.
+  lessonId String
+  version  Int    @default(1)
+
+  status     DocStatus @default(DRAFT)
+  approvedBy String?
+  approvedAt DateTime?
+
+  /// The spec itself, as JSON: objectives, grammar point, words, scope.
+  body      String
+  createdAt DateTime @default(now())
+  docs      LessonDoc[]
+
+  @@unique([lessonId, version])
+}
+
+/// One worksheet, written once and served to every student who books that
+/// lesson. Versioned because a marked-up copy has to keep showing the paper the
+/// student actually used, even after a newer one is published.
+model LessonDoc {
+  id       String @id @default(cuid())
+  lessonId String
+  version  Int
+
+  status      DocStatus @default(DRAFT)
+  publishedBy String?
+  publishedAt DateTime?
+
+  specId String?
+  spec   LessonSpec? @relation(fields: [specId], references: [id])
+
+  /// The boxes, as JSON. Answers live in here and are stripped by the server
+  /// before this ever reaches a browser — see `stripAnswers`.
+  boxes String
+
+  /// What made it: which agent, which model, what it cost.
+  builtBy   String?
+  costCents Int?
+  createdAt DateTime @default(now())
+
+  assets  Asset[]
+  copies  StudentLessonDoc[]
+
+  @@unique([lessonId, version])
+  @@index([lessonId, status])
+}
+
+/// Every picture we keep, and where it came from. A row with no licence is a
+/// picture we cannot prove we may use, so the build refuses to publish one.
+model Asset {
+  id   String @id @default(cuid())
+  docId String?
+  doc   LessonDoc? @relation(fields: [docId], references: [id], onDelete: Cascade)
+
+  /// Path under `public/`, as the browser sees it.
+  path String @unique
+  kind String @default("image")
+
+  /// "own-icon" · "imagen" · "openverse" · "wikimedia" · "pexels"
+  source String
+  /// "CC0", "CC BY-SA 4.0", "generated — we hold the rights". Never empty.
+  licence String
+  /// Who made it, when the licence requires naming them.
+  credit    String?
+  sourceUrl String?
+  /// The prompt, for anything a model drew — so it can be made again.
+  prompt    String?
+  createdAt DateTime @default(now())
+}
+
+/// One student's copy of one worksheet: which version they used, what the tutor
+/// wrote on it during the class, and the extra practice added afterwards.
+///
+/// This replaces the old BoardSnapshot. A snapshot is a picture; this knows
+/// which box each mark belongs to, so it still works at a different screen size
+/// and you can count how much the tutor actually wrote (§13.3).
+model StudentLessonDoc {
+  id        String @id @default(cuid())
+  bookingId String
+  userId    String
+  user      User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  docId String
+  doc   LessonDoc @relation(fields: [docId], references: [id])
+  /// Pinned at the moment of the class and never updated.
+  docVersion Int
+
+  /// The tutor's marks, in order, as JSON: write · circle · point · fill.
+  ops String @default("[]")
+  /// Practice written for this student after the class, as JSON.
+  extraPractice String?
+  updatedAt     DateTime @updatedAt
+
+  @@unique([bookingId])
+  @@index([userId])
 }

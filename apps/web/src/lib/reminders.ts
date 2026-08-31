@@ -2,6 +2,8 @@ import "server-only";
 import { format } from "date-fns";
 import { Resend } from "resend";
 import { prisma } from "@/lib/prisma";
+import { subjectLabel } from "@/lib/subjects";
+import { TUTOR_NAME } from "@/lib/tutor";
 
 const REMINDER_WINDOW_MINUTES = 60;
 const CHECK_INTERVAL_MS = 60_000;
@@ -22,22 +24,28 @@ function getResendClient() {
   return new Resend(apiKey);
 }
 
-type ReminderBooking = { id: string; startTime: Date; student: { email: string; name: string } };
+type ReminderBooking = {
+  id: string;
+  subject: string;
+  startTime: Date;
+  student: { email: string; name: string };
+};
 
 export async function sendLessonReminder(booking: ReminderBooking) {
   const resend = getResendClient();
   if (!resend) return false;
 
-  const from = process.env.RESEND_FROM_EMAIL ?? "Learnora <onboarding@resend.dev>";
+  const from = process.env.RESEND_FROM_EMAIL ?? "Zanoba <onboarding@resend.dev>";
   const time = format(booking.startTime, "h:mm a 'on' EEEE, MMMM d");
   const link = `${APP_URL}/lesson/${booking.id}`;
+  const lesson = `${subjectLabel(booking.subject)} lesson`;
 
   try {
     await resend.emails.send({
       from,
       to: booking.student.email,
-      subject: "Your Math lesson starts in 1 hour",
-      html: `<p>Hi ${booking.student.name},</p><p>Your Math lesson with your AI tutor starts in 1 hour, at ${time}.</p><p><a href="${link}">Join your lesson</a></p>`,
+      subject: `Your ${lesson} starts in 1 hour`,
+      html: `<p>Hi ${booking.student.name},</p><p>Your ${lesson} with ${TUTOR_NAME} starts in 1 hour, at ${time}.</p><p><a href="${link}">Join your lesson</a></p>`,
     });
     return true;
   } catch (err) {

@@ -1,0 +1,4003 @@
+{
+  "source": {
+    "list": "Goethe-Institut · Goethe-Zertifikat A1 · Start Deutsch 1 · Wortliste",
+    "edition": "VS_02_280312",
+    "url": "https://www.goethe.de/pro/relaunch/prf/de/A1_SD1_Wortliste_02.pdf",
+    "taken": "articles and plurals only — no example sentences"
+  },
+  "words": {
+    "Abend": {
+      "article": "der",
+      "plural": "Abende",
+      "en": "evening",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 304,
+        "printed": "+e"
+      }
+    },
+    "Abfahrt": {
+      "article": "die",
+      "plural": null,
+      "en": "departure (train, bus)",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 398,
+        "printed": "not given"
+      }
+    },
+    "Abflug": {
+      "article": "der",
+      "plural": null,
+      "en": "departure (flight)",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 770,
+        "printed": "not given"
+      }
+    },
+    "Absender": {
+      "article": "der",
+      "plural": null,
+      "en": "sender",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 402,
+        "printed": "not given"
+      }
+    },
+    "Adresse": {
+      "article": "die",
+      "plural": "Adressen",
+      "en": "address",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 404,
+        "printed": "+en"
+      }
+    },
+    "Alter": {
+      "article": "das",
+      "plural": null,
+      "en": "age",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 418,
+        "printed": "not given"
+      }
+    },
+    "Anfang": {
+      "article": "der",
+      "plural": null,
+      "en": "beginning",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 428,
+        "printed": "not given"
+      }
+    },
+    "Angebot": {
+      "article": "das",
+      "plural": "Angebote",
+      "en": "offer",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 423,
+        "printed": "+e"
+      }
+    },
+    "Ankunft": {
+      "article": "die",
+      "plural": null,
+      "en": "arrival",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 432,
+        "printed": "not given"
+      }
+    },
+    "Anmeldung": {
+      "article": "die",
+      "plural": null,
+      "en": "registration; reception desk",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 438,
+        "printed": "not given"
+      }
+    },
+    "Anrede": {
+      "article": "die",
+      "plural": null,
+      "en": "form of address (Herr / Frau)",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 439,
+        "printed": "not given"
+      }
+    },
+    "Anruf": {
+      "article": "der",
+      "plural": "Anrufe",
+      "en": "phone call",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 442,
+        "printed": "+e"
+      }
+    },
+    "Ansage": {
+      "article": "die",
+      "plural": "Ansagen",
+      "en": "announcement",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 454,
+        "printed": "+n"
+      }
+    },
+    "Anschluss": {
+      "article": "der",
+      "plural": null,
+      "en": "connection (train, phone)",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 455,
+        "printed": "not given"
+      }
+    },
+    "Antwort": {
+      "article": "die",
+      "plural": "Antworten",
+      "en": "reply",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 459,
+        "printed": "+en"
+      }
+    },
+    "Anzeige": {
+      "article": "die",
+      "plural": "Anzeigen",
+      "en": "advertisement, notice",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 460,
+        "printed": "+n"
+      }
+    },
+    "Apartment": {
+      "article": "das",
+      "plural": "Apartments",
+      "en": "apartment",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 462,
+        "printed": "+s"
+      }
+    },
+    "Apfel": {
+      "article": "der",
+      "plural": "Äpfel",
+      "en": "apple",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 463,
+        "printed": "umlaut, no ending"
+      }
+    },
+    "Appetit": {
+      "article": "der",
+      "plural": null,
+      "en": "appetite",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 464,
+        "printed": "not given"
+      }
+    },
+    "April": {
+      "article": "der",
+      "plural": null,
+      "en": "April",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 315,
+        "printed": "not given"
+      }
+    },
+    "Arbeit": {
+      "article": "die",
+      "plural": "Arbeiten",
+      "en": "work",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 466,
+        "printed": "+en"
+      }
+    },
+    "Arbeitsplatz": {
+      "article": "der",
+      "plural": "Arbeitsplätze",
+      "en": "workplace",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 469,
+        "printed": "umlaut +e"
+      }
+    },
+    "Arm": {
+      "article": "der",
+      "plural": "Arme",
+      "en": "arm",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 470,
+        "printed": "+e"
+      }
+    },
+    "Arzt": {
+      "article": "der",
+      "plural": "Ärzte",
+      "en": "doctor",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 471,
+        "printed": "umlaut +e"
+      }
+    },
+    "Aufgabe": {
+      "article": "die",
+      "plural": "Aufgaben",
+      "en": "task, exercise",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 476,
+        "printed": "+n"
+      }
+    },
+    "Aufzug": {
+      "article": "der",
+      "plural": "Aufzüge",
+      "en": "lift, elevator",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 482,
+        "printed": "umlaut +e"
+      }
+    },
+    "Auge": {
+      "article": "das",
+      "plural": "Augen",
+      "en": "eye",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 483,
+        "printed": "+n"
+      }
+    },
+    "August": {
+      "article": "der",
+      "plural": null,
+      "en": "August",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 313,
+        "printed": "not given"
+      }
+    },
+    "Ausflug": {
+      "article": "der",
+      "plural": null,
+      "en": "day trip",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 485,
+        "printed": "not given"
+      }
+    },
+    "Ausgang": {
+      "article": "der",
+      "plural": null,
+      "en": "exit",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 487,
+        "printed": "not given"
+      }
+    },
+    "Auskunft": {
+      "article": "die",
+      "plural": "Auskünfte",
+      "en": "information",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 488,
+        "printed": "umlaut +e"
+      }
+    },
+    "Ausland": {
+      "article": "das",
+      "plural": null,
+      "en": "abroad",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 489,
+        "printed": "not given"
+      }
+    },
+    "Ausländer": {
+      "article": "der",
+      "plural": "Ausländer",
+      "en": "foreigner",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 490,
+        "printed": "no change"
+      }
+    },
+    "Aussage": {
+      "article": "die",
+      "plural": "Aussagen",
+      "en": "statement",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 493,
+        "printed": "+n"
+      }
+    },
+    "Ausweis": {
+      "article": "der",
+      "plural": null,
+      "en": "ID card",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 498,
+        "printed": "not given"
+      }
+    },
+    "Auto": {
+      "article": "das",
+      "plural": "Autos",
+      "en": "car",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 500,
+        "printed": "+s"
+      }
+    },
+    "Autobahn": {
+      "article": "die",
+      "plural": "Autobahnen",
+      "en": "motorway",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 501,
+        "printed": "+en"
+      }
+    },
+    "Automat": {
+      "article": "der",
+      "plural": null,
+      "en": "vending machine",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 502,
+        "printed": "not given"
+      }
+    },
+    "Baby": {
+      "article": "das",
+      "plural": "Babys",
+      "en": "baby",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 515,
+        "printed": "+s"
+      }
+    },
+    "Bad": {
+      "article": "das",
+      "plural": null,
+      "en": "bathroom",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 517,
+        "printed": "not given"
+      }
+    },
+    "Bahn": {
+      "article": "die",
+      "plural": null,
+      "en": "railway, train",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 519,
+        "printed": "not given"
+      }
+    },
+    "Bahnhof": {
+      "article": "der",
+      "plural": null,
+      "en": "station",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 521,
+        "printed": "not given"
+      }
+    },
+    "Bahnsteig": {
+      "article": "der",
+      "plural": null,
+      "en": "platform",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 522,
+        "printed": "not given"
+      }
+    },
+    "Balkon": {
+      "article": "der",
+      "plural": null,
+      "en": "balcony",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 524,
+        "printed": "not given"
+      }
+    },
+    "Banane": {
+      "article": "die",
+      "plural": "Bananen",
+      "en": "banana",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 525,
+        "printed": "+n"
+      }
+    },
+    "Bank": {
+      "article": "die",
+      "plural": null,
+      "en": "bank; bench",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 526,
+        "printed": "not given"
+      }
+    },
+    "Bauch": {
+      "article": "der",
+      "plural": null,
+      "en": "stomach, belly",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 529,
+        "printed": "not given"
+      }
+    },
+    "Baum": {
+      "article": "der",
+      "plural": "Bäume",
+      "en": "tree",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 530,
+        "printed": "umlaut +e"
+      }
+    },
+    "Beamte": {
+      "article": "der",
+      "plural": "Beamten",
+      "en": "civil servant",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 531,
+        "printed": "+n"
+      }
+    },
+    "Bein": {
+      "article": "das",
+      "plural": "Beine",
+      "en": "leg",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 540,
+        "printed": "+e"
+      }
+    },
+    "Beispiel": {
+      "article": "das",
+      "plural": "Beispiele",
+      "en": "example",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 541,
+        "printed": "+e"
+      }
+    },
+    "Beruf": {
+      "article": "der",
+      "plural": "Berufe",
+      "en": "job, profession",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 550,
+        "printed": "+e"
+      }
+    },
+    "Bett": {
+      "article": "das",
+      "plural": "Betten",
+      "en": "bed",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 561,
+        "printed": "+en"
+      }
+    },
+    "Bier": {
+      "article": "das",
+      "plural": null,
+      "en": "beer",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 563,
+        "printed": "not given"
+      }
+    },
+    "Bild": {
+      "article": "das",
+      "plural": "Bilder",
+      "en": "picture",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 564,
+        "printed": "+er"
+      }
+    },
+    "Birne": {
+      "article": "die",
+      "plural": "Birnen",
+      "en": "pear",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 576,
+        "printed": "+n"
+      }
+    },
+    "Bitte": {
+      "article": "die",
+      "plural": "Bitten",
+      "en": "request",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 583,
+        "printed": "+n"
+      }
+    },
+    "Bleistift": {
+      "article": "der",
+      "plural": "Bleistifte",
+      "en": "pencil",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 588,
+        "printed": "+e"
+      }
+    },
+    "Blick": {
+      "article": "der",
+      "plural": null,
+      "en": "view, glance",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 589,
+        "printed": "not given"
+      }
+    },
+    "Blume": {
+      "article": "die",
+      "plural": "Blumen",
+      "en": "flower",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 591,
+        "printed": "+n"
+      }
+    },
+    "Bogen": {
+      "article": "der",
+      "plural": null,
+      "en": "sheet, form",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 592,
+        "printed": "not given"
+      }
+    },
+    "Brief": {
+      "article": "der",
+      "plural": "Briefe",
+      "en": "letter",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 596,
+        "printed": "+e"
+      }
+    },
+    "Briefmarke": {
+      "article": "die",
+      "plural": "Briefmarken",
+      "en": "stamp",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 597,
+        "printed": "+n"
+      }
+    },
+    "Brot": {
+      "article": "das",
+      "plural": "Brote",
+      "en": "bread",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 600,
+        "printed": "+e"
+      }
+    },
+    "Bruder": {
+      "article": "der",
+      "plural": "Brüder",
+      "en": "brother",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 603,
+        "printed": "umlaut, no ending"
+      }
+    },
+    "Brötchen": {
+      "article": "das",
+      "plural": "Brötchen",
+      "en": "bread roll",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 602,
+        "printed": "no change"
+      }
+    },
+    "Buch": {
+      "article": "das",
+      "plural": "Bücher",
+      "en": "book",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 604,
+        "printed": "umlaut +er"
+      }
+    },
+    "Buchstabe": {
+      "article": "der",
+      "plural": "Buchstaben",
+      "en": "letter (of the alphabet)",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 606,
+        "printed": "+n"
+      }
+    },
+    "Bus": {
+      "article": "der",
+      "plural": "Busse",
+      "en": "bus",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 608,
+        "printed": "+se"
+      }
+    },
+    "Butter": {
+      "article": "die",
+      "plural": null,
+      "en": "butter",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 609,
+        "printed": "not given"
+      }
+    },
+    "Bäckerei": {
+      "article": "die",
+      "plural": null,
+      "en": "bakery",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 516,
+        "printed": "not given"
+      }
+    },
+    "CD": {
+      "article": "die",
+      "plural": "CDs",
+      "en": "CD",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 615,
+        "printed": "+s"
+      }
+    },
+    "Chef": {
+      "article": "der",
+      "plural": null,
+      "en": "boss",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 616,
+        "printed": "not given"
+      }
+    },
+    "Computer": {
+      "article": "der",
+      "plural": "Computer",
+      "en": "computer",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 619,
+        "printed": "no change"
+      }
+    },
+    "Dame": {
+      "article": "die",
+      "plural": "Damen",
+      "en": "lady",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 628,
+        "printed": "+n"
+      }
+    },
+    "Dank": {
+      "article": "der",
+      "plural": null,
+      "en": "thanks",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 642,
+        "printed": "not given"
+      }
+    },
+    "Datum": {
+      "article": "das",
+      "plural": null,
+      "en": "date",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 646,
+        "printed": "not given"
+      }
+    },
+    "Dezember": {
+      "article": "der",
+      "plural": null,
+      "en": "December",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 317,
+        "printed": "not given"
+      }
+    },
+    "Dienstag": {
+      "article": "der",
+      "plural": null,
+      "en": "Tuesday",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 293,
+        "printed": "not given"
+      }
+    },
+    "Disco": {
+      "article": "die",
+      "plural": null,
+      "en": "club, disco",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 657,
+        "printed": "not given"
+      }
+    },
+    "Doktor": {
+      "article": "der",
+      "plural": null,
+      "en": "doctor",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 658,
+        "printed": "not given"
+      }
+    },
+    "Donnerstag": {
+      "article": "der",
+      "plural": null,
+      "en": "Thursday",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 295,
+        "printed": "not given"
+      }
+    },
+    "Doppelzimmer": {
+      "article": "das",
+      "plural": null,
+      "en": "double room",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 659,
+        "printed": "not given"
+      }
+    },
+    "Dorf": {
+      "article": "das",
+      "plural": "Dörfer",
+      "en": "village",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 660,
+        "printed": "umlaut +er"
+      }
+    },
+    "Drucker": {
+      "article": "der",
+      "plural": "Drucker",
+      "en": "printer",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 665,
+        "printed": "no change"
+      }
+    },
+    "Durchsage": {
+      "article": "die",
+      "plural": "Durchsagen",
+      "en": "announcement (over a speaker)",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 668,
+        "printed": "+n"
+      }
+    },
+    "Durst": {
+      "article": "der",
+      "plural": null,
+      "en": "thirst",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 672,
+        "printed": "not given"
+      }
+    },
+    "Dusche": {
+      "article": "die",
+      "plural": null,
+      "en": "shower",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 674,
+        "printed": "not given"
+      }
+    },
+    "Ecke": {
+      "article": "die",
+      "plural": "Ecken",
+      "en": "corner",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 679,
+        "printed": "+n"
+      }
+    },
+    "Ehemann": {
+      "article": "der",
+      "plural": "Ehemänner",
+      "en": "husband",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 681,
+        "printed": "umlaut +er"
+      }
+    },
+    "Ei": {
+      "article": "das",
+      "plural": "Eier",
+      "en": "egg",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 682,
+        "printed": "+er"
+      }
+    },
+    "Eingang": {
+      "article": "der",
+      "plural": null,
+      "en": "entrance",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 689,
+        "printed": "not given"
+      }
+    },
+    "Einladung": {
+      "article": "die",
+      "plural": null,
+      "en": "invitation",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 695,
+        "printed": "not given"
+      }
+    },
+    "Eintritt": {
+      "article": "der",
+      "plural": null,
+      "en": "admission, entry",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 705,
+        "printed": "not given"
+      }
+    },
+    "Einzelzimmer": {
+      "article": "das",
+      "plural": null,
+      "en": "single room",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 706,
+        "printed": "not given"
+      }
+    },
+    "Eltern": {
+      "article": "die",
+      "plural": "Eltern",
+      "en": "parents",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 707,
+        "printed": "plural only"
+      }
+    },
+    "Empfänger": {
+      "article": "der",
+      "plural": "Empfänger",
+      "en": "recipient",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 709,
+        "printed": "no change"
+      }
+    },
+    "Ende": {
+      "article": "das",
+      "plural": null,
+      "en": "end",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 713,
+        "printed": "not given"
+      }
+    },
+    "Entschuldigung": {
+      "article": "die",
+      "plural": null,
+      "en": "apology; excuse me",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 716,
+        "printed": "not given"
+      }
+    },
+    "Ergebnis": {
+      "article": "das",
+      "plural": "Ergebnisse",
+      "en": "result",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 718,
+        "printed": "+se"
+      }
+    },
+    "Erwachsene": {
+      "article": "der",
+      "plural": "Erwachsenen",
+      "en": "adult",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 721,
+        "printed": "+n"
+      }
+    },
+    "Essen": {
+      "article": "das",
+      "plural": null,
+      "en": "food, meal",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 725,
+        "printed": "not given"
+      }
+    },
+    "Fahrer": {
+      "article": "der",
+      "plural": null,
+      "en": "driver",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 732,
+        "printed": "not given"
+      }
+    },
+    "Fahrkarte": {
+      "article": "die",
+      "plural": "Fahrkarten",
+      "en": "ticket",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 733,
+        "printed": "+n"
+      }
+    },
+    "Fahrrad": {
+      "article": "das",
+      "plural": "Fahrräder",
+      "en": "bicycle",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 734,
+        "printed": "umlaut +er"
+      }
+    },
+    "Familie": {
+      "article": "die",
+      "plural": "Familien",
+      "en": "family",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 736,
+        "printed": "+n"
+      }
+    },
+    "Familienname": {
+      "article": "der",
+      "plural": null,
+      "en": "surname",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 737,
+        "printed": "not given"
+      }
+    },
+    "Familienstand": {
+      "article": "der",
+      "plural": null,
+      "en": "marital status",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 738,
+        "printed": "not given"
+      }
+    },
+    "Farbe": {
+      "article": "die",
+      "plural": "Farben",
+      "en": "colour",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 739,
+        "printed": "+n"
+      }
+    },
+    "Fax": {
+      "article": "das",
+      "plural": "Faxe",
+      "en": "fax",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 740,
+        "printed": "+e"
+      }
+    },
+    "Februar": {
+      "article": "der",
+      "plural": null,
+      "en": "February",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 313,
+        "printed": "not given"
+      }
+    },
+    "Fehler": {
+      "article": "der",
+      "plural": "Fehler",
+      "en": "mistake",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 746,
+        "printed": "no change"
+      }
+    },
+    "Feuer": {
+      "article": "das",
+      "plural": null,
+      "en": "fire",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 750,
+        "printed": "not given"
+      }
+    },
+    "Fieber": {
+      "article": "das",
+      "plural": null,
+      "en": "fever",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 751,
+        "printed": "not given"
+      }
+    },
+    "Film": {
+      "article": "der",
+      "plural": "Filme",
+      "en": "film",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 752,
+        "printed": "+e"
+      }
+    },
+    "Firma": {
+      "article": "die",
+      "plural": null,
+      "en": "company",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 754,
+        "printed": "not given"
+      }
+    },
+    "Fisch": {
+      "article": "der",
+      "plural": "Fische",
+      "en": "fish",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 758,
+        "printed": "+e"
+      }
+    },
+    "Flasche": {
+      "article": "die",
+      "plural": "Flaschen",
+      "en": "bottle",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 766,
+        "printed": "+n"
+      }
+    },
+    "Fleisch": {
+      "article": "das",
+      "plural": null,
+      "en": "meat",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 767,
+        "printed": "not given"
+      }
+    },
+    "Flughafen": {
+      "article": "der",
+      "plural": null,
+      "en": "airport",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 771,
+        "printed": "not given"
+      }
+    },
+    "Flugzeug": {
+      "article": "das",
+      "plural": null,
+      "en": "aeroplane",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 772,
+        "printed": "not given"
+      }
+    },
+    "Formular": {
+      "article": "das",
+      "plural": "Formulare",
+      "en": "form",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 773,
+        "printed": "+e"
+      }
+    },
+    "Foto": {
+      "article": "das",
+      "plural": "Fotos",
+      "en": "photo",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 774,
+        "printed": "+s"
+      }
+    },
+    "Frage": {
+      "article": "die",
+      "plural": "Fragen",
+      "en": "question",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 776,
+        "printed": "+n"
+      }
+    },
+    "Frau": {
+      "article": "die",
+      "plural": "Frauen",
+      "en": "woman; Mrs",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 777,
+        "printed": "+en"
+      }
+    },
+    "Freitag": {
+      "article": "der",
+      "plural": null,
+      "en": "Friday",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 296,
+        "printed": "not given"
+      }
+    },
+    "Freizeit": {
+      "article": "die",
+      "plural": null,
+      "en": "free time",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 781,
+        "printed": "not given"
+      }
+    },
+    "Freund": {
+      "article": "der",
+      "plural": "Freunde",
+      "en": "friend",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 784,
+        "printed": "+e"
+      }
+    },
+    "Frühstück": {
+      "article": "das",
+      "plural": null,
+      "en": "breakfast",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 788,
+        "printed": "not given"
+      }
+    },
+    "Fuß": {
+      "article": "der",
+      "plural": "Füße",
+      "en": "foot",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 793,
+        "printed": "umlaut +e"
+      }
+    },
+    "Fußball": {
+      "article": "der",
+      "plural": null,
+      "en": "football",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 794,
+        "printed": "not given"
+      }
+    },
+    "Führung": {
+      "article": "die",
+      "plural": null,
+      "en": "guided tour",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 789,
+        "printed": "not given"
+      }
+    },
+    "Garten": {
+      "article": "der",
+      "plural": null,
+      "en": "garden",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 799,
+        "printed": "not given"
+      }
+    },
+    "Gast": {
+      "article": "der",
+      "plural": "Gäste",
+      "en": "guest",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 800,
+        "printed": "umlaut +e"
+      }
+    },
+    "Geburtsjahr": {
+      "article": "das",
+      "plural": null,
+      "en": "year of birth",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 804,
+        "printed": "not given"
+      }
+    },
+    "Geburtsort": {
+      "article": "der",
+      "plural": null,
+      "en": "place of birth",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 805,
+        "printed": "not given"
+      }
+    },
+    "Geburtstag": {
+      "article": "der",
+      "plural": null,
+      "en": "birthday",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 806,
+        "printed": "not given"
+      }
+    },
+    "Geld": {
+      "article": "das",
+      "plural": null,
+      "en": "money",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 817,
+        "printed": "not given"
+      }
+    },
+    "Gemüse": {
+      "article": "das",
+      "plural": null,
+      "en": "vegetables",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 821,
+        "printed": "not given"
+      }
+    },
+    "Gepäck": {
+      "article": "das",
+      "plural": null,
+      "en": "luggage",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 829,
+        "printed": "not given"
+      }
+    },
+    "Geschenk": {
+      "article": "das",
+      "plural": "Geschenke",
+      "en": "present",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 834,
+        "printed": "+e"
+      }
+    },
+    "Geschwister": {
+      "article": "die",
+      "plural": "Geschwister",
+      "en": "siblings",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 835,
+        "printed": "plural only"
+      }
+    },
+    "Geschäft": {
+      "article": "das",
+      "plural": "Geschäfte",
+      "en": "shop",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 833,
+        "printed": "+e"
+      }
+    },
+    "Gespräch": {
+      "article": "das",
+      "plural": "Gespräche",
+      "en": "conversation",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 836,
+        "printed": "+e"
+      }
+    },
+    "Getränk": {
+      "article": "das",
+      "plural": "Getränke",
+      "en": "drink",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 839,
+        "printed": "+e"
+      }
+    },
+    "Gewicht": {
+      "article": "das",
+      "plural": null,
+      "en": "weight",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 840,
+        "printed": "not given"
+      }
+    },
+    "Glas": {
+      "article": "das",
+      "plural": "Gläser",
+      "en": "glass",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 842,
+        "printed": "umlaut +er"
+      }
+    },
+    "Gleis": {
+      "article": "das",
+      "plural": "Gleise",
+      "en": "track, platform",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 849,
+        "printed": "+e"
+      }
+    },
+    "Glück": {
+      "article": "das",
+      "plural": null,
+      "en": "luck; happiness",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 850,
+        "printed": "not given"
+      }
+    },
+    "Glückwunsch": {
+      "article": "der",
+      "plural": null,
+      "en": "congratulations",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 852,
+        "printed": "not given"
+      }
+    },
+    "Großeltern": {
+      "article": "die",
+      "plural": "Großeltern",
+      "en": "grandparents",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 859,
+        "printed": "plural only"
+      }
+    },
+    "Großmutter": {
+      "article": "die",
+      "plural": null,
+      "en": "grandmother",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 860,
+        "printed": "not given"
+      }
+    },
+    "Großvater": {
+      "article": "der",
+      "plural": null,
+      "en": "grandfather",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 861,
+        "printed": "not given"
+      }
+    },
+    "Gruppe": {
+      "article": "die",
+      "plural": "Gruppen",
+      "en": "group",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 862,
+        "printed": "+n"
+      }
+    },
+    "Gruß": {
+      "article": "der",
+      "plural": "Grüße",
+      "en": "greeting",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 863,
+        "printed": "umlaut +e"
+      }
+    },
+    "Größe": {
+      "article": "die",
+      "plural": null,
+      "en": "size",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 858,
+        "printed": "not given"
+      }
+    },
+    "Haar": {
+      "article": "das",
+      "plural": "Haare",
+      "en": "hair",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 876,
+        "printed": "+e"
+      }
+    },
+    "Halbpension": {
+      "article": "die",
+      "plural": null,
+      "en": "half board",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 879,
+        "printed": "not given"
+      }
+    },
+    "Halle": {
+      "article": "die",
+      "plural": null,
+      "en": "hall",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 880,
+        "printed": "not given"
+      }
+    },
+    "Haltestelle": {
+      "article": "die",
+      "plural": null,
+      "en": "stop (bus, tram)",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 893,
+        "printed": "not given"
+      }
+    },
+    "Hand": {
+      "article": "die",
+      "plural": "Hände",
+      "en": "hand",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 894,
+        "printed": "umlaut +e"
+      }
+    },
+    "Handy": {
+      "article": "das",
+      "plural": "Handys",
+      "en": "mobile phone",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 895,
+        "printed": "+s"
+      }
+    },
+    "Haus": {
+      "article": "das",
+      "plural": "Häuser",
+      "en": "house",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 896,
+        "printed": "umlaut +er"
+      }
+    },
+    "Hausaufgabe": {
+      "article": "die",
+      "plural": "Hausaufgaben",
+      "en": "homework",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 899,
+        "printed": "+n"
+      }
+    },
+    "Hausmann": {
+      "article": "der",
+      "plural": null,
+      "en": "househusband",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 901,
+        "printed": "not given"
+      }
+    },
+    "Heimat": {
+      "article": "die",
+      "plural": null,
+      "en": "home country",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 903,
+        "printed": "not given"
+      }
+    },
+    "Herbst": {
+      "article": "der",
+      "plural": null,
+      "en": "autumn",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 331,
+        "printed": "not given"
+      }
+    },
+    "Herd": {
+      "article": "der",
+      "plural": null,
+      "en": "cooker, stove",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 909,
+        "printed": "not given"
+      }
+    },
+    "Herr": {
+      "article": "der",
+      "plural": "Herren",
+      "en": "Mr; gentleman",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 910,
+        "printed": "+en"
+      }
+    },
+    "Hilfe": {
+      "article": "die",
+      "plural": null,
+      "en": "help",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 915,
+        "printed": "not given"
+      }
+    },
+    "Hobby": {
+      "article": "das",
+      "plural": "Hobbys",
+      "en": "hobby",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 918,
+        "printed": "+s"
+      }
+    },
+    "Hochzeit": {
+      "article": "die",
+      "plural": null,
+      "en": "wedding",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 920,
+        "printed": "not given"
+      }
+    },
+    "Hotel": {
+      "article": "das",
+      "plural": "Hotels",
+      "en": "hotel",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 924,
+        "printed": "+s"
+      }
+    },
+    "Hund": {
+      "article": "der",
+      "plural": "Hunde",
+      "en": "dog",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 925,
+        "printed": "+e"
+      }
+    },
+    "Hunger": {
+      "article": "der",
+      "plural": null,
+      "en": "hunger",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 926,
+        "printed": "not given"
+      }
+    },
+    "Hähnchen": {
+      "article": "das",
+      "plural": "Hähnchen",
+      "en": "chicken",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 878,
+        "printed": "no change"
+      }
+    },
+    "Information": {
+      "article": "die",
+      "plural": "Informationen",
+      "en": "information",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 939,
+        "printed": "+en"
+      }
+    },
+    "Internet": {
+      "article": "das",
+      "plural": null,
+      "en": "internet",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 943,
+        "printed": "not given"
+      }
+    },
+    "Jacke": {
+      "article": "die",
+      "plural": "Jacken",
+      "en": "jacket",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 955,
+        "printed": "+n"
+      }
+    },
+    "Jahr": {
+      "article": "das",
+      "plural": "Jahre",
+      "en": "year",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 284,
+        "printed": "+e"
+      }
+    },
+    "Januar": {
+      "article": "der",
+      "plural": null,
+      "en": "January",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 312,
+        "printed": "not given"
+      }
+    },
+    "Job": {
+      "article": "der",
+      "plural": "Jobs",
+      "en": "job",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 958,
+        "printed": "+s"
+      }
+    },
+    "Jugendliche": {
+      "article": "der",
+      "plural": "Jugendlichen",
+      "en": "young person",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 959,
+        "printed": "+n"
+      }
+    },
+    "Juli": {
+      "article": "der",
+      "plural": null,
+      "en": "July",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 312,
+        "printed": "not given"
+      }
+    },
+    "Junge": {
+      "article": "der",
+      "plural": "Jungen",
+      "en": "boy",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 961,
+        "printed": "+n"
+      }
+    },
+    "Juni": {
+      "article": "der",
+      "plural": null,
+      "en": "June",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 317,
+        "printed": "not given"
+      }
+    },
+    "Kaffee": {
+      "article": "der",
+      "plural": null,
+      "en": "coffee",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 966,
+        "printed": "not given"
+      }
+    },
+    "Karte": {
+      "article": "die",
+      "plural": "Karten",
+      "en": "card; ticket; map",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 968,
+        "printed": "+n"
+      }
+    },
+    "Kartoffel": {
+      "article": "die",
+      "plural": "Kartoffeln",
+      "en": "potato",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 974,
+        "printed": "+n"
+      }
+    },
+    "Kasse": {
+      "article": "die",
+      "plural": null,
+      "en": "till, checkout",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 975,
+        "printed": "not given"
+      }
+    },
+    "Kind": {
+      "article": "das",
+      "plural": "Kinder",
+      "en": "child",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 980,
+        "printed": "+er"
+      }
+    },
+    "Kindergarten": {
+      "article": "der",
+      "plural": null,
+      "en": "kindergarten",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 981,
+        "printed": "not given"
+      }
+    },
+    "Kino": {
+      "article": "das",
+      "plural": "Kinos",
+      "en": "cinema",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 982,
+        "printed": "+s"
+      }
+    },
+    "Kiosk": {
+      "article": "der",
+      "plural": null,
+      "en": "kiosk",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 983,
+        "printed": "not given"
+      }
+    },
+    "Klasse": {
+      "article": "die",
+      "plural": null,
+      "en": "class",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 986,
+        "printed": "not given"
+      }
+    },
+    "Kleidung": {
+      "article": "die",
+      "plural": null,
+      "en": "clothes",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 988,
+        "printed": "not given"
+      }
+    },
+    "Koffer": {
+      "article": "der",
+      "plural": "Koffer",
+      "en": "suitcase",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 992,
+        "printed": "no change"
+      }
+    },
+    "Kollege": {
+      "article": "der",
+      "plural": "Kollegen",
+      "en": "colleague",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 993,
+        "printed": "+n"
+      }
+    },
+    "Konto": {
+      "article": "das",
+      "plural": null,
+      "en": "bank account",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 998,
+        "printed": "not given"
+      }
+    },
+    "Kopf": {
+      "article": "der",
+      "plural": null,
+      "en": "head",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 999,
+        "printed": "not given"
+      }
+    },
+    "Kuchen": {
+      "article": "der",
+      "plural": null,
+      "en": "cake",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1008,
+        "printed": "not given"
+      }
+    },
+    "Kugelschreiber": {
+      "article": "der",
+      "plural": null,
+      "en": "ballpoint pen",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1016,
+        "printed": "not given"
+      }
+    },
+    "Kultusminister": {
+      "article": "der",
+      "plural": null,
+      "en": "state minister for education",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1545,
+        "printed": "not given"
+      }
+    },
+    "Kunde": {
+      "article": "der",
+      "plural": "Kunden",
+      "en": "customer",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1020,
+        "printed": "+n"
+      }
+    },
+    "Kurs": {
+      "article": "der",
+      "plural": "Kurse",
+      "en": "course",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1021,
+        "printed": "+e"
+      }
+    },
+    "Küche": {
+      "article": "die",
+      "plural": null,
+      "en": "kitchen",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1004,
+        "printed": "not given"
+      }
+    },
+    "Kühlschrank": {
+      "article": "der",
+      "plural": null,
+      "en": "fridge",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1017,
+        "printed": "not given"
+      }
+    },
+    "Laden": {
+      "article": "der",
+      "plural": "Läden",
+      "en": "shop",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1028,
+        "printed": "umlaut, no ending"
+      }
+    },
+    "Land": {
+      "article": "das",
+      "plural": "Länder",
+      "en": "country",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1029,
+        "printed": "umlaut +er"
+      }
+    },
+    "Leben": {
+      "article": "das",
+      "plural": null,
+      "en": "life",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1037,
+        "printed": "not given"
+      }
+    },
+    "Lebensmittel": {
+      "article": "die",
+      "plural": "Lebensmittel",
+      "en": "groceries",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1038,
+        "printed": "plural only"
+      }
+    },
+    "Lehrer": {
+      "article": "der",
+      "plural": "Lehrer",
+      "en": "teacher",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1041,
+        "printed": "no change"
+      }
+    },
+    "Leute": {
+      "article": "die",
+      "plural": "Leute",
+      "en": "people",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1049,
+        "printed": "plural only"
+      }
+    },
+    "Licht": {
+      "article": "das",
+      "plural": null,
+      "en": "light",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1050,
+        "printed": "not given"
+      }
+    },
+    "Lied": {
+      "article": "das",
+      "plural": "Lieder",
+      "en": "song",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1055,
+        "printed": "+er"
+      }
+    },
+    "Lkw": {
+      "article": "der",
+      "plural": "Lkws",
+      "en": "lorry, truck",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1059,
+        "printed": "+s"
+      }
+    },
+    "Lokal": {
+      "article": "das",
+      "plural": null,
+      "en": "pub, restaurant",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1060,
+        "printed": "not given"
+      }
+    },
+    "Lösung": {
+      "article": "die",
+      "plural": "Lösungen",
+      "en": "solution",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1061,
+        "printed": "+en"
+      }
+    },
+    "Mai": {
+      "article": "der",
+      "plural": null,
+      "en": "May",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 316,
+        "printed": "not given"
+      }
+    },
+    "Mann": {
+      "article": "der",
+      "plural": "Männer",
+      "en": "man; husband",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1083,
+        "printed": "umlaut +er"
+      }
+    },
+    "Maschine": {
+      "article": "die",
+      "plural": "Maschinen",
+      "en": "machine",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1085,
+        "printed": "+n"
+      }
+    },
+    "Meer": {
+      "article": "das",
+      "plural": null,
+      "en": "sea",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1086,
+        "printed": "not given"
+      }
+    },
+    "Mensch": {
+      "article": "der",
+      "plural": "Menschen",
+      "en": "person, human being",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1090,
+        "printed": "+en"
+      }
+    },
+    "Miete": {
+      "article": "die",
+      "plural": null,
+      "en": "rent",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1092,
+        "printed": "not given"
+      }
+    },
+    "Milch": {
+      "article": "die",
+      "plural": null,
+      "en": "milk",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1093,
+        "printed": "not given"
+      }
+    },
+    "Minute": {
+      "article": "die",
+      "plural": "Minuten",
+      "en": "minute",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 283,
+        "printed": "+n"
+      }
+    },
+    "Mittag": {
+      "article": "der",
+      "plural": null,
+      "en": "midday",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 306,
+        "printed": "not given"
+      }
+    },
+    "Mitte": {
+      "article": "die",
+      "plural": null,
+      "en": "middle",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1099,
+        "printed": "not given"
+      }
+    },
+    "Mittwoch": {
+      "article": "der",
+      "plural": null,
+      "en": "Wednesday",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 294,
+        "printed": "not given"
+      }
+    },
+    "Moment": {
+      "article": "der",
+      "plural": null,
+      "en": "moment",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1104,
+        "printed": "not given"
+      }
+    },
+    "Montag": {
+      "article": "der",
+      "plural": null,
+      "en": "Monday",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 292,
+        "printed": "not given"
+      }
+    },
+    "Morgen": {
+      "article": "der",
+      "plural": null,
+      "en": "morning",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 304,
+        "printed": "not given"
+      }
+    },
+    "Mund": {
+      "article": "der",
+      "plural": null,
+      "en": "mouth",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1108,
+        "printed": "not given"
+      }
+    },
+    "Mutter": {
+      "article": "die",
+      "plural": "Mütter",
+      "en": "mother",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1110,
+        "printed": "umlaut, no ending"
+      }
+    },
+    "Mädchen": {
+      "article": "das",
+      "plural": "Mädchen",
+      "en": "girl",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1081,
+        "printed": "no change"
+      }
+    },
+    "März": {
+      "article": "der",
+      "plural": null,
+      "en": "March",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 314,
+        "printed": "not given"
+      }
+    },
+    "Möbel": {
+      "article": "die",
+      "plural": "Möbel",
+      "en": "furniture",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1100,
+        "printed": "plural only"
+      }
+    },
+    "Nachmittag": {
+      "article": "der",
+      "plural": "Nachmittage",
+      "en": "afternoon",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 303,
+        "printed": "+e"
+      }
+    },
+    "Nacht": {
+      "article": "die",
+      "plural": "Nächte",
+      "en": "night",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 305,
+        "printed": "umlaut +e"
+      }
+    },
+    "Name": {
+      "article": "der",
+      "plural": "Namen",
+      "en": "name",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1119,
+        "printed": "+n"
+      }
+    },
+    "Norden": {
+      "article": "der",
+      "plural": null,
+      "en": "north",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 383,
+        "printed": "not given"
+      }
+    },
+    "November": {
+      "article": "der",
+      "plural": null,
+      "en": "November",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 316,
+        "printed": "not given"
+      }
+    },
+    "Nummer": {
+      "article": "die",
+      "plural": "Nummern",
+      "en": "number",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1146,
+        "printed": "+n"
+      }
+    },
+    "Obst": {
+      "article": "das",
+      "plural": null,
+      "en": "fruit",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1155,
+        "printed": "not given"
+      }
+    },
+    "Oktober": {
+      "article": "der",
+      "plural": null,
+      "en": "October",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 315,
+        "printed": "not given"
+      }
+    },
+    "Oma": {
+      "article": "die",
+      "plural": "Omas",
+      "en": "grandma",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1162,
+        "printed": "+s"
+      }
+    },
+    "Opa": {
+      "article": "der",
+      "plural": "Opas",
+      "en": "grandpa",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1163,
+        "printed": "+s"
+      }
+    },
+    "Ordnung": {
+      "article": "die",
+      "plural": null,
+      "en": "order",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1164,
+        "printed": "not given"
+      }
+    },
+    "Ort": {
+      "article": "der",
+      "plural": "Orte",
+      "en": "place, town",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1165,
+        "printed": "+e"
+      }
+    },
+    "Osten": {
+      "article": "der",
+      "plural": null,
+      "en": "east",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 383,
+        "printed": "not given"
+      }
+    },
+    "Papier": {
+      "article": "das",
+      "plural": null,
+      "en": "paper",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1170,
+        "printed": "not given"
+      }
+    },
+    "Papiere": {
+      "article": "die",
+      "plural": "Papiere",
+      "en": "documents, papers",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1171,
+        "printed": "plural only"
+      }
+    },
+    "Partnerin": {
+      "article": "die",
+      "plural": "Partnerinnen",
+      "en": "partner (female)",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1173,
+        "printed": "+nen"
+      }
+    },
+    "Party": {
+      "article": "die",
+      "plural": null,
+      "en": "party",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1174,
+        "printed": "not given"
+      }
+    },
+    "Pass": {
+      "article": "der",
+      "plural": "Pässe",
+      "en": "passport",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1175,
+        "printed": "umlaut +e"
+      }
+    },
+    "Pause": {
+      "article": "die",
+      "plural": "Pausen",
+      "en": "break",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1176,
+        "printed": "+n"
+      }
+    },
+    "Plan": {
+      "article": "der",
+      "plural": "Pläne",
+      "en": "plan",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1177,
+        "printed": "umlaut +e"
+      }
+    },
+    "Platz": {
+      "article": "der",
+      "plural": "Plätze",
+      "en": "square; seat; space",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1178,
+        "printed": "umlaut +e"
+      }
+    },
+    "Polizei": {
+      "article": "die",
+      "plural": null,
+      "en": "police",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1181,
+        "printed": "not given"
+      }
+    },
+    "Pommes": {
+      "article": "die",
+      "plural": null,
+      "en": "chips, fries",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1182,
+        "printed": "not given"
+      }
+    },
+    "Post": {
+      "article": "die",
+      "plural": null,
+      "en": "post office; mail",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1183,
+        "printed": "not given"
+      }
+    },
+    "Postleitzahl": {
+      "article": "die",
+      "plural": null,
+      "en": "postcode",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1185,
+        "printed": "not given"
+      }
+    },
+    "Praktikum": {
+      "article": "das",
+      "plural": null,
+      "en": "internship",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1186,
+        "printed": "not given"
+      }
+    },
+    "Praxis": {
+      "article": "die",
+      "plural": null,
+      "en": "doctor's surgery",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1187,
+        "printed": "not given"
+      }
+    },
+    "Preis": {
+      "article": "der",
+      "plural": "Preise",
+      "en": "price",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1188,
+        "printed": "+e"
+      }
+    },
+    "Problem": {
+      "article": "das",
+      "plural": "Probleme",
+      "en": "problem",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1189,
+        "printed": "+e"
+      }
+    },
+    "Prospekt": {
+      "article": "der",
+      "plural": "Prospekte",
+      "en": "brochure",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1190,
+        "printed": "+e"
+      }
+    },
+    "Prüfung": {
+      "article": "die",
+      "plural": null,
+      "en": "exam",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1191,
+        "printed": "not given"
+      }
+    },
+    "Raum": {
+      "article": "der",
+      "plural": "Räume",
+      "en": "room",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1207,
+        "printed": "umlaut +e"
+      }
+    },
+    "Rechnung": {
+      "article": "die",
+      "plural": "Rechnungen",
+      "en": "bill",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1208,
+        "printed": "+en"
+      }
+    },
+    "Regen": {
+      "article": "der",
+      "plural": null,
+      "en": "rain",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1211,
+        "printed": "not given"
+      }
+    },
+    "Reis": {
+      "article": "der",
+      "plural": null,
+      "en": "rice",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1212,
+        "printed": "not given"
+      }
+    },
+    "Reise": {
+      "article": "die",
+      "plural": null,
+      "en": "journey, trip",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1214,
+        "printed": "not given"
+      }
+    },
+    "Reisebüro": {
+      "article": "das",
+      "plural": "Reisebüros",
+      "en": "travel agency",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1215,
+        "printed": "+s"
+      }
+    },
+    "Reiseführer": {
+      "article": "der",
+      "plural": null,
+      "en": "guidebook",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1216,
+        "printed": "not given"
+      }
+    },
+    "Reparatur": {
+      "article": "die",
+      "plural": null,
+      "en": "repair",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1219,
+        "printed": "not given"
+      }
+    },
+    "Restaurant": {
+      "article": "das",
+      "plural": "Restaurants",
+      "en": "restaurant",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1220,
+        "printed": "+s"
+      }
+    },
+    "Rezeption": {
+      "article": "die",
+      "plural": null,
+      "en": "reception",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1221,
+        "printed": "not given"
+      }
+    },
+    "Saft": {
+      "article": "der",
+      "plural": null,
+      "en": "juice",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1230,
+        "printed": "not given"
+      }
+    },
+    "Salat": {
+      "article": "der",
+      "plural": null,
+      "en": "salad",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1232,
+        "printed": "not given"
+      }
+    },
+    "Salz": {
+      "article": "das",
+      "plural": null,
+      "en": "salt",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1233,
+        "printed": "not given"
+      }
+    },
+    "Schalter": {
+      "article": "der",
+      "plural": null,
+      "en": "counter, desk",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1236,
+        "printed": "not given"
+      }
+    },
+    "Schild": {
+      "article": "das",
+      "plural": "Schilder",
+      "en": "sign",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1239,
+        "printed": "+er"
+      }
+    },
+    "Schinken": {
+      "article": "der",
+      "plural": "Schinken",
+      "en": "ham",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1240,
+        "printed": "no change"
+      }
+    },
+    "Schluss": {
+      "article": "der",
+      "plural": null,
+      "en": "end",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1247,
+        "printed": "not given"
+      }
+    },
+    "Schlüssel": {
+      "article": "der",
+      "plural": "Schlüssel",
+      "en": "key",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1249,
+        "printed": "no change"
+      }
+    },
+    "Schrank": {
+      "article": "der",
+      "plural": "Schränke",
+      "en": "cupboard",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1255,
+        "printed": "umlaut +e"
+      }
+    },
+    "Schuh": {
+      "article": "der",
+      "plural": "Schuhe",
+      "en": "shoe",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1267,
+        "printed": "+e"
+      }
+    },
+    "Schule": {
+      "article": "die",
+      "plural": null,
+      "en": "school",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1268,
+        "printed": "not given"
+      }
+    },
+    "Schwester": {
+      "article": "die",
+      "plural": "Schwestern",
+      "en": "sister",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1274,
+        "printed": "+n"
+      }
+    },
+    "Schwimmbad": {
+      "article": "das",
+      "plural": null,
+      "en": "swimming pool",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1276,
+        "printed": "not given"
+      }
+    },
+    "Schüler": {
+      "article": "der",
+      "plural": "Schüler",
+      "en": "pupil",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1270,
+        "printed": "no change"
+      }
+    },
+    "See": {
+      "article": "der",
+      "plural": null,
+      "en": "lake",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1277,
+        "printed": "not given"
+      }
+    },
+    "Sehenswürdigkeit": {
+      "article": "die",
+      "plural": "Sehenswürdigkeiten",
+      "en": "sight, attraction",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1280,
+        "printed": "+en"
+      }
+    },
+    "Sekunde": {
+      "article": "die",
+      "plural": "Sekunden",
+      "en": "second",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 282,
+        "printed": "+n"
+      }
+    },
+    "September": {
+      "article": "der",
+      "plural": null,
+      "en": "September",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 314,
+        "printed": "not given"
+      }
+    },
+    "Sofa": {
+      "article": "das",
+      "plural": null,
+      "en": "sofa",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1301,
+        "printed": "not given"
+      }
+    },
+    "Sohn": {
+      "article": "der",
+      "plural": "Söhne",
+      "en": "son",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1303,
+        "printed": "umlaut +e"
+      }
+    },
+    "Sommer": {
+      "article": "der",
+      "plural": null,
+      "en": "summer",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 332,
+        "printed": "not given"
+      }
+    },
+    "Sonne": {
+      "article": "die",
+      "plural": null,
+      "en": "sun",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1306,
+        "printed": "not given"
+      }
+    },
+    "Sonntag": {
+      "article": "der",
+      "plural": null,
+      "en": "Sunday",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 291,
+        "printed": "not given"
+      }
+    },
+    "Speisekarte": {
+      "article": "die",
+      "plural": null,
+      "en": "menu",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1309,
+        "printed": "not given"
+      }
+    },
+    "Sport": {
+      "article": "der",
+      "plural": null,
+      "en": "sport",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1312,
+        "printed": "not given"
+      }
+    },
+    "Sprache": {
+      "article": "die",
+      "plural": "Sprachen",
+      "en": "language",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1313,
+        "printed": "+n"
+      }
+    },
+    "Stadt": {
+      "article": "die",
+      "plural": "Städte",
+      "en": "city, town",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1315,
+        "printed": "umlaut +e"
+      }
+    },
+    "Stelle": {
+      "article": "die",
+      "plural": "Stellen",
+      "en": "job, position; place",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1321,
+        "printed": "+n"
+      }
+    },
+    "Stock": {
+      "article": "der",
+      "plural": null,
+      "en": "floor, storey",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1330,
+        "printed": "not given"
+      }
+    },
+    "Straße": {
+      "article": "die",
+      "plural": "Straßen",
+      "en": "street",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1331,
+        "printed": "+n"
+      }
+    },
+    "Straßenbahn": {
+      "article": "die",
+      "plural": null,
+      "en": "tram",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1332,
+        "printed": "not given"
+      }
+    },
+    "Student": {
+      "article": "der",
+      "plural": "Studenten",
+      "en": "student",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1335,
+        "printed": "+en"
+      }
+    },
+    "Studium": {
+      "article": "das",
+      "plural": null,
+      "en": "degree, studies",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1334,
+        "printed": "not given"
+      }
+    },
+    "Stunde": {
+      "article": "die",
+      "plural": "Stunden",
+      "en": "hour",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 284,
+        "printed": "+n"
+      }
+    },
+    "Süden": {
+      "article": "der",
+      "plural": null,
+      "en": "south",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 383,
+        "printed": "not given"
+      }
+    },
+    "Tag": {
+      "article": "der",
+      "plural": "Tage",
+      "en": "day",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 282,
+        "printed": "+e"
+      }
+    },
+    "Tasche": {
+      "article": "die",
+      "plural": "Taschen",
+      "en": "bag; pocket",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1343,
+        "printed": "+n"
+      }
+    },
+    "Taxi": {
+      "article": "das",
+      "plural": "Taxis",
+      "en": "taxi",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1344,
+        "printed": "+s"
+      }
+    },
+    "Tee": {
+      "article": "der",
+      "plural": null,
+      "en": "tea",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1345,
+        "printed": "not given"
+      }
+    },
+    "Teil": {
+      "article": "der",
+      "plural": "Teile",
+      "en": "part",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1346,
+        "printed": "+e"
+      }
+    },
+    "Telefon": {
+      "article": "das",
+      "plural": null,
+      "en": "telephone",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1348,
+        "printed": "not given"
+      }
+    },
+    "Termin": {
+      "article": "der",
+      "plural": "Termine",
+      "en": "appointment",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1349,
+        "printed": "+e"
+      }
+    },
+    "Test": {
+      "article": "der",
+      "plural": null,
+      "en": "test",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1350,
+        "printed": "not given"
+      }
+    },
+    "Text": {
+      "article": "der",
+      "plural": "Texte",
+      "en": "text",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1352,
+        "printed": "+e"
+      }
+    },
+    "Thema": {
+      "article": "das",
+      "plural": null,
+      "en": "topic",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1353,
+        "printed": "not given"
+      }
+    },
+    "Ticket": {
+      "article": "das",
+      "plural": "Tickets",
+      "en": "ticket",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1355,
+        "printed": "+s"
+      }
+    },
+    "Tisch": {
+      "article": "der",
+      "plural": "Tische",
+      "en": "table",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1356,
+        "printed": "+e"
+      }
+    },
+    "Tochter": {
+      "article": "die",
+      "plural": "Töchter",
+      "en": "daughter",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1357,
+        "printed": "umlaut, no ending"
+      }
+    },
+    "Toilette": {
+      "article": "die",
+      "plural": "Toiletten",
+      "en": "toilet",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1358,
+        "printed": "+en"
+      }
+    },
+    "Tomate": {
+      "article": "die",
+      "plural": "Tomaten",
+      "en": "tomato",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1359,
+        "printed": "+n"
+      }
+    },
+    "Treppe": {
+      "article": "die",
+      "plural": "Treppen",
+      "en": "stairs",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1363,
+        "printed": "+n"
+      }
+    },
+    "Uhr": {
+      "article": "die",
+      "plural": null,
+      "en": "clock; o'clock",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1378,
+        "printed": "not given"
+      }
+    },
+    "Unterricht": {
+      "article": "der",
+      "plural": null,
+      "en": "lessons, teaching",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1396,
+        "printed": "not given"
+      }
+    },
+    "Unterschrift": {
+      "article": "die",
+      "plural": null,
+      "en": "signature",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1398,
+        "printed": "not given"
+      }
+    },
+    "Urlaub": {
+      "article": "der",
+      "plural": null,
+      "en": "holiday",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1399,
+        "printed": "not given"
+      }
+    },
+    "Vater": {
+      "article": "der",
+      "plural": "Väter",
+      "en": "father",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1404,
+        "printed": "umlaut, no ending"
+      }
+    },
+    "Verein": {
+      "article": "der",
+      "plural": null,
+      "en": "club, association",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1407,
+        "printed": "not given"
+      }
+    },
+    "Verkäufer": {
+      "article": "der",
+      "plural": "Verkäufer",
+      "en": "shop assistant",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1410,
+        "printed": "no change"
+      }
+    },
+    "Vermieter": {
+      "article": "der",
+      "plural": null,
+      "en": "landlord",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1412,
+        "printed": "not given"
+      }
+    },
+    "Verwandte": {
+      "article": "der",
+      "plural": "Verwandten",
+      "en": "relative",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1414,
+        "printed": "+n"
+      }
+    },
+    "Vormittag": {
+      "article": "der",
+      "plural": "Vormittage",
+      "en": "late morning",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 305,
+        "printed": "+e"
+      }
+    },
+    "Vorname": {
+      "article": "der",
+      "plural": "Vornamen",
+      "en": "first name",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1421,
+        "printed": "+n"
+      }
+    },
+    "Vorsicht": {
+      "article": "die",
+      "plural": null,
+      "en": "caution",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1422,
+        "printed": "not given"
+      }
+    },
+    "Vorwahl": {
+      "article": "die",
+      "plural": null,
+      "en": "dialling code",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1425,
+        "printed": "not given"
+      }
+    },
+    "Wasser": {
+      "article": "das",
+      "plural": null,
+      "en": "water",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1442,
+        "printed": "not given"
+      }
+    },
+    "Wein": {
+      "article": "der",
+      "plural": null,
+      "en": "wine",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1445,
+        "printed": "not given"
+      }
+    },
+    "Welt": {
+      "article": "die",
+      "plural": null,
+      "en": "world",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1459,
+        "printed": "not given"
+      }
+    },
+    "Westen": {
+      "article": "der",
+      "plural": null,
+      "en": "west",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 383,
+        "printed": "not given"
+      }
+    },
+    "Wetter": {
+      "article": "das",
+      "plural": null,
+      "en": "weather",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1464,
+        "printed": "not given"
+      }
+    },
+    "Wiederhören": {
+      "article": "das",
+      "plural": null,
+      "en": "goodbye (on the phone)",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1474,
+        "printed": "not given"
+      }
+    },
+    "Wiedersehen": {
+      "article": "das",
+      "plural": null,
+      "en": "goodbye (in person)",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1476,
+        "printed": "not given"
+      }
+    },
+    "Wind": {
+      "article": "der",
+      "plural": null,
+      "en": "wind",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1479,
+        "printed": "not given"
+      }
+    },
+    "Winter": {
+      "article": "der",
+      "plural": null,
+      "en": "winter",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 332,
+        "printed": "not given"
+      }
+    },
+    "Woche": {
+      "article": "die",
+      "plural": "Wochen",
+      "en": "week",
+      "checked": true,
+      "src": {
+        "list": "word groups",
+        "line": 283,
+        "printed": "+n"
+      }
+    },
+    "Wochenende": {
+      "article": "das",
+      "plural": null,
+      "en": "weekend",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 290,
+        "printed": "not given"
+      }
+    },
+    "Wochentag": {
+      "article": "der",
+      "plural": "Wochentage",
+      "en": "weekday",
+      "checked": false,
+      "src": {
+        "list": "word groups",
+        "line": 290,
+        "printed": "+e"
+      }
+    },
+    "Wohnung": {
+      "article": "die",
+      "plural": "Wohnungen",
+      "en": "flat, apartment",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1489,
+        "printed": "+en"
+      }
+    },
+    "Wort": {
+      "article": "das",
+      "plural": "Wörter",
+      "en": "word",
+      "checked": true,
+      "src": {
+        "list": "alphabetical",
+        "line": 1491,
+        "printed": "umlaut +er"
+      }
+    },
+    "Zeit": {
+      "article": "die",
+      "plural": null,
+      "en": "time",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1498,
+        "printed": "not given"
+      }
+    },
+    "Zeitung": {
+      "article": "die",
+      "plural": "Zeitungen",
+      "en": "newspaper",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1500,
+        "printed": "+en"
+      }
+    },
+    "Zigarette": {
+      "article": "die",
+      "plural": "Zigaretten",
+      "en": "cigarette",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1501,
+        "printed": "+n"
+      }
+    },
+    "Zimmer": {
+      "article": "das",
+      "plural": "Zimmer",
+      "en": "room",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1502,
+        "printed": "no change"
+      }
+    },
+    "Zoll": {
+      "article": "der",
+      "plural": null,
+      "en": "customs",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1506,
+        "printed": "not given"
+      }
+    },
+    "Zug": {
+      "article": "der",
+      "plural": "Züge",
+      "en": "train",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1521,
+        "printed": "umlaut +e"
+      }
+    },
+    "Öl": {
+      "article": "das",
+      "plural": null,
+      "en": "oil",
+      "checked": false,
+      "src": {
+        "list": "alphabetical",
+        "line": 1161,
+        "printed": "not given"
+      }
+    }
+  }
+}

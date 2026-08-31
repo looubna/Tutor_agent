@@ -11,13 +11,14 @@ export async function signup(_state: SignupFormState, formData: FormData): Promi
     name: formData.get("name"),
     email: formData.get("email"),
     password: formData.get("password"),
+    supportLanguage: formData.get("supportLanguage"),
   });
 
   if (!validatedFields.success) {
     return { errors: validatedFields.error.flatten().fieldErrors };
   }
 
-  const { name, email, password } = validatedFields.data;
+  const { name, email, password, supportLanguage } = validatedFields.data;
 
   const existing = await prisma.user.findUnique({ where: { email } });
   if (existing) {
@@ -26,7 +27,7 @@ export async function signup(_state: SignupFormState, formData: FormData): Promi
 
   const passwordHash = await bcrypt.hash(password, 10);
   const user = await prisma.user.create({
-    data: { name, email, passwordHash },
+    data: { name, email, passwordHash, supportLanguage },
     select: { id: true },
   });
 

@@ -22,8 +22,9 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Learnora — Learn Math with an AI Tutor",
-  description: "Book a live video lesson with your AI Math tutor, anytime.",
+  title: "Zanoba — Live lessons in languages and sciences",
+  description:
+    "Book a live 50-minute video lesson with your AI tutor in eight languages and six sciences, at any hour.",
 };
 
 // Runs before paint to avoid a light-mode flash when the user has chosen

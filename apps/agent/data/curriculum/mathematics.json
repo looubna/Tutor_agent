@@ -1,0 +1,5882 @@
+{
+ "curriculum_id": "stem.mathematics.us",
+ "subject": "mathematics",
+ "education_system": "US+FR",
+ "language": "en",
+ "academic_year": "2026",
+ "programs": [
+  {
+   "id": "2nd-grade",
+   "label": "2nd grade",
+   "kind": "grade",
+   "order": 1,
+   "age_range": "7-8",
+   "units": [
+    {
+     "id": "2nd-grade.add-and-subtract-within-20",
+     "title": "Add and subtract within 20",
+     "order": 1,
+     "lessons": []
+    },
+    {
+     "id": "2nd-grade.place-value",
+     "title": "Place value",
+     "order": 2,
+     "lessons": []
+    },
+    {
+     "id": "2nd-grade.add-and-subtract-within-100",
+     "title": "Add and subtract within 100",
+     "order": 3,
+     "lessons": []
+    },
+    {
+     "id": "2nd-grade.add-and-subtract-within-1-000",
+     "title": "Add and subtract within 1,000",
+     "order": 4,
+     "lessons": []
+    },
+    {
+     "id": "2nd-grade.money-and-time",
+     "title": "Money and time",
+     "order": 5,
+     "lessons": []
+    },
+    {
+     "id": "2nd-grade.measurement",
+     "title": "Measurement",
+     "order": 6,
+     "lessons": []
+    },
+    {
+     "id": "2nd-grade.data",
+     "title": "Data",
+     "order": 7,
+     "lessons": []
+    },
+    {
+     "id": "2nd-grade.geometry",
+     "title": "Geometry",
+     "order": 8,
+     "lessons": []
+    }
+   ],
+   "programme": "US Pre-K–8 / High school & College",
+   "group": "Pre-K–8"
+  },
+  {
+   "id": "3rd-grade",
+   "label": "3rd grade",
+   "kind": "grade",
+   "order": 2,
+   "age_range": "8-9",
+   "units": [
+    {
+     "id": "3rd-grade.intro-to-multiplication",
+     "title": "Intro to multiplication",
+     "order": 1,
+     "lessons": []
+    },
+    {
+     "id": "3rd-grade.1-digit-multiplication",
+     "title": "1-digit multiplication",
+     "order": 2,
+     "lessons": []
+    },
+    {
+     "id": "3rd-grade.addition-subtraction-and-estimation",
+     "title": "Addition, subtraction and estimation",
+     "order": 3,
+     "lessons": []
+    },
+    {
+     "id": "3rd-grade.intro-to-division",
+     "title": "Intro to division",
+     "order": 4,
+     "lessons": []
+    },
+    {
+     "id": "3rd-grade.understand-fractions",
+     "title": "Understand fractions",
+     "order": 5,
+     "lessons": []
+    },
+    {
+     "id": "3rd-grade.equivalent-fractions-and-comparing-fractions",
+     "title": "Equivalent fractions and comparing fractions",
+     "order": 6,
+     "lessons": []
+    },
+    {
+     "id": "3rd-grade.more-with-multiplication-and-division",
+     "title": "More with multiplication and division",
+     "order": 7,
+     "lessons": []
+    },
+    {
+     "id": "3rd-grade.arithmetic-patterns-and-problem-solving",
+     "title": "Arithmetic patterns and problem solving",
+     "order": 8,
+     "lessons": []
+    },
+    {
+     "id": "3rd-grade.quadrilaterals",
+     "title": "Quadrilaterals",
+     "order": 9,
+     "lessons": []
+    },
+    {
+     "id": "3rd-grade.area",
+     "title": "Area",
+     "order": 10,
+     "lessons": []
+    },
+    {
+     "id": "3rd-grade.perimeter",
+     "title": "Perimeter",
+     "order": 11,
+     "lessons": []
+    },
+    {
+     "id": "3rd-grade.time",
+     "title": "Time",
+     "order": 12,
+     "lessons": []
+    },
+    {
+     "id": "3rd-grade.measurement",
+     "title": "Measurement",
+     "order": 13,
+     "lessons": []
+    },
+    {
+     "id": "3rd-grade.represent-and-interpret-data",
+     "title": "Represent and interpret data",
+     "order": 14,
+     "lessons": []
+    }
+   ],
+   "programme": "US Pre-K–8 / High school & College",
+   "group": "Pre-K–8"
+  },
+  {
+   "id": "4th-grade",
+   "label": "4th grade",
+   "kind": "grade",
+   "order": 3,
+   "age_range": "9-10",
+   "units": [
+    {
+     "id": "4th-grade.place-value",
+     "title": "Place value",
+     "order": 1,
+     "lessons": []
+    },
+    {
+     "id": "4th-grade.addition-subtraction-and-estimation",
+     "title": "Addition, subtraction, and estimation",
+     "order": 2,
+     "lessons": []
+    },
+    {
+     "id": "4th-grade.multiply-by-1-digit-numbers",
+     "title": "Multiply by 1-digit numbers",
+     "order": 3,
+     "lessons": []
+    },
+    {
+     "id": "4th-grade.multiply-by-2-digit-numbers",
+     "title": "Multiply by 2-digit numbers",
+     "order": 4,
+     "lessons": []
+    },
+    {
+     "id": "4th-grade.division",
+     "title": "Division",
+     "order": 5,
+     "lessons": []
+    },
+    {
+     "id": "4th-grade.factors-multiples-and-patterns",
+     "title": "Factors, multiples and patterns",
+     "order": 6,
+     "lessons": []
+    },
+    {
+     "id": "4th-grade.equivalent-fractions-and-comparing-fractions",
+     "title": "Equivalent fractions and comparing fractions",
+     "order": 7,
+     "lessons": []
+    },
+    {
+     "id": "4th-grade.add-and-subtract-fractions",
+     "title": "Add and subtract fractions",
+     "order": 8,
+     "lessons": []
+    },
+    {
+     "id": "4th-grade.multiply-fractions",
+     "title": "Multiply fractions",
+     "order": 9,
+     "lessons": []
+    },
+    {
+     "id": "4th-grade.understand-decimals",
+     "title": "Understand decimals",
+     "order": 10,
+     "lessons": []
+    },
+    {
+     "id": "4th-grade.plane-figures",
+     "title": "Plane figures",
+     "order": 11,
+     "lessons": []
+    },
+    {
+     "id": "4th-grade.measuring-angles",
+     "title": "Measuring angles",
+     "order": 12,
+     "lessons": []
+    },
+    {
+     "id": "4th-grade.area-and-perimeter",
+     "title": "Area and perimeter",
+     "order": 13,
+     "lessons": []
+    },
+    {
+     "id": "4th-grade.units-of-measurement",
+     "title": "Units of measurement",
+     "order": 14,
+     "lessons": []
+    }
+   ],
+   "programme": "US Pre-K–8 / High school & College",
+   "group": "Pre-K–8"
+  },
+  {
+   "id": "5th-grade",
+   "label": "5th grade",
+   "kind": "grade",
+   "order": 4,
+   "age_range": "10-11",
+   "units": [
+    {
+     "id": "5th-grade.decimal-place-value",
+     "title": "Decimal place value",
+     "order": 1,
+     "lessons": []
+    },
+    {
+     "id": "5th-grade.add-decimals",
+     "title": "Add decimals",
+     "order": 2,
+     "lessons": []
+    },
+    {
+     "id": "5th-grade.subtract-decimals",
+     "title": "Subtract decimals",
+     "order": 3,
+     "lessons": []
+    },
+    {
+     "id": "5th-grade.add-and-subtract-fractions",
+     "title": "Add and subtract fractions",
+     "order": 4,
+     "lessons": []
+    },
+    {
+     "id": "5th-grade.multi-digit-multiplication-and-division",
+     "title": "Multi-digit multiplication and division",
+     "order": 5,
+     "lessons": []
+    },
+    {
+     "id": "5th-grade.multiply-fractions",
+     "title": "Multiply fractions",
+     "order": 6,
+     "lessons": []
+    },
+    {
+     "id": "5th-grade.divide-fractions",
+     "title": "Divide fractions",
+     "order": 7,
+     "lessons": []
+    },
+    {
+     "id": "5th-grade.multiply-decimals",
+     "title": "Multiply decimals",
+     "order": 8,
+     "lessons": []
+    },
+    {
+     "id": "5th-grade.divide-decimals",
+     "title": "Divide decimals",
+     "order": 9,
+     "lessons": []
+    },
+    {
+     "id": "5th-grade.powers-of-ten",
+     "title": "Powers of ten",
+     "order": 10,
+     "lessons": []
+    },
+    {
+     "id": "5th-grade.volume",
+     "title": "Volume",
+     "order": 11,
+     "lessons": []
+    },
+    {
+     "id": "5th-grade.coordinate-plane",
+     "title": "Coordinate plane",
+     "order": 12,
+     "lessons": []
+    },
+    {
+     "id": "5th-grade.algebraic-thinking",
+     "title": "Algebraic thinking",
+     "order": 13,
+     "lessons": []
+    },
+    {
+     "id": "5th-grade.converting-units-of-measure",
+     "title": "Converting units of measure",
+     "order": 14,
+     "lessons": []
+    },
+    {
+     "id": "5th-grade.line-plots",
+     "title": "Line plots",
+     "order": 15,
+     "lessons": []
+    },
+    {
+     "id": "5th-grade.properties-of-shapes",
+     "title": "Properties of shapes",
+     "order": 16,
+     "lessons": []
+    }
+   ],
+   "programme": "US Pre-K–8 / High school & College",
+   "group": "Pre-K–8"
+  },
+  {
+   "id": "6th-grade",
+   "label": "6th grade",
+   "kind": "grade",
+   "order": 5,
+   "age_range": "11-12",
+   "units": [
+    {
+     "id": "6th-grade.ratios",
+     "title": "Ratios",
+     "order": 1,
+     "lessons": []
+    },
+    {
+     "id": "6th-grade.arithmetic-with-rational-numbers",
+     "title": "Arithmetic with rational numbers",
+     "order": 2,
+     "lessons": []
+    },
+    {
+     "id": "6th-grade.rates-and-percentages",
+     "title": "Rates and percentages",
+     "order": 3,
+     "lessons": []
+    },
+    {
+     "id": "6th-grade.exponents-and-order-of-operations",
+     "title": "Exponents and order of operations",
+     "order": 4,
+     "lessons": []
+    },
+    {
+     "id": "6th-grade.negative-numbers",
+     "title": "Negative numbers",
+     "order": 5,
+     "lessons": []
+    },
+    {
+     "id": "6th-grade.variables-and-expressions",
+     "title": "Variables & expressions",
+     "order": 6,
+     "lessons": []
+    },
+    {
+     "id": "6th-grade.equations-and-inequalities",
+     "title": "Equations & inequalities",
+     "order": 7,
+     "lessons": []
+    },
+    {
+     "id": "6th-grade.plane-figures",
+     "title": "Plane figures",
+     "order": 8,
+     "lessons": []
+    },
+    {
+     "id": "6th-grade.coordinate-plane",
+     "title": "Coordinate plane",
+     "order": 9,
+     "lessons": []
+    },
+    {
+     "id": "6th-grade.3d-figures",
+     "title": "3D figures",
+     "order": 10,
+     "lessons": []
+    },
+    {
+     "id": "6th-grade.data-and-statistics",
+     "title": "Data and statistics",
+     "order": 11,
+     "lessons": []
+    }
+   ],
+   "programme": "US Pre-K–8 / High school & College",
+   "group": "Pre-K–8"
+  },
+  {
+   "id": "7th-grade",
+   "label": "7th grade",
+   "kind": "grade",
+   "order": 6,
+   "age_range": "12-13",
+   "units": [
+    {
+     "id": "7th-grade.proportional-relationships",
+     "title": "Proportional relationships",
+     "order": 1,
+     "lessons": []
+    },
+    {
+     "id": "7th-grade.rates-and-percentages",
+     "title": "Rates and percentages",
+     "order": 2,
+     "lessons": []
+    },
+    {
+     "id": "7th-grade.integers-addition-and-subtraction",
+     "title": "Integers: addition and subtraction",
+     "order": 3,
+     "lessons": []
+    },
+    {
+     "id": "7th-grade.rational-numbers-addition-and-subtraction",
+     "title": "Rational numbers: addition and subtraction",
+     "order": 4,
+     "lessons": []
+    },
+    {
+     "id": "7th-grade.negative-numbers-multiplication-and-division",
+     "title": "Negative numbers: multiplication and division",
+     "order": 5,
+     "lessons": []
+    },
+    {
+     "id": "7th-grade.expressions-equations-and-inequalities",
+     "title": "Expressions, equations, & inequalities",
+     "order": 6,
+     "lessons": []
+    },
+    {
+     "id": "7th-grade.statistics-and-probability",
+     "title": "Statistics and probability",
+     "order": 7,
+     "lessons": []
+    },
+    {
+     "id": "7th-grade.scale-copies",
+     "title": "Scale copies",
+     "order": 8,
+     "lessons": []
+    },
+    {
+     "id": "7th-grade.geometry",
+     "title": "Geometry",
+     "order": 9,
+     "lessons": []
+    }
+   ],
+   "programme": "US Pre-K–8 / High school & College",
+   "group": "Pre-K–8"
+  },
+  {
+   "id": "8th-grade",
+   "label": "8th grade",
+   "kind": "grade",
+   "order": 7,
+   "age_range": "13-14",
+   "units": [
+    {
+     "id": "8th-grade.numbers-and-operations",
+     "title": "Numbers and operations",
+     "order": 1,
+     "lessons": []
+    },
+    {
+     "id": "8th-grade.solving-equations-with-one-unknown",
+     "title": "Solving equations with one unknown",
+     "order": 2,
+     "lessons": []
+    },
+    {
+     "id": "8th-grade.linear-equations-and-functions",
+     "title": "Linear equations and functions",
+     "order": 3,
+     "lessons": []
+    },
+    {
+     "id": "8th-grade.systems-of-equations",
+     "title": "Systems of equations",
+     "order": 4,
+     "lessons": []
+    },
+    {
+     "id": "8th-grade.geometry",
+     "title": "Geometry",
+     "order": 5,
+     "lessons": []
+    },
+    {
+     "id": "8th-grade.geometric-transformations",
+     "title": "Geometric transformations",
+     "order": 6,
+     "lessons": []
+    },
+    {
+     "id": "8th-grade.data-and-modeling",
+     "title": "Data and modeling",
+     "order": 7,
+     "lessons": []
+    }
+   ],
+   "programme": "US Pre-K–8 / High school & College",
+   "group": "Pre-K–8"
+  },
+  {
+   "id": "algebra-1",
+   "label": "Algebra 1",
+   "kind": "course",
+   "order": 8,
+   "age_range": "",
+   "units": [
+    {
+     "id": "algebra-1.algebra-foundations",
+     "title": "Algebra foundations",
+     "order": 1,
+     "lessons": []
+    },
+    {
+     "id": "algebra-1.solving-equations-and-inequalities",
+     "title": "Solving equations & inequalities",
+     "order": 2,
+     "lessons": []
+    },
+    {
+     "id": "algebra-1.working-with-units",
+     "title": "Working with units",
+     "order": 3,
+     "lessons": []
+    },
+    {
+     "id": "algebra-1.linear-equations-and-graphs",
+     "title": "Linear equations & graphs",
+     "order": 4,
+     "lessons": []
+    },
+    {
+     "id": "algebra-1.forms-of-linear-equations",
+     "title": "Forms of linear equations",
+     "order": 5,
+     "lessons": []
+    },
+    {
+     "id": "algebra-1.systems-of-equations",
+     "title": "Systems of equations",
+     "order": 6,
+     "lessons": []
+    },
+    {
+     "id": "algebra-1.inequalities-systems-and-graphs",
+     "title": "Inequalities (systems & graphs)",
+     "order": 7,
+     "lessons": []
+    },
+    {
+     "id": "algebra-1.functions",
+     "title": "Functions",
+     "order": 8,
+     "lessons": []
+    },
+    {
+     "id": "algebra-1.sequences",
+     "title": "Sequences",
+     "order": 9,
+     "lessons": []
+    },
+    {
+     "id": "algebra-1.absolute-value-and-piecewise-functions",
+     "title": "Absolute value & piecewise functions",
+     "order": 10,
+     "lessons": []
+    },
+    {
+     "id": "algebra-1.exponents-and-radicals",
+     "title": "Exponents & radicals",
+     "order": 11,
+     "lessons": []
+    },
+    {
+     "id": "algebra-1.exponential-growth-and-decay",
+     "title": "Exponential growth & decay",
+     "order": 12,
+     "lessons": []
+    },
+    {
+     "id": "algebra-1.quadratic-functions-and-equations",
+     "title": "Quadratic functions & equations",
+     "order": 13,
+     "lessons": []
+    },
+    {
+     "id": "algebra-1.irrational-numbers",
+     "title": "Irrational numbers",
+     "order": 14,
+     "lessons": []
+    },
+    {
+     "id": "algebra-1.creativity-in-algebra",
+     "title": "Creativity in algebra",
+     "order": 15,
+     "lessons": []
+    }
+   ],
+   "programme": "US Pre-K–8 / High school & College",
+   "group": "High school & College"
+  },
+  {
+   "id": "geometry",
+   "label": "Geometry",
+   "kind": "course",
+   "order": 9,
+   "age_range": "",
+   "units": [
+    {
+     "id": "geometry.performing-transformations",
+     "title": "Performing transformations",
+     "order": 1,
+     "lessons": []
+    },
+    {
+     "id": "geometry.transformation-properties-and-proofs",
+     "title": "Transformation properties and proofs",
+     "order": 2,
+     "lessons": []
+    },
+    {
+     "id": "geometry.congruence",
+     "title": "Congruence",
+     "order": 3,
+     "lessons": []
+    },
+    {
+     "id": "geometry.similarity",
+     "title": "Similarity",
+     "order": 4,
+     "lessons": []
+    },
+    {
+     "id": "geometry.right-triangles-and-trigonometry",
+     "title": "Right triangles & trigonometry",
+     "order": 5,
+     "lessons": []
+    },
+    {
+     "id": "geometry.analytic-geometry",
+     "title": "Analytic geometry",
+     "order": 6,
+     "lessons": []
+    },
+    {
+     "id": "geometry.conic-sections",
+     "title": "Conic sections",
+     "order": 7,
+     "lessons": []
+    },
+    {
+     "id": "geometry.circles",
+     "title": "Circles",
+     "order": 8,
+     "lessons": []
+    },
+    {
+     "id": "geometry.solid-geometry",
+     "title": "Solid geometry",
+     "order": 9,
+     "lessons": []
+    }
+   ],
+   "programme": "US Pre-K–8 / High school & College",
+   "group": "High school & College"
+  },
+  {
+   "id": "algebra-2",
+   "label": "Algebra 2",
+   "kind": "course",
+   "order": 10,
+   "age_range": "",
+   "units": [
+    {
+     "id": "algebra-2.polynomial-arithmetic",
+     "title": "Polynomial arithmetic",
+     "order": 1,
+     "lessons": []
+    },
+    {
+     "id": "algebra-2.complex-numbers",
+     "title": "Complex numbers",
+     "order": 2,
+     "lessons": []
+    },
+    {
+     "id": "algebra-2.polynomial-factorization",
+     "title": "Polynomial factorization",
+     "order": 3,
+     "lessons": []
+    },
+    {
+     "id": "algebra-2.polynomial-division",
+     "title": "Polynomial division",
+     "order": 4,
+     "lessons": []
+    },
+    {
+     "id": "algebra-2.polynomial-graphs",
+     "title": "Polynomial graphs",
+     "order": 5,
+     "lessons": []
+    },
+    {
+     "id": "algebra-2.rational-exponents-and-radicals",
+     "title": "Rational exponents and radicals",
+     "order": 6,
+     "lessons": []
+    },
+    {
+     "id": "algebra-2.exponential-models",
+     "title": "Exponential models",
+     "order": 7,
+     "lessons": []
+    },
+    {
+     "id": "algebra-2.logarithms",
+     "title": "Logarithms",
+     "order": 8,
+     "lessons": []
+    },
+    {
+     "id": "algebra-2.transformations-of-functions",
+     "title": "Transformations of functions",
+     "order": 9,
+     "lessons": []
+    },
+    {
+     "id": "algebra-2.equations",
+     "title": "Equations",
+     "order": 10,
+     "lessons": []
+    },
+    {
+     "id": "algebra-2.trigonometry",
+     "title": "Trigonometry",
+     "order": 11,
+     "lessons": []
+    },
+    {
+     "id": "algebra-2.modeling",
+     "title": "Modeling",
+     "order": 12,
+     "lessons": []
+    }
+   ],
+   "programme": "US Pre-K–8 / High school & College",
+   "group": "High school & College"
+  },
+  {
+   "id": "trigonometry",
+   "label": "Trigonometry",
+   "kind": "course",
+   "order": 11,
+   "age_range": "",
+   "units": [
+    {
+     "id": "trigonometry.right-triangles-and-trigonometry",
+     "title": "Right triangles & trigonometry",
+     "order": 1,
+     "lessons": []
+    },
+    {
+     "id": "trigonometry.trigonometric-functions",
+     "title": "Trigonometric functions",
+     "order": 2,
+     "lessons": []
+    },
+    {
+     "id": "trigonometry.non-right-triangles-and-trigonometry",
+     "title": "Non-right triangles & trigonometry",
+     "order": 3,
+     "lessons": []
+    },
+    {
+     "id": "trigonometry.trigonometric-equations-and-identities",
+     "title": "Trigonometric equations and identities",
+     "order": 4,
+     "lessons": []
+    }
+   ],
+   "programme": "US Pre-K–8 / High school & College",
+   "group": "High school & College"
+  },
+  {
+   "id": "precalculus",
+   "label": "Precalculus",
+   "kind": "course",
+   "order": 12,
+   "age_range": "",
+   "units": [
+    {
+     "id": "precalculus.composite-and-inverse-functions",
+     "title": "Composite and inverse functions",
+     "order": 1,
+     "lessons": []
+    },
+    {
+     "id": "precalculus.trigonometry",
+     "title": "Trigonometry",
+     "order": 2,
+     "lessons": []
+    },
+    {
+     "id": "precalculus.complex-numbers",
+     "title": "Complex numbers",
+     "order": 3,
+     "lessons": []
+    },
+    {
+     "id": "precalculus.rational-functions",
+     "title": "Rational functions",
+     "order": 4,
+     "lessons": []
+    },
+    {
+     "id": "precalculus.conic-sections",
+     "title": "Conic sections",
+     "order": 5,
+     "lessons": []
+    },
+    {
+     "id": "precalculus.vectors",
+     "title": "Vectors",
+     "order": 6,
+     "lessons": []
+    },
+    {
+     "id": "precalculus.matrices",
+     "title": "Matrices",
+     "order": 7,
+     "lessons": []
+    },
+    {
+     "id": "precalculus.probability-and-combinatorics",
+     "title": "Probability and combinatorics",
+     "order": 8,
+     "lessons": []
+    },
+    {
+     "id": "precalculus.series",
+     "title": "Series",
+     "order": 9,
+     "lessons": []
+    },
+    {
+     "id": "precalculus.limits-and-continuity",
+     "title": "Limits and continuity",
+     "order": 10,
+     "lessons": []
+    }
+   ],
+   "programme": "US Pre-K–8 / High school & College",
+   "group": "High school & College"
+  },
+  {
+   "id": "high-school-statistics",
+   "label": "High school statistics",
+   "kind": "course",
+   "order": 13,
+   "age_range": "",
+   "units": [
+    {
+     "id": "high-school-statistics.displaying-a-single-quantitative-variable",
+     "title": "Displaying a single quantitative variable",
+     "order": 1,
+     "lessons": []
+    },
+    {
+     "id": "high-school-statistics.analyzing-a-single-quantitative-variable",
+     "title": "Analyzing a single quantitative variable",
+     "order": 2,
+     "lessons": []
+    },
+    {
+     "id": "high-school-statistics.two-way-tables",
+     "title": "Two-way tables",
+     "order": 3,
+     "lessons": []
+    },
+    {
+     "id": "high-school-statistics.scatterplots",
+     "title": "Scatterplots",
+     "order": 4,
+     "lessons": []
+    },
+    {
+     "id": "high-school-statistics.study-design",
+     "title": "Study design",
+     "order": 5,
+     "lessons": []
+    },
+    {
+     "id": "high-school-statistics.probability",
+     "title": "Probability",
+     "order": 6,
+     "lessons": []
+    },
+    {
+     "id": "high-school-statistics.probability-distributions-and-expected-value",
+     "title": "Probability distributions & expected value",
+     "order": 7,
+     "lessons": []
+    }
+   ],
+   "programme": "US Pre-K–8 / High school & College",
+   "group": "High school & College"
+  },
+  {
+   "id": "ap-college-statistics",
+   "label": "AP College statistics",
+   "kind": "course",
+   "order": 14,
+   "age_range": "",
+   "units": [
+    {
+     "id": "ap-college-statistics.exploring-categorical-data",
+     "title": "Exploring categorical data",
+     "order": 1,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-statistics.exploring-one-variable-quantitative-data-displaying-and-describing",
+     "title": "Exploring one-variable quantitative data: Displaying and describing",
+     "order": 2,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-statistics.exploring-one-variable-quantitative-data-summary-statistics",
+     "title": "Exploring one-variable quantitative data: Summary statistics",
+     "order": 3,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-statistics.exploring-one-variable-quantitative-data-percentiles-z-scores-and-the-normal-distribution",
+     "title": "Exploring one-variable quantitative data: Percentiles, z-scores and the normal distribution",
+     "order": 4,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-statistics.exploring-two-variable-quantitative-data",
+     "title": "Exploring two-variable quantitative data",
+     "order": 5,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-statistics.collecting-data",
+     "title": "Collecting data",
+     "order": 6,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-statistics.probability",
+     "title": "Probability",
+     "order": 7,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-statistics.random-variables-and-probability-distributions",
+     "title": "Random variables and probability distributions",
+     "order": 8,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-statistics.sampling-distributions",
+     "title": "Sampling distributions",
+     "order": 9,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-statistics.inference-for-categorical-data-proportions",
+     "title": "Inference for categorical data: Proportions",
+     "order": 10,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-statistics.inference-for-quantitative-data-means",
+     "title": "Inference for quantitative data: Means",
+     "order": 11,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-statistics.inference-for-categorical-data-chi-square",
+     "title": "Inference for categorical data: Chi-square",
+     "order": 12,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-statistics.inference-for-quantitative-data-slopes",
+     "title": "Inference for quantitative data: Slopes",
+     "order": 13,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-statistics.prepare-for-the-ap-statistics-exam",
+     "title": "Prepare for the AP Statistics Exam",
+     "order": 14,
+     "lessons": []
+    }
+   ],
+   "programme": "US Pre-K–8 / High school & College",
+   "group": "High school & College"
+  },
+  {
+   "id": "ap-college-precalculus",
+   "label": "AP College Precalculus",
+   "kind": "course",
+   "order": 15,
+   "age_range": "",
+   "units": [
+    {
+     "id": "ap-college-precalculus.polynomial-and-rational-functions",
+     "title": "Polynomial and rational functions",
+     "order": 1,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-precalculus.exponential-and-logarithmic-functions",
+     "title": "Exponential and logarithmic functions",
+     "order": 2,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-precalculus.trigonometric-and-polar-functions",
+     "title": "Trigonometric and polar functions",
+     "order": 3,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-precalculus.functions-involving-parametric-vectors-and-matrices",
+     "title": "Functions involving parametric vectors and matrices",
+     "order": 4,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-precalculus.ap-precalculus-test-support",
+     "title": "AP Precalculus test support",
+     "order": 5,
+     "lessons": []
+    }
+   ],
+   "programme": "US Pre-K–8 / High school & College",
+   "group": "High school & College"
+  },
+  {
+   "id": "ap-college-calculus",
+   "label": "AP College Calculus",
+   "kind": "course",
+   "order": 16,
+   "age_range": "",
+   "units": [
+    {
+     "id": "ap-college-calculus.limits-and-continuity",
+     "title": "Limits and continuity",
+     "order": 1,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-calculus.differentiation-definition-and-basic-derivative-rules",
+     "title": "Differentiation: definition and basic derivative rules",
+     "order": 2,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-calculus.differentiation-composite-implicit-and-inverse-functions",
+     "title": "Differentiation: composite, implicit, and inverse functions",
+     "order": 3,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-calculus.contextual-applications-of-differentiation",
+     "title": "Contextual applications of differentiation",
+     "order": 4,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-calculus.analytical-applications-of-differentiation",
+     "title": "Analytical applications of differentiation",
+     "order": 5,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-calculus.integration-and-accumulation-of-change",
+     "title": "Integration and accumulation of change",
+     "order": 6,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-calculus.differential-equations",
+     "title": "Differential equations",
+     "order": 7,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-calculus.applications-of-integration",
+     "title": "Applications of integration",
+     "order": 8,
+     "lessons": []
+    },
+    {
+     "id": "ap-college-calculus.ap-calculus-test-support",
+     "title": "AP Calculus test support",
+     "order": 9,
+     "lessons": []
+    }
+   ],
+   "programme": "US Pre-K–8 / High school & College",
+   "group": "High school & College"
+  },
+  {
+   "id": "multivariable-calculus",
+   "label": "Multivariable calculus",
+   "kind": "course",
+   "order": 17,
+   "age_range": "",
+   "units": [
+    {
+     "id": "multivariable-calculus.thinking-about-multivariable-functions",
+     "title": "Thinking about multivariable functions",
+     "order": 1,
+     "lessons": []
+    },
+    {
+     "id": "multivariable-calculus.derivatives-of-multivariable-functions",
+     "title": "Derivatives of multivariable functions",
+     "order": 2,
+     "lessons": []
+    },
+    {
+     "id": "multivariable-calculus.applications-of-multivariable-derivatives",
+     "title": "Applications of multivariable derivatives",
+     "order": 3,
+     "lessons": []
+    },
+    {
+     "id": "multivariable-calculus.integrating-multivariable-functions",
+     "title": "Integrating multivariable functions",
+     "order": 4,
+     "lessons": []
+    },
+    {
+     "id": "multivariable-calculus.greens-stokes-and-the-divergence-theorems",
+     "title": "Green's, Stokes', and the divergence theorems",
+     "order": 5,
+     "lessons": []
+    }
+   ],
+   "programme": "US Pre-K–8 / High school & College",
+   "group": "High school & College"
+  },
+  {
+   "id": "differential-equations",
+   "label": "Differential equations",
+   "kind": "course",
+   "order": 18,
+   "age_range": "",
+   "units": [
+    {
+     "id": "differential-equations.first-order-differential-equations",
+     "title": "First order differential equations",
+     "order": 1,
+     "lessons": []
+    },
+    {
+     "id": "differential-equations.second-order-linear-equations",
+     "title": "Second order linear equations",
+     "order": 2,
+     "lessons": []
+    },
+    {
+     "id": "differential-equations.laplace-transform",
+     "title": "Laplace transform",
+     "order": 3,
+     "lessons": []
+    }
+   ],
+   "programme": "US Pre-K–8 / High school & College",
+   "group": "High school & College"
+  },
+  {
+   "id": "linear-algebra",
+   "label": "Linear algebra",
+   "kind": "course",
+   "order": 19,
+   "age_range": "",
+   "units": [
+    {
+     "id": "linear-algebra.vectors-and-spaces",
+     "title": "Vectors and spaces",
+     "order": 1,
+     "lessons": []
+    },
+    {
+     "id": "linear-algebra.matrix-transformations",
+     "title": "Matrix transformations",
+     "order": 2,
+     "lessons": []
+    },
+    {
+     "id": "linear-algebra.alternate-coordinate-systems-bases",
+     "title": "Alternate coordinate systems (bases)",
+     "order": 3,
+     "lessons": []
+    }
+   ],
+   "programme": "US Pre-K–8 / High school & College",
+   "group": "High school & College"
+  },
+  {
+   "id": "fr.sixieme",
+   "label": "Sixième",
+   "kind": "grade",
+   "order": 20,
+   "age_range": "",
+   "programme": "Programme français",
+   "group": "Collège",
+   "units": [
+    {
+     "id": "fr.sixieme.nombres-entiers-et-decimaux",
+     "title": "Nombres entiers et décimaux",
+     "order": 1,
+     "lessons": [
+      {
+       "id": "fr.sixieme.nombres-entiers-et-decimaux.l1",
+       "title": "Lire et écrire les nombres entiers",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.sixieme.nombres-entiers-et-decimaux.l1.c1",
+         "title": "Je sais lire et écrire un nombre entier en chiffres et en lettres."
+        },
+        {
+         "id": "fr.sixieme.nombres-entiers-et-decimaux.l1.c2",
+         "title": "Je connais la valeur de chaque chiffre selon sa position."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais lire et écrire un nombre entier en chiffres et en lettres.",
+        "Je connais la valeur de chaque chiffre selon sa position."
+       ]
+      },
+      {
+       "id": "fr.sixieme.nombres-entiers-et-decimaux.l2",
+       "title": "Les nombres décimaux",
+       "order": 2,
+       "prerequisites": [
+        "fr.sixieme.nombres-entiers-et-decimaux.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.sixieme.nombres-entiers-et-decimaux.l2.c1",
+         "title": "Je sais lire, écrire et décomposer un nombre décimal."
+        },
+        {
+         "id": "fr.sixieme.nombres-entiers-et-decimaux.l2.c2",
+         "title": "Je sais placer un nombre décimal sur une demi-droite graduée."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais lire, écrire et décomposer un nombre décimal.",
+        "Je sais placer un nombre décimal sur une demi-droite graduée."
+       ]
+      },
+      {
+       "id": "fr.sixieme.nombres-entiers-et-decimaux.l3",
+       "title": "Comparer et ranger les décimaux",
+       "order": 3,
+       "prerequisites": [
+        "fr.sixieme.nombres-entiers-et-decimaux.l2"
+       ],
+       "concepts": [
+        {
+         "id": "fr.sixieme.nombres-entiers-et-decimaux.l3.c1",
+         "title": "Je sais comparer deux nombres décimaux."
+        },
+        {
+         "id": "fr.sixieme.nombres-entiers-et-decimaux.l3.c2",
+         "title": "Je sais ranger une liste de décimaux dans l'ordre croissant ou décroissant."
+        },
+        {
+         "id": "fr.sixieme.nombres-entiers-et-decimaux.l3.c3",
+         "title": "Je sais encadrer et arrondir un nombre décimal."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais comparer deux nombres décimaux.",
+        "Je sais ranger une liste de décimaux dans l'ordre croissant ou décroissant.",
+        "Je sais encadrer et arrondir un nombre décimal."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.sixieme.addition-soustraction-multiplication",
+     "title": "Addition, soustraction, multiplication",
+     "order": 2,
+     "lessons": [
+      {
+       "id": "fr.sixieme.addition-soustraction-multiplication.l1",
+       "title": "Addition et soustraction",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.sixieme.addition-soustraction-multiplication.l1.c1",
+         "title": "Je sais poser et effectuer une addition et une soustraction de décimaux."
+        },
+        {
+         "id": "fr.sixieme.addition-soustraction-multiplication.l1.c2",
+         "title": "Je sais calculer un ordre de grandeur pour vérifier mon résultat."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais poser et effectuer une addition et une soustraction de décimaux.",
+        "Je sais calculer un ordre de grandeur pour vérifier mon résultat."
+       ]
+      },
+      {
+       "id": "fr.sixieme.addition-soustraction-multiplication.l2",
+       "title": "Multiplication",
+       "order": 2,
+       "prerequisites": [
+        "fr.sixieme.addition-soustraction-multiplication.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.sixieme.addition-soustraction-multiplication.l2.c1",
+         "title": "Je sais poser et effectuer une multiplication de décimaux."
+        },
+        {
+         "id": "fr.sixieme.addition-soustraction-multiplication.l2.c2",
+         "title": "Je sais placer la virgule dans le produit."
+        },
+        {
+         "id": "fr.sixieme.addition-soustraction-multiplication.l2.c3",
+         "title": "Je sais multiplier par 10, 100, 1 000 et par 0,1 ; 0,01."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais poser et effectuer une multiplication de décimaux.",
+        "Je sais placer la virgule dans le produit.",
+        "Je sais multiplier par 10, 100, 1 000 et par 0,1 ; 0,01."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.sixieme.division-durees",
+     "title": "Division, durées",
+     "order": 3,
+     "lessons": [
+      {
+       "id": "fr.sixieme.division-durees.l1",
+       "title": "La division euclidienne",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.sixieme.division-durees.l1.c1",
+         "title": "Je sais poser une division euclidienne et interpréter le quotient et le reste."
+        },
+        {
+         "id": "fr.sixieme.division-durees.l1.c2",
+         "title": "Je connais les critères de divisibilité par 2, 3, 5, 9 et 10."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais poser une division euclidienne et interpréter le quotient et le reste.",
+        "Je connais les critères de divisibilité par 2, 3, 5, 9 et 10."
+       ]
+      },
+      {
+       "id": "fr.sixieme.division-durees.l2",
+       "title": "La division décimale",
+       "order": 2,
+       "prerequisites": [
+        "fr.sixieme.division-durees.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.sixieme.division-durees.l2.c1",
+         "title": "Je sais effectuer une division décimale et donner un quotient approché."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais effectuer une division décimale et donner un quotient approché."
+       ]
+      },
+      {
+       "id": "fr.sixieme.division-durees.l3",
+       "title": "Les durées",
+       "order": 3,
+       "prerequisites": [
+        "fr.sixieme.division-durees.l2"
+       ],
+       "concepts": [
+        {
+         "id": "fr.sixieme.division-durees.l3.c1",
+         "title": "Je sais convertir des heures, minutes et secondes."
+        },
+        {
+         "id": "fr.sixieme.division-durees.l3.c2",
+         "title": "Je sais additionner et soustraire des durées."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais convertir des heures, minutes et secondes.",
+        "Je sais additionner et soustraire des durées."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.sixieme.fractions",
+     "title": "Fractions",
+     "order": 4,
+     "lessons": [
+      {
+       "id": "fr.sixieme.fractions.l1",
+       "title": "Écriture fractionnaire (Partie 1)",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.sixieme.fractions.l1.c1",
+         "title": "Je sais lire et écrire une fraction et nommer numérateur et dénominateur."
+        },
+        {
+         "id": "fr.sixieme.fractions.l1.c2",
+         "title": "Je sais qu'une fraction est un quotient."
+        },
+        {
+         "id": "fr.sixieme.fractions.l1.c3",
+         "title": "Je sais placer une fraction sur une demi-droite graduée."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais lire et écrire une fraction et nommer numérateur et dénominateur.",
+        "Je sais qu'une fraction est un quotient.",
+        "Je sais placer une fraction sur une demi-droite graduée."
+       ]
+      },
+      {
+       "id": "fr.sixieme.fractions.l2",
+       "title": "Fractions et décimaux (Partie 2)",
+       "order": 2,
+       "prerequisites": [
+        "fr.sixieme.fractions.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.sixieme.fractions.l2.c1",
+         "title": "Je sais donner l'écriture décimale d'une fraction."
+        },
+        {
+         "id": "fr.sixieme.fractions.l2.c2",
+         "title": "Je sais reconnaître des fractions égales et simplifier."
+        },
+        {
+         "id": "fr.sixieme.fractions.l2.c3",
+         "title": "Je sais prendre une fraction d'une quantité."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais donner l'écriture décimale d'une fraction.",
+        "Je sais reconnaître des fractions égales et simplifier.",
+        "Je sais prendre une fraction d'une quantité."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.sixieme.calcul-mental",
+     "title": "Calcul mental",
+     "order": 5,
+     "lessons": [
+      {
+       "id": "fr.sixieme.calcul-mental.l1",
+       "title": "Techniques de calcul mental",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.sixieme.calcul-mental.l1.c1",
+         "title": "Je sais calculer mentalement des sommes et des différences."
+        },
+        {
+         "id": "fr.sixieme.calcul-mental.l1.c2",
+         "title": "Je connais les tables de multiplication."
+        },
+        {
+         "id": "fr.sixieme.calcul-mental.l1.c3",
+         "title": "Je sais multiplier et diviser par 10, 100, 1 000."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer mentalement des sommes et des différences.",
+        "Je connais les tables de multiplication.",
+        "Je sais multiplier et diviser par 10, 100, 1 000."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.sixieme.proportionnalite",
+     "title": "Proportionnalité",
+     "order": 6,
+     "lessons": [
+      {
+       "id": "fr.sixieme.proportionnalite.l1",
+       "title": "Reconnaître la proportionnalité",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.sixieme.proportionnalite.l1.c1",
+         "title": "Je sais reconnaître une situation de proportionnalité."
+        },
+        {
+         "id": "fr.sixieme.proportionnalite.l1.c2",
+         "title": "Je sais reconnaître un tableau de proportionnalité."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais reconnaître une situation de proportionnalité.",
+        "Je sais reconnaître un tableau de proportionnalité."
+       ]
+      },
+      {
+       "id": "fr.sixieme.proportionnalite.l2",
+       "title": "Calculer dans un tableau de proportionnalité",
+       "order": 2,
+       "prerequisites": [
+        "fr.sixieme.proportionnalite.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.sixieme.proportionnalite.l2.c1",
+         "title": "Je sais utiliser le coefficient de proportionnalité."
+        },
+        {
+         "id": "fr.sixieme.proportionnalite.l2.c2",
+         "title": "Je sais utiliser la linéarité et le passage à l'unité."
+        },
+        {
+         "id": "fr.sixieme.proportionnalite.l2.c3",
+         "title": "Je sais calculer une quatrième proportionnelle."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais utiliser le coefficient de proportionnalité.",
+        "Je sais utiliser la linéarité et le passage à l'unité.",
+        "Je sais calculer une quatrième proportionnelle."
+       ]
+      },
+      {
+       "id": "fr.sixieme.proportionnalite.l3",
+       "title": "Échelles et vitesses",
+       "order": 3,
+       "prerequisites": [
+        "fr.sixieme.proportionnalite.l2"
+       ],
+       "concepts": [
+        {
+         "id": "fr.sixieme.proportionnalite.l3.c1",
+         "title": "Je sais utiliser une échelle sur un plan ou une carte."
+        },
+        {
+         "id": "fr.sixieme.proportionnalite.l3.c2",
+         "title": "Je sais calculer une vitesse moyenne."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais utiliser une échelle sur un plan ou une carte.",
+        "Je sais calculer une vitesse moyenne."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.sixieme.pourcentages",
+     "title": "Pourcentages",
+     "order": 7,
+     "lessons": [
+      {
+       "id": "fr.sixieme.pourcentages.l1",
+       "title": "Appliquer un pourcentage",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.sixieme.pourcentages.l1.c1",
+         "title": "Je sais calculer un pourcentage d'une quantité."
+        },
+        {
+         "id": "fr.sixieme.pourcentages.l1.c2",
+         "title": "Je sais qu'un pourcentage est une proportion sur 100."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer un pourcentage d'une quantité.",
+        "Je sais qu'un pourcentage est une proportion sur 100."
+       ]
+      },
+      {
+       "id": "fr.sixieme.pourcentages.l2",
+       "title": "Calculer un pourcentage",
+       "order": 2,
+       "prerequisites": [
+        "fr.sixieme.pourcentages.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.sixieme.pourcentages.l2.c1",
+         "title": "Je sais exprimer une proportion en pourcentage."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais exprimer une proportion en pourcentage."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.sixieme.gestion-de-donnees-probabilites",
+     "title": "Gestion de données, probabilités",
+     "order": 8,
+     "lessons": [
+      {
+       "id": "fr.sixieme.gestion-de-donnees-probabilites.l1",
+       "title": "Lire et construire des tableaux",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.sixieme.gestion-de-donnees-probabilites.l1.c1",
+         "title": "Je sais lire et compléter un tableau à double entrée."
+        },
+        {
+         "id": "fr.sixieme.gestion-de-donnees-probabilites.l1.c2",
+         "title": "Je sais organiser des données dans un tableau."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais lire et compléter un tableau à double entrée.",
+        "Je sais organiser des données dans un tableau."
+       ]
+      },
+      {
+       "id": "fr.sixieme.gestion-de-donnees-probabilites.l2",
+       "title": "Diagrammes et graphiques",
+       "order": 2,
+       "prerequisites": [
+        "fr.sixieme.gestion-de-donnees-probabilites.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.sixieme.gestion-de-donnees-probabilites.l2.c1",
+         "title": "Je sais lire un diagramme en bâtons et un diagramme circulaire."
+        },
+        {
+         "id": "fr.sixieme.gestion-de-donnees-probabilites.l2.c2",
+         "title": "Je sais construire un diagramme adapté à des données."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais lire un diagramme en bâtons et un diagramme circulaire.",
+        "Je sais construire un diagramme adapté à des données."
+       ]
+      },
+      {
+       "id": "fr.sixieme.gestion-de-donnees-probabilites.l3",
+       "title": "Premières probabilités",
+       "order": 3,
+       "prerequisites": [
+        "fr.sixieme.gestion-de-donnees-probabilites.l2"
+       ],
+       "concepts": [
+        {
+         "id": "fr.sixieme.gestion-de-donnees-probabilites.l3.c1",
+         "title": "Je sais reconnaître une expérience aléatoire."
+        },
+        {
+         "id": "fr.sixieme.gestion-de-donnees-probabilites.l3.c2",
+         "title": "Je sais dire si un événement est certain, possible ou impossible."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais reconnaître une expérience aléatoire.",
+        "Je sais dire si un événement est certain, possible ou impossible."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.sixieme.paralleles-et-perpendiculaires-rappels",
+     "title": "Parallèles et perpendiculaires (rappels)",
+     "order": 9,
+     "lessons": [
+      {
+       "id": "fr.sixieme.paralleles-et-perpendiculaires-rappels.l1",
+       "title": "Points, droites, segments",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.sixieme.paralleles-et-perpendiculaires-rappels.l1.c1",
+         "title": "Je connais le vocabulaire : point, droite, demi-droite, segment."
+        },
+        {
+         "id": "fr.sixieme.paralleles-et-perpendiculaires-rappels.l1.c2",
+         "title": "Je sais utiliser les notations et coder une figure."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais le vocabulaire : point, droite, demi-droite, segment.",
+        "Je sais utiliser les notations et coder une figure."
+       ]
+      },
+      {
+       "id": "fr.sixieme.paralleles-et-perpendiculaires-rappels.l2",
+       "title": "Droites parallèles et perpendiculaires",
+       "order": 2,
+       "prerequisites": [
+        "fr.sixieme.paralleles-et-perpendiculaires-rappels.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.sixieme.paralleles-et-perpendiculaires-rappels.l2.c1",
+         "title": "Je sais tracer la perpendiculaire à une droite passant par un point."
+        },
+        {
+         "id": "fr.sixieme.paralleles-et-perpendiculaires-rappels.l2.c2",
+         "title": "Je sais tracer la parallèle à une droite passant par un point."
+        },
+        {
+         "id": "fr.sixieme.paralleles-et-perpendiculaires-rappels.l2.c3",
+         "title": "Je connais les propriétés reliant parallèles et perpendiculaires."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais tracer la perpendiculaire à une droite passant par un point.",
+        "Je sais tracer la parallèle à une droite passant par un point.",
+        "Je connais les propriétés reliant parallèles et perpendiculaires."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.sixieme.distances-et-cercles",
+     "title": "Distances et cercles",
+     "order": 10,
+     "lessons": [
+      {
+       "id": "fr.sixieme.distances-et-cercles.l1",
+       "title": "Distance et milieu",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.sixieme.distances-et-cercles.l1.c1",
+         "title": "Je sais mesurer une distance entre deux points."
+        },
+        {
+         "id": "fr.sixieme.distances-et-cercles.l1.c2",
+         "title": "Je sais construire le milieu d'un segment."
+        },
+        {
+         "id": "fr.sixieme.distances-et-cercles.l1.c3",
+         "title": "Je sais calculer la distance d'un point à une droite."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais mesurer une distance entre deux points.",
+        "Je sais construire le milieu d'un segment.",
+        "Je sais calculer la distance d'un point à une droite."
+       ]
+      },
+      {
+       "id": "fr.sixieme.distances-et-cercles.l2",
+       "title": "Le cercle",
+       "order": 2,
+       "prerequisites": [
+        "fr.sixieme.distances-et-cercles.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.sixieme.distances-et-cercles.l2.c1",
+         "title": "Je connais le vocabulaire : centre, rayon, diamètre, corde, arc."
+        },
+        {
+         "id": "fr.sixieme.distances-et-cercles.l2.c2",
+         "title": "Je sais construire un cercle et reporter une longueur au compas."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais le vocabulaire : centre, rayon, diamètre, corde, arc.",
+        "Je sais construire un cercle et reporter une longueur au compas."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.sixieme.angles",
+     "title": "Angles",
+     "order": 11,
+     "lessons": [
+      {
+       "id": "fr.sixieme.angles.l1",
+       "title": "Reconnaître et nommer un angle",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.sixieme.angles.l1.c1",
+         "title": "Je sais nommer un angle et reconnaître sa nature."
+        },
+        {
+         "id": "fr.sixieme.angles.l1.c2",
+         "title": "Je sais reconnaître un angle aigu, droit, obtus ou plat."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais nommer un angle et reconnaître sa nature.",
+        "Je sais reconnaître un angle aigu, droit, obtus ou plat."
+       ]
+      },
+      {
+       "id": "fr.sixieme.angles.l2",
+       "title": "Mesurer et construire un angle",
+       "order": 2,
+       "prerequisites": [
+        "fr.sixieme.angles.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.sixieme.angles.l2.c1",
+         "title": "Je sais mesurer un angle avec un rapporteur."
+        },
+        {
+         "id": "fr.sixieme.angles.l2.c2",
+         "title": "Je sais construire un angle de mesure donnée."
+        },
+        {
+         "id": "fr.sixieme.angles.l2.c3",
+         "title": "Je sais construire la bissectrice d'un angle."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais mesurer un angle avec un rapporteur.",
+        "Je sais construire un angle de mesure donnée.",
+        "Je sais construire la bissectrice d'un angle."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.sixieme.triangles",
+     "title": "Triangles",
+     "order": 12,
+     "lessons": [
+      {
+       "id": "fr.sixieme.triangles.l1",
+       "title": "Construire des triangles",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.sixieme.triangles.l1.c1",
+         "title": "Je sais construire un triangle connaissant ses trois côtés."
+        },
+        {
+         "id": "fr.sixieme.triangles.l1.c2",
+         "title": "Je sais construire un triangle connaissant deux côtés et un angle."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais construire un triangle connaissant ses trois côtés.",
+        "Je sais construire un triangle connaissant deux côtés et un angle."
+       ]
+      },
+      {
+       "id": "fr.sixieme.triangles.l2",
+       "title": "Triangles particuliers",
+       "order": 2,
+       "prerequisites": [
+        "fr.sixieme.triangles.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.sixieme.triangles.l2.c1",
+         "title": "Je sais reconnaître un triangle isocèle, équilatéral ou rectangle."
+        },
+        {
+         "id": "fr.sixieme.triangles.l2.c2",
+         "title": "Je connais leurs propriétés et leurs axes de symétrie."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais reconnaître un triangle isocèle, équilatéral ou rectangle.",
+        "Je connais leurs propriétés et leurs axes de symétrie."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.sixieme.quadrilateres-rappels",
+     "title": "Quadrilatères (rappels)",
+     "order": 13,
+     "lessons": [
+      {
+       "id": "fr.sixieme.quadrilateres-rappels.l1",
+       "title": "Reconnaître les quadrilatères",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.sixieme.quadrilateres-rappels.l1.c1",
+         "title": "Je sais reconnaître un carré, un rectangle, un losange et un parallélogramme."
+        },
+        {
+         "id": "fr.sixieme.quadrilateres-rappels.l1.c2",
+         "title": "Je connais leurs propriétés de côtés, d'angles et de diagonales."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais reconnaître un carré, un rectangle, un losange et un parallélogramme.",
+        "Je connais leurs propriétés de côtés, d'angles et de diagonales."
+       ]
+      },
+      {
+       "id": "fr.sixieme.quadrilateres-rappels.l2",
+       "title": "Construire des quadrilatères",
+       "order": 2,
+       "prerequisites": [
+        "fr.sixieme.quadrilateres-rappels.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.sixieme.quadrilateres-rappels.l2.c1",
+         "title": "Je sais construire un rectangle, un carré et un losange."
+        },
+        {
+         "id": "fr.sixieme.quadrilateres-rappels.l2.c2",
+         "title": "Je sais coder une figure pour indiquer ses propriétés."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais construire un rectangle, un carré et un losange.",
+        "Je sais coder une figure pour indiquer ses propriétés."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.sixieme.symetrie-axiale",
+     "title": "Symétrie axiale",
+     "order": 14,
+     "lessons": [
+      {
+       "id": "fr.sixieme.symetrie-axiale.l1",
+       "title": "Construire un symétrique",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.sixieme.symetrie-axiale.l1.c1",
+         "title": "Je sais construire le symétrique d'un point par rapport à une droite."
+        },
+        {
+         "id": "fr.sixieme.symetrie-axiale.l1.c2",
+         "title": "Je sais construire le symétrique d'une figure."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais construire le symétrique d'un point par rapport à une droite.",
+        "Je sais construire le symétrique d'une figure."
+       ]
+      },
+      {
+       "id": "fr.sixieme.symetrie-axiale.l2",
+       "title": "Propriétés et axes de symétrie",
+       "order": 2,
+       "prerequisites": [
+        "fr.sixieme.symetrie-axiale.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.sixieme.symetrie-axiale.l2.c1",
+         "title": "Je sais que la symétrie axiale conserve les longueurs et les angles."
+        },
+        {
+         "id": "fr.sixieme.symetrie-axiale.l2.c2",
+         "title": "Je sais reconnaître les axes de symétrie d'une figure."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais que la symétrie axiale conserve les longueurs et les angles.",
+        "Je sais reconnaître les axes de symétrie d'une figure."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.sixieme.perimetres",
+     "title": "Périmètres",
+     "order": 15,
+     "lessons": [
+      {
+       "id": "fr.sixieme.perimetres.l1",
+       "title": "Périmètre des figures usuelles",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.sixieme.perimetres.l1.c1",
+         "title": "Je sais calculer le périmètre d'un carré, d'un rectangle et d'un triangle."
+        },
+        {
+         "id": "fr.sixieme.perimetres.l1.c2",
+         "title": "Je sais convertir des unités de longueur."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer le périmètre d'un carré, d'un rectangle et d'un triangle.",
+        "Je sais convertir des unités de longueur."
+       ]
+      },
+      {
+       "id": "fr.sixieme.perimetres.l2",
+       "title": "Le périmètre du cercle",
+       "order": 2,
+       "prerequisites": [
+        "fr.sixieme.perimetres.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.sixieme.perimetres.l2.c1",
+         "title": "Je sais calculer la longueur d'un cercle avec la formule $P = 2\\pi r$."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer la longueur d'un cercle avec la formule $P = 2\\pi r$."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.sixieme.aires",
+     "title": "Aires",
+     "order": 16,
+     "lessons": [
+      {
+       "id": "fr.sixieme.aires.l1",
+       "title": "Aire des figures usuelles",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.sixieme.aires.l1.c1",
+         "title": "Je sais calculer l'aire d'un carré, d'un rectangle et d'un triangle."
+        },
+        {
+         "id": "fr.sixieme.aires.l1.c2",
+         "title": "Je sais convertir des unités d'aire."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer l'aire d'un carré, d'un rectangle et d'un triangle.",
+        "Je sais convertir des unités d'aire."
+       ]
+      },
+      {
+       "id": "fr.sixieme.aires.l2",
+       "title": "Aire du disque et figures composées",
+       "order": 2,
+       "prerequisites": [
+        "fr.sixieme.aires.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.sixieme.aires.l2.c1",
+         "title": "Je sais calculer l'aire d'un disque avec la formule $A = \\pi r^2$."
+        },
+        {
+         "id": "fr.sixieme.aires.l2.c2",
+         "title": "Je sais calculer l'aire d'une figure composée."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer l'aire d'un disque avec la formule $A = \\pi r^2$.",
+        "Je sais calculer l'aire d'une figure composée."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.sixieme.solides-et-volumes",
+     "title": "Solides et volumes",
+     "order": 17,
+     "lessons": [
+      {
+       "id": "fr.sixieme.solides-et-volumes.l1",
+       "title": "Reconnaître les solides",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.sixieme.solides-et-volumes.l1.c1",
+         "title": "Je sais reconnaître un cube, un pavé droit, un prisme, un cylindre."
+        },
+        {
+         "id": "fr.sixieme.solides-et-volumes.l1.c2",
+         "title": "Je sais reconnaître et construire un patron."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais reconnaître un cube, un pavé droit, un prisme, un cylindre.",
+        "Je sais reconnaître et construire un patron."
+       ]
+      },
+      {
+       "id": "fr.sixieme.solides-et-volumes.l2",
+       "title": "Calculer un volume",
+       "order": 2,
+       "prerequisites": [
+        "fr.sixieme.solides-et-volumes.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.sixieme.solides-et-volumes.l2.c1",
+         "title": "Je sais calculer le volume d'un cube et d'un pavé droit."
+        },
+        {
+         "id": "fr.sixieme.solides-et-volumes.l2.c2",
+         "title": "Je sais convertir des unités de volume et de contenance."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer le volume d'un cube et d'un pavé droit.",
+        "Je sais convertir des unités de volume et de contenance."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fr.cinquieme",
+   "label": "Cinquième",
+   "kind": "grade",
+   "order": 21,
+   "age_range": "",
+   "programme": "Programme français",
+   "group": "Collège",
+   "units": [
+    {
+     "id": "fr.cinquieme.regles-de-calcul",
+     "title": "Règles de calcul",
+     "order": 1,
+     "lessons": [
+      {
+       "id": "fr.cinquieme.regles-de-calcul.l1",
+       "title": "Priorités opératoires",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.regles-de-calcul.l1.c1",
+         "title": "Je connais les priorités entre les opérations."
+        },
+        {
+         "id": "fr.cinquieme.regles-de-calcul.l1.c2",
+         "title": "Je sais calculer une expression avec des parenthèses."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais les priorités entre les opérations.",
+        "Je sais calculer une expression avec des parenthèses."
+       ]
+      },
+      {
+       "id": "fr.cinquieme.regles-de-calcul.l2",
+       "title": "Distributivité",
+       "order": 2,
+       "prerequisites": [
+        "fr.cinquieme.regles-de-calcul.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.regles-de-calcul.l2.c1",
+         "title": "Je sais développer un produit avec la simple distributivité."
+        },
+        {
+         "id": "fr.cinquieme.regles-de-calcul.l2.c2",
+         "title": "Je sais factoriser une somme."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais développer un produit avec la simple distributivité.",
+        "Je sais factoriser une somme."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.cinquieme.fractions",
+     "title": "Fractions",
+     "order": 2,
+     "lessons": [
+      {
+       "id": "fr.cinquieme.fractions.l1",
+       "title": "Comparer et simplifier",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.fractions.l1.c1",
+         "title": "Je sais simplifier une fraction."
+        },
+        {
+         "id": "fr.cinquieme.fractions.l1.c2",
+         "title": "Je sais comparer deux fractions."
+        },
+        {
+         "id": "fr.cinquieme.fractions.l1.c3",
+         "title": "Je sais mettre deux fractions au même dénominateur."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais simplifier une fraction.",
+        "Je sais comparer deux fractions.",
+        "Je sais mettre deux fractions au même dénominateur."
+       ]
+      },
+      {
+       "id": "fr.cinquieme.fractions.l2",
+       "title": "Additionner et soustraire",
+       "order": 2,
+       "prerequisites": [
+        "fr.cinquieme.fractions.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.fractions.l2.c1",
+         "title": "Je sais additionner et soustraire deux fractions."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais additionner et soustraire deux fractions."
+       ]
+      },
+      {
+       "id": "fr.cinquieme.fractions.l3",
+       "title": "Multiplier des fractions",
+       "order": 3,
+       "prerequisites": [
+        "fr.cinquieme.fractions.l2"
+       ],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.fractions.l3.c1",
+         "title": "Je sais multiplier deux fractions."
+        },
+        {
+         "id": "fr.cinquieme.fractions.l3.c2",
+         "title": "Je sais prendre une fraction d'une fraction."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais multiplier deux fractions.",
+        "Je sais prendre une fraction d'une fraction."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.cinquieme.divisibilite",
+     "title": "Divisibilité",
+     "order": 3,
+     "lessons": [
+      {
+       "id": "fr.cinquieme.divisibilite.l1",
+       "title": "Multiples et diviseurs",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.divisibilite.l1.c1",
+         "title": "Je connais le vocabulaire multiple, diviseur, divisible."
+        },
+        {
+         "id": "fr.cinquieme.divisibilite.l1.c2",
+         "title": "Je connais les critères de divisibilité."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais le vocabulaire multiple, diviseur, divisible.",
+        "Je connais les critères de divisibilité."
+       ]
+      },
+      {
+       "id": "fr.cinquieme.divisibilite.l2",
+       "title": "Nombres premiers",
+       "order": 2,
+       "prerequisites": [
+        "fr.cinquieme.divisibilite.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.divisibilite.l2.c1",
+         "title": "Je sais reconnaître un nombre premier."
+        },
+        {
+         "id": "fr.cinquieme.divisibilite.l2.c2",
+         "title": "Je sais rendre une fraction irréductible."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais reconnaître un nombre premier.",
+        "Je sais rendre une fraction irréductible."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.cinquieme.calculs-avec-les-nombres-relatifs",
+     "title": "Calculs avec les nombres relatifs",
+     "order": 4,
+     "lessons": [
+      {
+       "id": "fr.cinquieme.calculs-avec-les-nombres-relatifs.l1",
+       "title": "Additionner des relatifs",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.calculs-avec-les-nombres-relatifs.l1.c1",
+         "title": "Je sais additionner deux nombres relatifs."
+        },
+        {
+         "id": "fr.cinquieme.calculs-avec-les-nombres-relatifs.l1.c2",
+         "title": "Je sais utiliser la règle des signes pour une somme."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais additionner deux nombres relatifs.",
+        "Je sais utiliser la règle des signes pour une somme."
+       ]
+      },
+      {
+       "id": "fr.cinquieme.calculs-avec-les-nombres-relatifs.l2",
+       "title": "Soustraire des relatifs",
+       "order": 2,
+       "prerequisites": [
+        "fr.cinquieme.calculs-avec-les-nombres-relatifs.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.calculs-avec-les-nombres-relatifs.l2.c1",
+         "title": "Je sais soustraire un nombre relatif."
+        },
+        {
+         "id": "fr.cinquieme.calculs-avec-les-nombres-relatifs.l2.c2",
+         "title": "Je sais simplifier une expression avec des relatifs."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais soustraire un nombre relatif.",
+        "Je sais simplifier une expression avec des relatifs."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.cinquieme.calcul-litteral",
+     "title": "Calcul littéral",
+     "order": 5,
+     "lessons": [
+      {
+       "id": "fr.cinquieme.calcul-litteral.l1",
+       "title": "Introduire une lettre",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.calcul-litteral.l1.c1",
+         "title": "Je sais écrire une expression littérale à partir d'un énoncé."
+        },
+        {
+         "id": "fr.cinquieme.calcul-litteral.l1.c2",
+         "title": "Je connais les conventions d'écriture."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais écrire une expression littérale à partir d'un énoncé.",
+        "Je connais les conventions d'écriture."
+       ]
+      },
+      {
+       "id": "fr.cinquieme.calcul-litteral.l2",
+       "title": "Réduire et substituer",
+       "order": 2,
+       "prerequisites": [
+        "fr.cinquieme.calcul-litteral.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.calcul-litteral.l2.c1",
+         "title": "Je sais réduire une expression littérale."
+        },
+        {
+         "id": "fr.cinquieme.calcul-litteral.l2.c2",
+         "title": "Je sais calculer la valeur d'une expression pour une valeur donnée."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais réduire une expression littérale.",
+        "Je sais calculer la valeur d'une expression pour une valeur donnée."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.cinquieme.equations",
+     "title": "Équations",
+     "order": 6,
+     "lessons": [
+      {
+       "id": "fr.cinquieme.equations.l1",
+       "title": "Tester une égalité",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.equations.l1.c1",
+         "title": "Je sais tester si un nombre est solution d'une équation."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais tester si un nombre est solution d'une équation."
+       ]
+      },
+      {
+       "id": "fr.cinquieme.equations.l2",
+       "title": "Résoudre une équation simple",
+       "order": 2,
+       "prerequisites": [
+        "fr.cinquieme.equations.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.equations.l2.c1",
+         "title": "Je sais résoudre une équation du type $x + a = b$ et $ax = b$."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais résoudre une équation du type $x + a = b$ et $ax = b$."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.cinquieme.proportionnalite",
+     "title": "Proportionnalité",
+     "order": 7,
+     "lessons": [
+      {
+       "id": "fr.cinquieme.proportionnalite.l1",
+       "title": "Reconnaître et calculer",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.proportionnalite.l1.c1",
+         "title": "Je sais reconnaître une situation de proportionnalité."
+        },
+        {
+         "id": "fr.cinquieme.proportionnalite.l1.c2",
+         "title": "Je sais compléter un tableau de proportionnalité."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais reconnaître une situation de proportionnalité.",
+        "Je sais compléter un tableau de proportionnalité."
+       ]
+      },
+      {
+       "id": "fr.cinquieme.proportionnalite.l2",
+       "title": "Pourcentages et échelles",
+       "order": 2,
+       "prerequisites": [
+        "fr.cinquieme.proportionnalite.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.proportionnalite.l2.c1",
+         "title": "Je sais appliquer et calculer un pourcentage."
+        },
+        {
+         "id": "fr.cinquieme.proportionnalite.l2.c2",
+         "title": "Je sais utiliser une échelle."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais appliquer et calculer un pourcentage.",
+        "Je sais utiliser une échelle."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.cinquieme.statistiques-et-probabilites",
+     "title": "Statistiques et probabilités",
+     "order": 8,
+     "lessons": [
+      {
+       "id": "fr.cinquieme.statistiques-et-probabilites.l1",
+       "title": "Effectifs et fréquences",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.statistiques-et-probabilites.l1.c1",
+         "title": "Je sais calculer un effectif et une fréquence."
+        },
+        {
+         "id": "fr.cinquieme.statistiques-et-probabilites.l1.c2",
+         "title": "Je sais lire et construire un diagramme."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer un effectif et une fréquence.",
+        "Je sais lire et construire un diagramme."
+       ]
+      },
+      {
+       "id": "fr.cinquieme.statistiques-et-probabilites.l2",
+       "title": "Moyenne",
+       "order": 2,
+       "prerequisites": [
+        "fr.cinquieme.statistiques-et-probabilites.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.statistiques-et-probabilites.l2.c1",
+         "title": "Je sais calculer une moyenne, éventuellement pondérée."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer une moyenne, éventuellement pondérée."
+       ]
+      },
+      {
+       "id": "fr.cinquieme.statistiques-et-probabilites.l3",
+       "title": "Probabilités",
+       "order": 3,
+       "prerequisites": [
+        "fr.cinquieme.statistiques-et-probabilites.l2"
+       ],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.statistiques-et-probabilites.l3.c1",
+         "title": "Je sais calculer la probabilité d'un événement simple."
+        },
+        {
+         "id": "fr.cinquieme.statistiques-et-probabilites.l3.c2",
+         "title": "Je sais qu'une probabilité est comprise entre 0 et 1."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer la probabilité d'un événement simple.",
+        "Je sais qu'une probabilité est comprise entre 0 et 1."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.cinquieme.nombres-relatifs-et-reperage",
+     "title": "Nombres relatifs et repérage",
+     "order": 9,
+     "lessons": [
+      {
+       "id": "fr.cinquieme.nombres-relatifs-et-reperage.l1",
+       "title": "Les nombres relatifs",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.nombres-relatifs-et-reperage.l1.c1",
+         "title": "Je sais lire, écrire, comparer et ranger des nombres relatifs."
+        },
+        {
+         "id": "fr.cinquieme.nombres-relatifs-et-reperage.l1.c2",
+         "title": "Je sais placer un relatif sur une droite graduée."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais lire, écrire, comparer et ranger des nombres relatifs.",
+        "Je sais placer un relatif sur une droite graduée."
+       ]
+      },
+      {
+       "id": "fr.cinquieme.nombres-relatifs-et-reperage.l2",
+       "title": "Repérage dans le plan",
+       "order": 2,
+       "prerequisites": [
+        "fr.cinquieme.nombres-relatifs-et-reperage.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.nombres-relatifs-et-reperage.l2.c1",
+         "title": "Je sais lire et placer les coordonnées d'un point dans un repère."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais lire et placer les coordonnées d'un point dans un repère."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.cinquieme.triangles",
+     "title": "Triangles",
+     "order": 10,
+     "lessons": [
+      {
+       "id": "fr.cinquieme.triangles.l1",
+       "title": "Somme des angles",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.triangles.l1.c1",
+         "title": "Je sais que la somme des angles d'un triangle vaut 180°."
+        },
+        {
+         "id": "fr.cinquieme.triangles.l1.c2",
+         "title": "Je sais calculer un angle manquant."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais que la somme des angles d'un triangle vaut 180°.",
+        "Je sais calculer un angle manquant."
+       ]
+      },
+      {
+       "id": "fr.cinquieme.triangles.l2",
+       "title": "Inégalité triangulaire",
+       "order": 2,
+       "prerequisites": [
+        "fr.cinquieme.triangles.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.triangles.l2.c1",
+         "title": "Je sais dire si un triangle est constructible."
+        },
+        {
+         "id": "fr.cinquieme.triangles.l2.c2",
+         "title": "Je sais construire un triangle et sa hauteur."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais dire si un triangle est constructible.",
+        "Je sais construire un triangle et sa hauteur."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.cinquieme.angles",
+     "title": "Angles",
+     "order": 11,
+     "lessons": [
+      {
+       "id": "fr.cinquieme.angles.l1",
+       "title": "Angles et parallèles",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.angles.l1.c1",
+         "title": "Je sais reconnaître des angles alternes-internes et correspondants."
+        },
+        {
+         "id": "fr.cinquieme.angles.l1.c2",
+         "title": "Je sais utiliser les angles pour prouver que deux droites sont parallèles."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais reconnaître des angles alternes-internes et correspondants.",
+        "Je sais utiliser les angles pour prouver que deux droites sont parallèles."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.cinquieme.symetries",
+     "title": "Symétries",
+     "order": 12,
+     "lessons": [
+      {
+       "id": "fr.cinquieme.symetries.l1",
+       "title": "Symétrie centrale",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.symetries.l1.c1",
+         "title": "Je sais construire le symétrique d'un point par rapport à un point."
+        },
+        {
+         "id": "fr.cinquieme.symetries.l1.c2",
+         "title": "Je sais construire le symétrique d'une figure."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais construire le symétrique d'un point par rapport à un point.",
+        "Je sais construire le symétrique d'une figure."
+       ]
+      },
+      {
+       "id": "fr.cinquieme.symetries.l2",
+       "title": "Propriétés et centres de symétrie",
+       "order": 2,
+       "prerequisites": [
+        "fr.cinquieme.symetries.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.symetries.l2.c1",
+         "title": "Je sais que la symétrie centrale conserve longueurs et angles."
+        },
+        {
+         "id": "fr.cinquieme.symetries.l2.c2",
+         "title": "Je sais reconnaître un centre de symétrie."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais que la symétrie centrale conserve longueurs et angles.",
+        "Je sais reconnaître un centre de symétrie."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.cinquieme.parallelogrammes",
+     "title": "Parallélogrammes",
+     "order": 13,
+     "lessons": [
+      {
+       "id": "fr.cinquieme.parallelogrammes.l1",
+       "title": "Propriétés du parallélogramme",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.parallelogrammes.l1.c1",
+         "title": "Je connais les propriétés des côtés, angles et diagonales."
+        },
+        {
+         "id": "fr.cinquieme.parallelogrammes.l1.c2",
+         "title": "Je sais construire un parallélogramme."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais les propriétés des côtés, angles et diagonales.",
+        "Je sais construire un parallélogramme."
+       ]
+      },
+      {
+       "id": "fr.cinquieme.parallelogrammes.l2",
+       "title": "Parallélogrammes particuliers",
+       "order": 2,
+       "prerequisites": [
+        "fr.cinquieme.parallelogrammes.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.parallelogrammes.l2.c1",
+         "title": "Je sais reconnaître un rectangle, un losange et un carré."
+        },
+        {
+         "id": "fr.cinquieme.parallelogrammes.l2.c2",
+         "title": "Je sais démontrer la nature d'un quadrilatère."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais reconnaître un rectangle, un losange et un carré.",
+        "Je sais démontrer la nature d'un quadrilatère."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.cinquieme.aires",
+     "title": "Aires",
+     "order": 14,
+     "lessons": [
+      {
+       "id": "fr.cinquieme.aires.l1",
+       "title": "Aires des figures usuelles",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.aires.l1.c1",
+         "title": "Je sais calculer l'aire d'un parallélogramme et d'un triangle."
+        },
+        {
+         "id": "fr.cinquieme.aires.l1.c2",
+         "title": "Je sais calculer l'aire d'un disque."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer l'aire d'un parallélogramme et d'un triangle.",
+        "Je sais calculer l'aire d'un disque."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.cinquieme.solides-et-volumes",
+     "title": "Solides et volumes",
+     "order": 15,
+     "lessons": [
+      {
+       "id": "fr.cinquieme.solides-et-volumes.l1",
+       "title": "Prismes et cylindres",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.solides-et-volumes.l1.c1",
+         "title": "Je sais reconnaître et représenter un prisme droit et un cylindre."
+        },
+        {
+         "id": "fr.cinquieme.solides-et-volumes.l1.c2",
+         "title": "Je sais construire leur patron."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais reconnaître et représenter un prisme droit et un cylindre.",
+        "Je sais construire leur patron."
+       ]
+      },
+      {
+       "id": "fr.cinquieme.solides-et-volumes.l2",
+       "title": "Volumes",
+       "order": 2,
+       "prerequisites": [
+        "fr.cinquieme.solides-et-volumes.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.cinquieme.solides-et-volumes.l2.c1",
+         "title": "Je sais calculer le volume d'un prisme droit et d'un cylindre."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer le volume d'un prisme droit et d'un cylindre."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fr.quatrieme",
+   "label": "Quatrième",
+   "kind": "grade",
+   "order": 22,
+   "age_range": "",
+   "programme": "Programme français",
+   "group": "Collège",
+   "units": [
+    {
+     "id": "fr.quatrieme.divisibilite-et-nombres-premiers",
+     "title": "Divisibilité et nombres premiers",
+     "order": 1,
+     "lessons": [
+      {
+       "id": "fr.quatrieme.divisibilite-et-nombres-premiers.l1",
+       "title": "Décomposition en facteurs premiers",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.quatrieme.divisibilite-et-nombres-premiers.l1.c1",
+         "title": "Je sais décomposer un entier en produit de facteurs premiers."
+        },
+        {
+         "id": "fr.quatrieme.divisibilite-et-nombres-premiers.l1.c2",
+         "title": "Je sais rendre une fraction irréductible."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais décomposer un entier en produit de facteurs premiers.",
+        "Je sais rendre une fraction irréductible."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.quatrieme.nombres-relatifs",
+     "title": "Nombres relatifs",
+     "order": 2,
+     "lessons": [
+      {
+       "id": "fr.quatrieme.nombres-relatifs.l1",
+       "title": "Multiplier et diviser des relatifs",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.quatrieme.nombres-relatifs.l1.c1",
+         "title": "Je connais la règle des signes pour un produit et un quotient."
+        },
+        {
+         "id": "fr.quatrieme.nombres-relatifs.l1.c2",
+         "title": "Je sais calculer une expression avec des relatifs."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais la règle des signes pour un produit et un quotient.",
+        "Je sais calculer une expression avec des relatifs."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.quatrieme.fractions",
+     "title": "Fractions",
+     "order": 3,
+     "lessons": [
+      {
+       "id": "fr.quatrieme.fractions.l1",
+       "title": "Opérations sur les fractions",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.quatrieme.fractions.l1.c1",
+         "title": "Je sais additionner, soustraire et multiplier des fractions."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais additionner, soustraire et multiplier des fractions."
+       ]
+      },
+      {
+       "id": "fr.quatrieme.fractions.l2",
+       "title": "Diviser des fractions",
+       "order": 2,
+       "prerequisites": [
+        "fr.quatrieme.fractions.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.quatrieme.fractions.l2.c1",
+         "title": "Je sais diviser par une fraction en multipliant par son inverse."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais diviser par une fraction en multipliant par son inverse."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.quatrieme.puissances",
+     "title": "Puissances",
+     "order": 4,
+     "lessons": [
+      {
+       "id": "fr.quatrieme.puissances.l1",
+       "title": "Puissances d'un nombre",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.quatrieme.puissances.l1.c1",
+         "title": "Je sais calculer une puissance à exposant entier."
+        },
+        {
+         "id": "fr.quatrieme.puissances.l1.c2",
+         "title": "Je connais les puissances de 10."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer une puissance à exposant entier.",
+        "Je connais les puissances de 10."
+       ]
+      },
+      {
+       "id": "fr.quatrieme.puissances.l2",
+       "title": "Règles de calcul et notation scientifique",
+       "order": 2,
+       "prerequisites": [
+        "fr.quatrieme.puissances.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.quatrieme.puissances.l2.c1",
+         "title": "Je connais les règles sur les puissances."
+        },
+        {
+         "id": "fr.quatrieme.puissances.l2.c2",
+         "title": "Je sais écrire un nombre en notation scientifique."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais les règles sur les puissances.",
+        "Je sais écrire un nombre en notation scientifique."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.quatrieme.calcul-litteral",
+     "title": "Calcul littéral",
+     "order": 5,
+     "lessons": [
+      {
+       "id": "fr.quatrieme.calcul-litteral.l1",
+       "title": "Développer",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.quatrieme.calcul-litteral.l1.c1",
+         "title": "Je sais développer avec la simple et la double distributivité."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais développer avec la simple et la double distributivité."
+       ]
+      },
+      {
+       "id": "fr.quatrieme.calcul-litteral.l2",
+       "title": "Factoriser et réduire",
+       "order": 2,
+       "prerequisites": [
+        "fr.quatrieme.calcul-litteral.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.quatrieme.calcul-litteral.l2.c1",
+         "title": "Je sais factoriser une expression."
+        },
+        {
+         "id": "fr.quatrieme.calcul-litteral.l2.c2",
+         "title": "Je sais réduire une expression littérale."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais factoriser une expression.",
+        "Je sais réduire une expression littérale."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.quatrieme.equations",
+     "title": "Équations",
+     "order": 6,
+     "lessons": [
+      {
+       "id": "fr.quatrieme.equations.l1",
+       "title": "Résoudre une équation du premier degré",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.quatrieme.equations.l1.c1",
+         "title": "Je sais résoudre une équation du type $ax + b = cx + d$."
+        },
+        {
+         "id": "fr.quatrieme.equations.l1.c2",
+         "title": "Je sais vérifier une solution."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais résoudre une équation du type $ax + b = cx + d$.",
+        "Je sais vérifier une solution."
+       ]
+      },
+      {
+       "id": "fr.quatrieme.equations.l2",
+       "title": "Mettre en équation un problème",
+       "order": 2,
+       "prerequisites": [
+        "fr.quatrieme.equations.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.quatrieme.equations.l2.c1",
+         "title": "Je sais traduire un énoncé par une équation et le résoudre."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais traduire un énoncé par une équation et le résoudre."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.quatrieme.proportionnalite",
+     "title": "Proportionnalité",
+     "order": 7,
+     "lessons": [
+      {
+       "id": "fr.quatrieme.proportionnalite.l1",
+       "title": "Proportionnalité et pourcentages",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.quatrieme.proportionnalite.l1.c1",
+         "title": "Je sais calculer une quatrième proportionnelle."
+        },
+        {
+         "id": "fr.quatrieme.proportionnalite.l1.c2",
+         "title": "Je sais calculer un pourcentage d'évolution."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer une quatrième proportionnelle.",
+        "Je sais calculer un pourcentage d'évolution."
+       ]
+      },
+      {
+       "id": "fr.quatrieme.proportionnalite.l2",
+       "title": "Vitesses et grandeurs composées",
+       "order": 2,
+       "prerequisites": [
+        "fr.quatrieme.proportionnalite.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.quatrieme.proportionnalite.l2.c1",
+         "title": "Je sais calculer une vitesse moyenne et convertir des unités."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer une vitesse moyenne et convertir des unités."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.quatrieme.probabilites",
+     "title": "Probabilités",
+     "order": 8,
+     "lessons": [
+      {
+       "id": "fr.quatrieme.probabilites.l1",
+       "title": "Calculer une probabilité",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.quatrieme.probabilites.l1.c1",
+         "title": "Je sais calculer la probabilité d'un événement."
+        },
+        {
+         "id": "fr.quatrieme.probabilites.l1.c2",
+         "title": "Je sais utiliser un arbre ou un tableau."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer la probabilité d'un événement.",
+        "Je sais utiliser un arbre ou un tableau."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.quatrieme.statistiques",
+     "title": "Statistiques",
+     "order": 9,
+     "lessons": [
+      {
+       "id": "fr.quatrieme.statistiques.l1",
+       "title": "Moyenne et médiane",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.quatrieme.statistiques.l1.c1",
+         "title": "Je sais calculer une moyenne pondérée."
+        },
+        {
+         "id": "fr.quatrieme.statistiques.l1.c2",
+         "title": "Je sais déterminer une médiane et une étendue."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer une moyenne pondérée.",
+        "Je sais déterminer une médiane et une étendue."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.quatrieme.theoreme-de-pythagore",
+     "title": "Théorème de Pythagore",
+     "order": 10,
+     "lessons": [
+      {
+       "id": "fr.quatrieme.theoreme-de-pythagore.l1",
+       "title": "Calculer une longueur",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.quatrieme.theoreme-de-pythagore.l1.c1",
+         "title": "Je connais le théorème de Pythagore."
+        },
+        {
+         "id": "fr.quatrieme.theoreme-de-pythagore.l1.c2",
+         "title": "Je sais calculer la longueur d'un côté d'un triangle rectangle."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais le théorème de Pythagore.",
+        "Je sais calculer la longueur d'un côté d'un triangle rectangle."
+       ]
+      },
+      {
+       "id": "fr.quatrieme.theoreme-de-pythagore.l2",
+       "title": "La réciproque",
+       "order": 2,
+       "prerequisites": [
+        "fr.quatrieme.theoreme-de-pythagore.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.quatrieme.theoreme-de-pythagore.l2.c1",
+         "title": "Je sais utiliser la réciproque pour prouver qu'un triangle est rectangle."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais utiliser la réciproque pour prouver qu'un triangle est rectangle."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.quatrieme.theoreme-de-thales",
+     "title": "Théorème de Thalès",
+     "order": 11,
+     "lessons": [
+      {
+       "id": "fr.quatrieme.theoreme-de-thales.l1",
+       "title": "Le théorème de Thalès",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.quatrieme.theoreme-de-thales.l1.c1",
+         "title": "Je connais la configuration de Thalès."
+        },
+        {
+         "id": "fr.quatrieme.theoreme-de-thales.l1.c2",
+         "title": "Je sais calculer une longueur manquante."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais la configuration de Thalès.",
+        "Je sais calculer une longueur manquante."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.quatrieme.cosinus",
+     "title": "Cosinus",
+     "order": 12,
+     "lessons": [
+      {
+       "id": "fr.quatrieme.cosinus.l1",
+       "title": "Cosinus d'un angle aigu",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.quatrieme.cosinus.l1.c1",
+         "title": "Je connais la définition du cosinus dans un triangle rectangle."
+        },
+        {
+         "id": "fr.quatrieme.cosinus.l1.c2",
+         "title": "Je sais calculer une longueur ou un angle avec le cosinus."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais la définition du cosinus dans un triangle rectangle.",
+        "Je sais calculer une longueur ou un angle avec le cosinus."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.quatrieme.translation",
+     "title": "Translation",
+     "order": 13,
+     "lessons": [
+      {
+       "id": "fr.quatrieme.translation.l1",
+       "title": "Construire une image par translation",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.quatrieme.translation.l1.c1",
+         "title": "Je sais construire l'image d'une figure par une translation."
+        },
+        {
+         "id": "fr.quatrieme.translation.l1.c2",
+         "title": "Je connais les propriétés conservées."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais construire l'image d'une figure par une translation.",
+        "Je connais les propriétés conservées."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.quatrieme.espace",
+     "title": "Espace",
+     "order": 14,
+     "lessons": [
+      {
+       "id": "fr.quatrieme.espace.l1",
+       "title": "Pyramides et cônes",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.quatrieme.espace.l1.c1",
+         "title": "Je sais reconnaître et représenter une pyramide et un cône."
+        },
+        {
+         "id": "fr.quatrieme.espace.l1.c2",
+         "title": "Je sais calculer leur volume."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais reconnaître et représenter une pyramide et un cône.",
+        "Je sais calculer leur volume."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fr.troisieme",
+   "label": "Troisième",
+   "kind": "grade",
+   "order": 23,
+   "age_range": "",
+   "programme": "Programme français",
+   "group": "Collège",
+   "units": [
+    {
+     "id": "fr.troisieme.calculs-numeriques",
+     "title": "Calculs numériques",
+     "order": 1,
+     "lessons": [
+      {
+       "id": "fr.troisieme.calculs-numeriques.l1",
+       "title": "Fractions et puissances",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.troisieme.calculs-numeriques.l1.c1",
+         "title": "Je sais calculer avec des fractions et des puissances."
+        },
+        {
+         "id": "fr.troisieme.calculs-numeriques.l1.c2",
+         "title": "Je sais utiliser la notation scientifique."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer avec des fractions et des puissances.",
+        "Je sais utiliser la notation scientifique."
+       ]
+      },
+      {
+       "id": "fr.troisieme.calculs-numeriques.l2",
+       "title": "Racines carrées",
+       "order": 2,
+       "prerequisites": [
+        "fr.troisieme.calculs-numeriques.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.troisieme.calculs-numeriques.l2.c1",
+         "title": "Je connais la définition de la racine carrée."
+        },
+        {
+         "id": "fr.troisieme.calculs-numeriques.l2.c2",
+         "title": "Je sais simplifier une écriture avec des racines."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais la définition de la racine carrée.",
+        "Je sais simplifier une écriture avec des racines."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.troisieme.developpements",
+     "title": "Développements",
+     "order": 2,
+     "lessons": [
+      {
+       "id": "fr.troisieme.developpements.l1",
+       "title": "Double distributivité",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.troisieme.developpements.l1.c1",
+         "title": "Je sais développer un produit de deux sommes."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais développer un produit de deux sommes."
+       ]
+      },
+      {
+       "id": "fr.troisieme.developpements.l2",
+       "title": "Identités remarquables",
+       "order": 2,
+       "prerequisites": [
+        "fr.troisieme.developpements.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.troisieme.developpements.l2.c1",
+         "title": "Je connais les trois identités remarquables."
+        },
+        {
+         "id": "fr.troisieme.developpements.l2.c2",
+         "title": "Je sais développer avec une identité remarquable."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais les trois identités remarquables.",
+        "Je sais développer avec une identité remarquable."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.troisieme.factorisations",
+     "title": "Factorisations",
+     "order": 3,
+     "lessons": [
+      {
+       "id": "fr.troisieme.factorisations.l1",
+       "title": "Facteur commun",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.troisieme.factorisations.l1.c1",
+         "title": "Je sais factoriser en repérant un facteur commun."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais factoriser en repérant un facteur commun."
+       ]
+      },
+      {
+       "id": "fr.troisieme.factorisations.l2",
+       "title": "Factoriser avec une identité remarquable",
+       "order": 2,
+       "prerequisites": [
+        "fr.troisieme.factorisations.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.troisieme.factorisations.l2.c1",
+         "title": "Je sais factoriser une différence de deux carrés."
+        },
+        {
+         "id": "fr.troisieme.factorisations.l2.c2",
+         "title": "Je sais factoriser un carré parfait."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais factoriser une différence de deux carrés.",
+        "Je sais factoriser un carré parfait."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.troisieme.equations",
+     "title": "Équations",
+     "order": 4,
+     "lessons": [
+      {
+       "id": "fr.troisieme.equations.l1",
+       "title": "Équations du premier degré",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.troisieme.equations.l1.c1",
+         "title": "Je sais résoudre une équation du premier degré."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais résoudre une équation du premier degré."
+       ]
+      },
+      {
+       "id": "fr.troisieme.equations.l2",
+       "title": "Équations produit nul",
+       "order": 2,
+       "prerequisites": [
+        "fr.troisieme.equations.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.troisieme.equations.l2.c1",
+         "title": "Je sais résoudre une équation produit nul."
+        },
+        {
+         "id": "fr.troisieme.equations.l2.c2",
+         "title": "Je sais résoudre une équation du type $x^2 = a$."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais résoudre une équation produit nul.",
+        "Je sais résoudre une équation du type $x^2 = a$."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.troisieme.arithmetique",
+     "title": "Arithmétique",
+     "order": 5,
+     "lessons": [
+      {
+       "id": "fr.troisieme.arithmetique.l1",
+       "title": "PGCD",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.troisieme.arithmetique.l1.c1",
+         "title": "Je sais calculer le PGCD de deux entiers."
+        },
+        {
+         "id": "fr.troisieme.arithmetique.l1.c2",
+         "title": "Je sais rendre une fraction irréductible avec le PGCD."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer le PGCD de deux entiers.",
+        "Je sais rendre une fraction irréductible avec le PGCD."
+       ]
+      },
+      {
+       "id": "fr.troisieme.arithmetique.l2",
+       "title": "Nombres premiers entre eux",
+       "order": 2,
+       "prerequisites": [
+        "fr.troisieme.arithmetique.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.troisieme.arithmetique.l2.c1",
+         "title": "Je sais reconnaître deux nombres premiers entre eux."
+        },
+        {
+         "id": "fr.troisieme.arithmetique.l2.c2",
+         "title": "Je sais résoudre un problème de partage."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais reconnaître deux nombres premiers entre eux.",
+        "Je sais résoudre un problème de partage."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.troisieme.notion-de-fonction",
+     "title": "Notion de fonction",
+     "order": 6,
+     "lessons": [
+      {
+       "id": "fr.troisieme.notion-de-fonction.l1",
+       "title": "Vocabulaire des fonctions",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.troisieme.notion-de-fonction.l1.c1",
+         "title": "Je connais le vocabulaire image, antécédent."
+        },
+        {
+         "id": "fr.troisieme.notion-de-fonction.l1.c2",
+         "title": "Je sais lire une image et un antécédent sur un graphique."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais le vocabulaire image, antécédent.",
+        "Je sais lire une image et un antécédent sur un graphique."
+       ]
+      },
+      {
+       "id": "fr.troisieme.notion-de-fonction.l2",
+       "title": "Représenter une fonction",
+       "order": 2,
+       "prerequisites": [
+        "fr.troisieme.notion-de-fonction.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.troisieme.notion-de-fonction.l2.c1",
+         "title": "Je sais compléter un tableau de valeurs."
+        },
+        {
+         "id": "fr.troisieme.notion-de-fonction.l2.c2",
+         "title": "Je sais tracer la représentation graphique d'une fonction."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais compléter un tableau de valeurs.",
+        "Je sais tracer la représentation graphique d'une fonction."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.troisieme.fonctions-affines",
+     "title": "Fonctions affines",
+     "order": 7,
+     "lessons": [
+      {
+       "id": "fr.troisieme.fonctions-affines.l1",
+       "title": "Fonctions affines et linéaires",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.troisieme.fonctions-affines.l1.c1",
+         "title": "Je sais reconnaître une fonction affine ou linéaire."
+        },
+        {
+         "id": "fr.troisieme.fonctions-affines.l1.c2",
+         "title": "Je connais le rôle du coefficient directeur et de l'ordonnée à l'origine."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais reconnaître une fonction affine ou linéaire.",
+        "Je connais le rôle du coefficient directeur et de l'ordonnée à l'origine."
+       ]
+      },
+      {
+       "id": "fr.troisieme.fonctions-affines.l2",
+       "title": "Déterminer une fonction affine",
+       "order": 2,
+       "prerequisites": [
+        "fr.troisieme.fonctions-affines.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.troisieme.fonctions-affines.l2.c1",
+         "title": "Je sais déterminer l'expression d'une fonction affine à partir de deux points."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais déterminer l'expression d'une fonction affine à partir de deux points."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.troisieme.proportionnalite",
+     "title": "Proportionnalité",
+     "order": 8,
+     "lessons": [
+      {
+       "id": "fr.troisieme.proportionnalite.l1",
+       "title": "Proportionnalité et fonctions linéaires",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.troisieme.proportionnalite.l1.c1",
+         "title": "Je sais relier proportionnalité et fonction linéaire."
+        },
+        {
+         "id": "fr.troisieme.proportionnalite.l1.c2",
+         "title": "Je sais calculer un pourcentage d'évolution et un coefficient multiplicateur."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais relier proportionnalité et fonction linéaire.",
+        "Je sais calculer un pourcentage d'évolution et un coefficient multiplicateur."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.troisieme.probabilites",
+     "title": "Probabilités",
+     "order": 9,
+     "lessons": [
+      {
+       "id": "fr.troisieme.probabilites.l1",
+       "title": "Probabilités d'un événement",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.troisieme.probabilites.l1.c1",
+         "title": "Je sais calculer la probabilité d'un événement."
+        },
+        {
+         "id": "fr.troisieme.probabilites.l1.c2",
+         "title": "Je sais calculer la probabilité de l'événement contraire."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer la probabilité d'un événement.",
+        "Je sais calculer la probabilité de l'événement contraire."
+       ]
+      },
+      {
+       "id": "fr.troisieme.probabilites.l2",
+       "title": "Expériences à deux épreuves",
+       "order": 2,
+       "prerequisites": [
+        "fr.troisieme.probabilites.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.troisieme.probabilites.l2.c1",
+         "title": "Je sais utiliser un arbre pondéré pour une expérience à deux épreuves."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais utiliser un arbre pondéré pour une expérience à deux épreuves."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.troisieme.statistiques",
+     "title": "Statistiques",
+     "order": 10,
+     "lessons": [
+      {
+       "id": "fr.troisieme.statistiques.l1",
+       "title": "Indicateurs de position",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.troisieme.statistiques.l1.c1",
+         "title": "Je sais calculer une moyenne et une médiane."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer une moyenne et une médiane."
+       ]
+      },
+      {
+       "id": "fr.troisieme.statistiques.l2",
+       "title": "Indicateurs de dispersion",
+       "order": 2,
+       "prerequisites": [
+        "fr.troisieme.statistiques.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.troisieme.statistiques.l2.c1",
+         "title": "Je sais calculer l'étendue et les quartiles."
+        },
+        {
+         "id": "fr.troisieme.statistiques.l2.c2",
+         "title": "Je sais interpréter une série statistique."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer l'étendue et les quartiles.",
+        "Je sais interpréter une série statistique."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.troisieme.theoreme-de-thales",
+     "title": "Théorème de Thalès",
+     "order": 11,
+     "lessons": [
+      {
+       "id": "fr.troisieme.theoreme-de-thales.l1",
+       "title": "Le théorème de Thalès",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.troisieme.theoreme-de-thales.l1.c1",
+         "title": "Je sais calculer une longueur avec le théorème de Thalès."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer une longueur avec le théorème de Thalès."
+       ]
+      },
+      {
+       "id": "fr.troisieme.theoreme-de-thales.l2",
+       "title": "La réciproque de Thalès",
+       "order": 2,
+       "prerequisites": [
+        "fr.troisieme.theoreme-de-thales.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.troisieme.theoreme-de-thales.l2.c1",
+         "title": "Je sais prouver que deux droites sont parallèles."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais prouver que deux droites sont parallèles."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.troisieme.triangles-semblables",
+     "title": "Triangles semblables",
+     "order": 12,
+     "lessons": [
+      {
+       "id": "fr.troisieme.triangles-semblables.l1",
+       "title": "Triangles semblables",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.troisieme.triangles-semblables.l1.c1",
+         "title": "Je sais reconnaître deux triangles semblables."
+        },
+        {
+         "id": "fr.troisieme.triangles-semblables.l1.c2",
+         "title": "Je sais utiliser un rapport d'agrandissement ou de réduction."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais reconnaître deux triangles semblables.",
+        "Je sais utiliser un rapport d'agrandissement ou de réduction."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.troisieme.trigonometrie",
+     "title": "Trigonométrie",
+     "order": 13,
+     "lessons": [
+      {
+       "id": "fr.troisieme.trigonometrie.l1",
+       "title": "Cosinus, sinus, tangente",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.troisieme.trigonometrie.l1.c1",
+         "title": "Je connais les trois rapports trigonométriques."
+        },
+        {
+         "id": "fr.troisieme.trigonometrie.l1.c2",
+         "title": "Je sais calculer une longueur dans un triangle rectangle."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais les trois rapports trigonométriques.",
+        "Je sais calculer une longueur dans un triangle rectangle."
+       ]
+      },
+      {
+       "id": "fr.troisieme.trigonometrie.l2",
+       "title": "Calculer un angle",
+       "order": 2,
+       "prerequisites": [
+        "fr.troisieme.trigonometrie.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.troisieme.trigonometrie.l2.c1",
+         "title": "Je sais calculer la mesure d'un angle avec la trigonométrie."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer la mesure d'un angle avec la trigonométrie."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.troisieme.transformations",
+     "title": "Transformations",
+     "order": 14,
+     "lessons": [
+      {
+       "id": "fr.troisieme.transformations.l1",
+       "title": "Rotation et homothétie",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.troisieme.transformations.l1.c1",
+         "title": "Je sais construire l'image d'une figure par une rotation."
+        },
+        {
+         "id": "fr.troisieme.transformations.l1.c2",
+         "title": "Je sais construire l'image d'une figure par une homothétie."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais construire l'image d'une figure par une rotation.",
+        "Je sais construire l'image d'une figure par une homothétie."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.troisieme.espace",
+     "title": "Espace",
+     "order": 15,
+     "lessons": [
+      {
+       "id": "fr.troisieme.espace.l1",
+       "title": "Sphère et boule",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.troisieme.espace.l1.c1",
+         "title": "Je sais calculer l'aire d'une sphère et le volume d'une boule."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer l'aire d'une sphère et le volume d'une boule."
+       ]
+      },
+      {
+       "id": "fr.troisieme.espace.l2",
+       "title": "Agrandissement et réduction",
+       "order": 2,
+       "prerequisites": [
+        "fr.troisieme.espace.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.troisieme.espace.l2.c1",
+         "title": "Je sais l'effet d'un agrandissement sur les aires et les volumes."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais l'effet d'un agrandissement sur les aires et les volumes."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fr.seconde",
+   "label": "Seconde",
+   "kind": "grade",
+   "order": 24,
+   "age_range": "",
+   "programme": "Programme français",
+   "group": "Lycée",
+   "units": [
+    {
+     "id": "fr.seconde.calcul-litteral",
+     "title": "Calcul littéral",
+     "order": 1,
+     "lessons": [
+      {
+       "id": "fr.seconde.calcul-litteral.l1",
+       "title": "Développer et factoriser",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.seconde.calcul-litteral.l1.c1",
+         "title": "Je sais développer avec les identités remarquables."
+        },
+        {
+         "id": "fr.seconde.calcul-litteral.l1.c2",
+         "title": "Je sais factoriser une expression du second degré simple."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais développer avec les identités remarquables.",
+        "Je sais factoriser une expression du second degré simple."
+       ]
+      },
+      {
+       "id": "fr.seconde.calcul-litteral.l2",
+       "title": "Équations et expressions",
+       "order": 2,
+       "prerequisites": [
+        "fr.seconde.calcul-litteral.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.seconde.calcul-litteral.l2.c1",
+         "title": "Je sais transformer une expression pour résoudre un problème."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais transformer une expression pour résoudre un problème."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.seconde.fractions-puissances-racines-carrees",
+     "title": "Fractions, puissances, racines carrées",
+     "order": 2,
+     "lessons": [
+      {
+       "id": "fr.seconde.fractions-puissances-racines-carrees.l1",
+       "title": "Fractions et puissances",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.seconde.fractions-puissances-racines-carrees.l1.c1",
+         "title": "Je sais calculer avec des fractions et des puissances entières."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer avec des fractions et des puissances entières."
+       ]
+      },
+      {
+       "id": "fr.seconde.fractions-puissances-racines-carrees.l2",
+       "title": "Racines carrées",
+       "order": 2,
+       "prerequisites": [
+        "fr.seconde.fractions-puissances-racines-carrees.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.seconde.fractions-puissances-racines-carrees.l2.c1",
+         "title": "Je sais simplifier une racine carrée."
+        },
+        {
+         "id": "fr.seconde.fractions-puissances-racines-carrees.l2.c2",
+         "title": "Je connais les règles de calcul sur les racines."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais simplifier une racine carrée.",
+        "Je connais les règles de calcul sur les racines."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.seconde.nombres-reels",
+     "title": "Nombres réels",
+     "order": 3,
+     "lessons": [
+      {
+       "id": "fr.seconde.nombres-reels.l1",
+       "title": "Ensembles de nombres",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.seconde.nombres-reels.l1.c1",
+         "title": "Je connais les ensembles $\\mathbb{N}$, $\\mathbb{Z}$, $\\mathbb{D}$, $\\mathbb{Q}$, $\\mathbb{R}$."
+        },
+        {
+         "id": "fr.seconde.nombres-reels.l1.c2",
+         "title": "Je sais situer un nombre dans ces ensembles."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais les ensembles $\\mathbb{N}$, $\\mathbb{Z}$, $\\mathbb{D}$, $\\mathbb{Q}$, $\\mathbb{R}$.",
+        "Je sais situer un nombre dans ces ensembles."
+       ]
+      },
+      {
+       "id": "fr.seconde.nombres-reels.l2",
+       "title": "Intervalles et valeur absolue",
+       "order": 2,
+       "prerequisites": [
+        "fr.seconde.nombres-reels.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.seconde.nombres-reels.l2.c1",
+         "title": "Je sais écrire un intervalle et le représenter."
+        },
+        {
+         "id": "fr.seconde.nombres-reels.l2.c2",
+         "title": "Je sais interpréter la valeur absolue comme une distance."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais écrire un intervalle et le représenter.",
+        "Je sais interpréter la valeur absolue comme une distance."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.seconde.arithmetique",
+     "title": "Arithmétique",
+     "order": 4,
+     "lessons": [
+      {
+       "id": "fr.seconde.arithmetique.l1",
+       "title": "Divisibilité et nombres premiers",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.seconde.arithmetique.l1.c1",
+         "title": "Je sais décomposer un entier en facteurs premiers."
+        },
+        {
+         "id": "fr.seconde.arithmetique.l1.c2",
+         "title": "Je sais raisonner sur la parité et les multiples."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais décomposer un entier en facteurs premiers.",
+        "Je sais raisonner sur la parité et les multiples."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.seconde.equations-inequations",
+     "title": "Équations, inéquations",
+     "order": 5,
+     "lessons": [
+      {
+       "id": "fr.seconde.equations-inequations.l1",
+       "title": "Équations",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.seconde.equations-inequations.l1.c1",
+         "title": "Je sais résoudre une équation du premier degré et une équation produit nul."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais résoudre une équation du premier degré et une équation produit nul."
+       ]
+      },
+      {
+       "id": "fr.seconde.equations-inequations.l2",
+       "title": "Inéquations",
+       "order": 2,
+       "prerequisites": [
+        "fr.seconde.equations-inequations.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.seconde.equations-inequations.l2.c1",
+         "title": "Je sais résoudre une inéquation du premier degré."
+        },
+        {
+         "id": "fr.seconde.equations-inequations.l2.c2",
+         "title": "Je sais utiliser un tableau de signes."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais résoudre une inéquation du premier degré.",
+        "Je sais utiliser un tableau de signes."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.seconde.les-vecteurs",
+     "title": "Les vecteurs",
+     "order": 6,
+     "lessons": [
+      {
+       "id": "fr.seconde.les-vecteurs.l1",
+       "title": "Notion de vecteur",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.seconde.les-vecteurs.l1.c1",
+         "title": "Je connais la définition d'un vecteur et de l'égalité de deux vecteurs."
+        },
+        {
+         "id": "fr.seconde.les-vecteurs.l1.c2",
+         "title": "Je sais construire la somme de deux vecteurs."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais la définition d'un vecteur et de l'égalité de deux vecteurs.",
+        "Je sais construire la somme de deux vecteurs."
+       ]
+      },
+      {
+       "id": "fr.seconde.les-vecteurs.l2",
+       "title": "Relation de Chasles",
+       "order": 2,
+       "prerequisites": [
+        "fr.seconde.les-vecteurs.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.seconde.les-vecteurs.l2.c1",
+         "title": "Je sais utiliser la relation de Chasles."
+        },
+        {
+         "id": "fr.seconde.les-vecteurs.l2.c2",
+         "title": "Je sais multiplier un vecteur par un réel."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais utiliser la relation de Chasles.",
+        "Je sais multiplier un vecteur par un réel."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.seconde.vecteurs-et-reperage",
+     "title": "Vecteurs et repérage",
+     "order": 7,
+     "lessons": [
+      {
+       "id": "fr.seconde.vecteurs-et-reperage.l1",
+       "title": "Coordonnées d'un vecteur",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.seconde.vecteurs-et-reperage.l1.c1",
+         "title": "Je sais calculer les coordonnées d'un vecteur."
+        },
+        {
+         "id": "fr.seconde.vecteurs-et-reperage.l1.c2",
+         "title": "Je sais calculer les coordonnées d'un milieu."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer les coordonnées d'un vecteur.",
+        "Je sais calculer les coordonnées d'un milieu."
+       ]
+      },
+      {
+       "id": "fr.seconde.vecteurs-et-reperage.l2",
+       "title": "Colinéarité",
+       "order": 2,
+       "prerequisites": [
+        "fr.seconde.vecteurs-et-reperage.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.seconde.vecteurs-et-reperage.l2.c1",
+         "title": "Je sais calculer un déterminant et tester la colinéarité."
+        },
+        {
+         "id": "fr.seconde.vecteurs-et-reperage.l2.c2",
+         "title": "Je sais prouver que trois points sont alignés."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer un déterminant et tester la colinéarité.",
+        "Je sais prouver que trois points sont alignés."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.seconde.droites-du-plan",
+     "title": "Droites du plan",
+     "order": 8,
+     "lessons": [
+      {
+       "id": "fr.seconde.droites-du-plan.l1",
+       "title": "Équations de droites",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.seconde.droites-du-plan.l1.c1",
+         "title": "Je sais reconnaître une équation cartésienne et une équation réduite."
+        },
+        {
+         "id": "fr.seconde.droites-du-plan.l1.c2",
+         "title": "Je sais tracer une droite à partir de son équation."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais reconnaître une équation cartésienne et une équation réduite.",
+        "Je sais tracer une droite à partir de son équation."
+       ]
+      },
+      {
+       "id": "fr.seconde.droites-du-plan.l2",
+       "title": "Déterminer une équation",
+       "order": 2,
+       "prerequisites": [
+        "fr.seconde.droites-du-plan.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.seconde.droites-du-plan.l2.c1",
+         "title": "Je sais déterminer l'équation d'une droite passant par deux points."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais déterminer l'équation d'une droite passant par deux points."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.seconde.systemes-d-equations-et-droites",
+     "title": "Systèmes d'équations et droites",
+     "order": 9,
+     "lessons": [
+      {
+       "id": "fr.seconde.systemes-d-equations-et-droites.l1",
+       "title": "Résoudre un système",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.seconde.systemes-d-equations-et-droites.l1.c1",
+         "title": "Je sais résoudre un système par substitution et par combinaison."
+        },
+        {
+         "id": "fr.seconde.systemes-d-equations-et-droites.l1.c2",
+         "title": "Je sais interpréter géométriquement les solutions."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais résoudre un système par substitution et par combinaison.",
+        "Je sais interpréter géométriquement les solutions."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.seconde.notion-de-fonction",
+     "title": "Notion de fonction",
+     "order": 10,
+     "lessons": [
+      {
+       "id": "fr.seconde.notion-de-fonction.l1",
+       "title": "Vocabulaire et représentation",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.seconde.notion-de-fonction.l1.c1",
+         "title": "Je connais le vocabulaire image, antécédent, ensemble de définition."
+        },
+        {
+         "id": "fr.seconde.notion-de-fonction.l1.c2",
+         "title": "Je sais lire un graphique."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais le vocabulaire image, antécédent, ensemble de définition.",
+        "Je sais lire un graphique."
+       ]
+      },
+      {
+       "id": "fr.seconde.notion-de-fonction.l2",
+       "title": "Résoudre graphiquement",
+       "order": 2,
+       "prerequisites": [
+        "fr.seconde.notion-de-fonction.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.seconde.notion-de-fonction.l2.c1",
+         "title": "Je sais résoudre graphiquement $f(x) = k$ et $f(x) \\leq k$."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais résoudre graphiquement $f(x) = k$ et $f(x) \\leq k$."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.seconde.les-fonctions-de-reference",
+     "title": "Les fonctions de référence",
+     "order": 11,
+     "lessons": [
+      {
+       "id": "fr.seconde.les-fonctions-de-reference.l1",
+       "title": "Fonctions affines et carré",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.seconde.les-fonctions-de-reference.l1.c1",
+         "title": "Je connais les variations et la courbe de la fonction carré."
+        },
+        {
+         "id": "fr.seconde.les-fonctions-de-reference.l1.c2",
+         "title": "Je connais les variations d'une fonction affine."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais les variations et la courbe de la fonction carré.",
+        "Je connais les variations d'une fonction affine."
+       ]
+      },
+      {
+       "id": "fr.seconde.les-fonctions-de-reference.l2",
+       "title": "Fonction inverse et racine",
+       "order": 2,
+       "prerequisites": [
+        "fr.seconde.les-fonctions-de-reference.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.seconde.les-fonctions-de-reference.l2.c1",
+         "title": "Je connais les variations et la courbe de la fonction inverse."
+        },
+        {
+         "id": "fr.seconde.les-fonctions-de-reference.l2.c2",
+         "title": "Je connais la fonction racine carrée et la fonction cube."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais les variations et la courbe de la fonction inverse.",
+        "Je connais la fonction racine carrée et la fonction cube."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.seconde.variations-d-une-fonction",
+     "title": "Variations d'une fonction",
+     "order": 12,
+     "lessons": [
+      {
+       "id": "fr.seconde.variations-d-une-fonction.l1",
+       "title": "Sens de variation",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.seconde.variations-d-une-fonction.l1.c1",
+         "title": "Je connais la définition d'une fonction croissante et décroissante."
+        },
+        {
+         "id": "fr.seconde.variations-d-une-fonction.l1.c2",
+         "title": "Je sais dresser un tableau de variations."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais la définition d'une fonction croissante et décroissante.",
+        "Je sais dresser un tableau de variations."
+       ]
+      },
+      {
+       "id": "fr.seconde.variations-d-une-fonction.l2",
+       "title": "Extremums",
+       "order": 2,
+       "prerequisites": [
+        "fr.seconde.variations-d-une-fonction.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.seconde.variations-d-une-fonction.l2.c1",
+         "title": "Je sais déterminer un maximum et un minimum sur un intervalle."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais déterminer un maximum et un minimum sur un intervalle."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.seconde.information-chiffree",
+     "title": "Information chiffrée",
+     "order": 13,
+     "lessons": [
+      {
+       "id": "fr.seconde.information-chiffree.l1",
+       "title": "Proportions et pourcentages",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.seconde.information-chiffree.l1.c1",
+         "title": "Je sais calculer une proportion et une proportion de proportion."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer une proportion et une proportion de proportion."
+       ]
+      },
+      {
+       "id": "fr.seconde.information-chiffree.l2",
+       "title": "Évolutions",
+       "order": 2,
+       "prerequisites": [
+        "fr.seconde.information-chiffree.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.seconde.information-chiffree.l2.c1",
+         "title": "Je sais calculer un taux d'évolution et un coefficient multiplicateur."
+        },
+        {
+         "id": "fr.seconde.information-chiffree.l2.c2",
+         "title": "Je sais calculer une évolution réciproque et des évolutions successives."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer un taux d'évolution et un coefficient multiplicateur.",
+        "Je sais calculer une évolution réciproque et des évolutions successives."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.seconde.statistiques",
+     "title": "Statistiques",
+     "order": 14,
+     "lessons": [
+      {
+       "id": "fr.seconde.statistiques.l1",
+       "title": "Indicateurs de position",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.seconde.statistiques.l1.c1",
+         "title": "Je sais calculer une moyenne et une médiane."
+        },
+        {
+         "id": "fr.seconde.statistiques.l1.c2",
+         "title": "Je sais déterminer les quartiles."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer une moyenne et une médiane.",
+        "Je sais déterminer les quartiles."
+       ]
+      },
+      {
+       "id": "fr.seconde.statistiques.l2",
+       "title": "Dispersion",
+       "order": 2,
+       "prerequisites": [
+        "fr.seconde.statistiques.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.seconde.statistiques.l2.c1",
+         "title": "Je sais calculer l'écart interquartile et l'écart type."
+        },
+        {
+         "id": "fr.seconde.statistiques.l2.c2",
+         "title": "Je sais comparer deux séries statistiques."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer l'écart interquartile et l'écart type.",
+        "Je sais comparer deux séries statistiques."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.seconde.probabilites",
+     "title": "Probabilités",
+     "order": 15,
+     "lessons": [
+      {
+       "id": "fr.seconde.probabilites.l1",
+       "title": "Modéliser une expérience aléatoire",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.seconde.probabilites.l1.c1",
+         "title": "Je sais décrire un univers et une loi de probabilité."
+        },
+        {
+         "id": "fr.seconde.probabilites.l1.c2",
+         "title": "Je sais calculer la probabilité d'un événement."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais décrire un univers et une loi de probabilité.",
+        "Je sais calculer la probabilité d'un événement."
+       ]
+      },
+      {
+       "id": "fr.seconde.probabilites.l2",
+       "title": "Réunion et intersection",
+       "order": 2,
+       "prerequisites": [
+        "fr.seconde.probabilites.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.seconde.probabilites.l2.c1",
+         "title": "Je sais utiliser la formule $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$."
+        },
+        {
+         "id": "fr.seconde.probabilites.l2.c2",
+         "title": "Je sais utiliser un tableau ou un arbre."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais utiliser la formule $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$.",
+        "Je sais utiliser un tableau ou un arbre."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fr.premiere",
+   "label": "Première",
+   "kind": "grade",
+   "order": 25,
+   "age_range": "",
+   "programme": "Programme français",
+   "group": "Lycée",
+   "units": [
+    {
+     "id": "fr.premiere.second-degre",
+     "title": "Second degré",
+     "order": 1,
+     "lessons": [
+      {
+       "id": "fr.premiere.second-degre.l1",
+       "title": "Forme canonique et discriminant",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.premiere.second-degre.l1.c1",
+         "title": "Je sais déterminer la forme canonique d'un trinôme."
+        },
+        {
+         "id": "fr.premiere.second-degre.l1.c2",
+         "title": "Je sais calculer le discriminant."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais déterminer la forme canonique d'un trinôme.",
+        "Je sais calculer le discriminant."
+       ]
+      },
+      {
+       "id": "fr.premiere.second-degre.l2",
+       "title": "Racines et factorisation",
+       "order": 2,
+       "prerequisites": [
+        "fr.premiere.second-degre.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.premiere.second-degre.l2.c1",
+         "title": "Je sais résoudre une équation du second degré."
+        },
+        {
+         "id": "fr.premiere.second-degre.l2.c2",
+         "title": "Je sais factoriser un trinôme."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais résoudre une équation du second degré.",
+        "Je sais factoriser un trinôme."
+       ]
+      },
+      {
+       "id": "fr.premiere.second-degre.l3",
+       "title": "Signe du trinôme",
+       "order": 3,
+       "prerequisites": [
+        "fr.premiere.second-degre.l2"
+       ],
+       "concepts": [
+        {
+         "id": "fr.premiere.second-degre.l3.c1",
+         "title": "Je connais le signe d'un trinôme selon le discriminant."
+        },
+        {
+         "id": "fr.premiere.second-degre.l3.c2",
+         "title": "Je sais résoudre une inéquation du second degré."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais le signe d'un trinôme selon le discriminant.",
+        "Je sais résoudre une inéquation du second degré."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.premiere.generalites-sur-les-suites",
+     "title": "Généralités sur les suites",
+     "order": 2,
+     "lessons": [
+      {
+       "id": "fr.premiere.generalites-sur-les-suites.l1",
+       "title": "Définir une suite",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.premiere.generalites-sur-les-suites.l1.c1",
+         "title": "Je sais définir une suite explicitement et par récurrence."
+        },
+        {
+         "id": "fr.premiere.generalites-sur-les-suites.l1.c2",
+         "title": "Je sais calculer les premiers termes."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais définir une suite explicitement et par récurrence.",
+        "Je sais calculer les premiers termes."
+       ]
+      },
+      {
+       "id": "fr.premiere.generalites-sur-les-suites.l2",
+       "title": "Variations et représentation",
+       "order": 2,
+       "prerequisites": [
+        "fr.premiere.generalites-sur-les-suites.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.premiere.generalites-sur-les-suites.l2.c1",
+         "title": "Je sais étudier le sens de variation d'une suite."
+        },
+        {
+         "id": "fr.premiere.generalites-sur-les-suites.l2.c2",
+         "title": "Je sais représenter une suite."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais étudier le sens de variation d'une suite.",
+        "Je sais représenter une suite."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.premiere.suites-arithmetiques-suites-geometriques",
+     "title": "Suites arithmétiques, suites géométriques",
+     "order": 3,
+     "lessons": [
+      {
+       "id": "fr.premiere.suites-arithmetiques-suites-geometriques.l1",
+       "title": "Suites arithmétiques",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.premiere.suites-arithmetiques-suites-geometriques.l1.c1",
+         "title": "Je sais reconnaître une suite arithmétique et calculer sa raison."
+        },
+        {
+         "id": "fr.premiere.suites-arithmetiques-suites-geometriques.l1.c2",
+         "title": "Je connais la formule du terme général et de la somme."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais reconnaître une suite arithmétique et calculer sa raison.",
+        "Je connais la formule du terme général et de la somme."
+       ]
+      },
+      {
+       "id": "fr.premiere.suites-arithmetiques-suites-geometriques.l2",
+       "title": "Suites géométriques",
+       "order": 2,
+       "prerequisites": [
+        "fr.premiere.suites-arithmetiques-suites-geometriques.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.premiere.suites-arithmetiques-suites-geometriques.l2.c1",
+         "title": "Je sais reconnaître une suite géométrique."
+        },
+        {
+         "id": "fr.premiere.suites-arithmetiques-suites-geometriques.l2.c2",
+         "title": "Je connais la formule du terme général et de la somme."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais reconnaître une suite géométrique.",
+        "Je connais la formule du terme général et de la somme."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.premiere.derivation",
+     "title": "Dérivation",
+     "order": 4,
+     "lessons": [
+      {
+       "id": "fr.premiere.derivation.l1",
+       "title": "Nombre dérivé et tangente",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.premiere.derivation.l1.c1",
+         "title": "Je connais la définition du nombre dérivé."
+        },
+        {
+         "id": "fr.premiere.derivation.l1.c2",
+         "title": "Je sais déterminer l'équation de la tangente."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais la définition du nombre dérivé.",
+        "Je sais déterminer l'équation de la tangente."
+       ]
+      },
+      {
+       "id": "fr.premiere.derivation.l2",
+       "title": "Fonction dérivée",
+       "order": 2,
+       "prerequisites": [
+        "fr.premiere.derivation.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.premiere.derivation.l2.c1",
+         "title": "Je connais les dérivées des fonctions de référence."
+        },
+        {
+         "id": "fr.premiere.derivation.l2.c2",
+         "title": "Je connais les règles de dérivation d'une somme, d'un produit, d'un quotient."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais les dérivées des fonctions de référence.",
+        "Je connais les règles de dérivation d'une somme, d'un produit, d'un quotient."
+       ]
+      },
+      {
+       "id": "fr.premiere.derivation.l3",
+       "title": "Dérivée et variations",
+       "order": 3,
+       "prerequisites": [
+        "fr.premiere.derivation.l2"
+       ],
+       "concepts": [
+        {
+         "id": "fr.premiere.derivation.l3.c1",
+         "title": "Je sais utiliser le signe de la dérivée pour étudier les variations."
+        },
+        {
+         "id": "fr.premiere.derivation.l3.c2",
+         "title": "Je sais déterminer un extremum."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais utiliser le signe de la dérivée pour étudier les variations.",
+        "Je sais déterminer un extremum."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.premiere.fonction-exponentielle",
+     "title": "Fonction exponentielle",
+     "order": 5,
+     "lessons": [
+      {
+       "id": "fr.premiere.fonction-exponentielle.l1",
+       "title": "Définition et propriétés",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.premiere.fonction-exponentielle.l1.c1",
+         "title": "Je connais la définition de la fonction exponentielle."
+        },
+        {
+         "id": "fr.premiere.fonction-exponentielle.l1.c2",
+         "title": "Je connais les propriétés algébriques de l'exponentielle."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais la définition de la fonction exponentielle.",
+        "Je connais les propriétés algébriques de l'exponentielle."
+       ]
+      },
+      {
+       "id": "fr.premiere.fonction-exponentielle.l2",
+       "title": "Étude de la fonction",
+       "order": 2,
+       "prerequisites": [
+        "fr.premiere.fonction-exponentielle.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.premiere.fonction-exponentielle.l2.c1",
+         "title": "Je connais la dérivée et les variations de l'exponentielle."
+        },
+        {
+         "id": "fr.premiere.fonction-exponentielle.l2.c2",
+         "title": "Je sais résoudre une équation et une inéquation avec l'exponentielle."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais la dérivée et les variations de l'exponentielle.",
+        "Je sais résoudre une équation et une inéquation avec l'exponentielle."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.premiere.trigonometrie",
+     "title": "Trigonométrie",
+     "order": 6,
+     "lessons": [
+      {
+       "id": "fr.premiere.trigonometrie.l1",
+       "title": "Cercle trigonométrique",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.premiere.trigonometrie.l1.c1",
+         "title": "Je sais placer un point sur le cercle trigonométrique."
+        },
+        {
+         "id": "fr.premiere.trigonometrie.l1.c2",
+         "title": "Je connais le radian et les mesures d'angles associées."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais placer un point sur le cercle trigonométrique.",
+        "Je connais le radian et les mesures d'angles associées."
+       ]
+      },
+      {
+       "id": "fr.premiere.trigonometrie.l2",
+       "title": "Cosinus et sinus",
+       "order": 2,
+       "prerequisites": [
+        "fr.premiere.trigonometrie.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.premiere.trigonometrie.l2.c1",
+         "title": "Je connais les valeurs remarquables de cosinus et sinus."
+        },
+        {
+         "id": "fr.premiere.trigonometrie.l2.c2",
+         "title": "Je sais résoudre une équation trigonométrique simple."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais les valeurs remarquables de cosinus et sinus.",
+        "Je sais résoudre une équation trigonométrique simple."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.premiere.produit-scalaire",
+     "title": "Produit scalaire",
+     "order": 7,
+     "lessons": [
+      {
+       "id": "fr.premiere.produit-scalaire.l1",
+       "title": "Définitions du produit scalaire",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.premiere.produit-scalaire.l1.c1",
+         "title": "Je connais les différentes expressions du produit scalaire."
+        },
+        {
+         "id": "fr.premiere.produit-scalaire.l1.c2",
+         "title": "Je sais calculer un produit scalaire."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais les différentes expressions du produit scalaire.",
+        "Je sais calculer un produit scalaire."
+       ]
+      },
+      {
+       "id": "fr.premiere.produit-scalaire.l2",
+       "title": "Applications",
+       "order": 2,
+       "prerequisites": [
+        "fr.premiere.produit-scalaire.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.premiere.produit-scalaire.l2.c1",
+         "title": "Je sais caractériser l'orthogonalité par le produit scalaire."
+        },
+        {
+         "id": "fr.premiere.produit-scalaire.l2.c2",
+         "title": "Je sais utiliser le théorème d'Al-Kashi."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais caractériser l'orthogonalité par le produit scalaire.",
+        "Je sais utiliser le théorème d'Al-Kashi."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.premiere.geometrie-reperee",
+     "title": "Géométrie repérée",
+     "order": 8,
+     "lessons": [
+      {
+       "id": "fr.premiere.geometrie-reperee.l1",
+       "title": "Droites et vecteurs normaux",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.premiere.geometrie-reperee.l1.c1",
+         "title": "Je sais déterminer une équation de droite à partir d'un vecteur normal."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais déterminer une équation de droite à partir d'un vecteur normal."
+       ]
+      },
+      {
+       "id": "fr.premiere.geometrie-reperee.l2",
+       "title": "Le cercle",
+       "order": 2,
+       "prerequisites": [
+        "fr.premiere.geometrie-reperee.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.premiere.geometrie-reperee.l2.c1",
+         "title": "Je connais l'équation d'un cercle et je sais déterminer son centre et son rayon."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais l'équation d'un cercle et je sais déterminer son centre et son rayon."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.premiere.probabilites-conditionnelles-et-independance",
+     "title": "Probabilités conditionnelles et indépendance",
+     "order": 9,
+     "lessons": [
+      {
+       "id": "fr.premiere.probabilites-conditionnelles-et-independance.l1",
+       "title": "Probabilités conditionnelles",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.premiere.probabilites-conditionnelles-et-independance.l1.c1",
+         "title": "Je connais la définition de $P_A(B)$."
+        },
+        {
+         "id": "fr.premiere.probabilites-conditionnelles-et-independance.l1.c2",
+         "title": "Je sais utiliser un arbre pondéré."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais la définition de $P_A(B)$.",
+        "Je sais utiliser un arbre pondéré."
+       ]
+      },
+      {
+       "id": "fr.premiere.probabilites-conditionnelles-et-independance.l2",
+       "title": "Formule des probabilités totales et indépendance",
+       "order": 2,
+       "prerequisites": [
+        "fr.premiere.probabilites-conditionnelles-et-independance.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.premiere.probabilites-conditionnelles-et-independance.l2.c1",
+         "title": "Je sais utiliser la formule des probabilités totales."
+        },
+        {
+         "id": "fr.premiere.probabilites-conditionnelles-et-independance.l2.c2",
+         "title": "Je sais reconnaître deux événements indépendants."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais utiliser la formule des probabilités totales.",
+        "Je sais reconnaître deux événements indépendants."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.premiere.variables-aleatoires",
+     "title": "Variables aléatoires",
+     "order": 10,
+     "lessons": [
+      {
+       "id": "fr.premiere.variables-aleatoires.l1",
+       "title": "Loi de probabilité",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.premiere.variables-aleatoires.l1.c1",
+         "title": "Je sais déterminer la loi d'une variable aléatoire."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais déterminer la loi d'une variable aléatoire."
+       ]
+      },
+      {
+       "id": "fr.premiere.variables-aleatoires.l2",
+       "title": "Espérance, variance, écart type",
+       "order": 2,
+       "prerequisites": [
+        "fr.premiere.variables-aleatoires.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.premiere.variables-aleatoires.l2.c1",
+         "title": "Je sais calculer une espérance, une variance et un écart type."
+        },
+        {
+         "id": "fr.premiere.variables-aleatoires.l2.c2",
+         "title": "Je sais interpréter l'espérance dans un problème."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer une espérance, une variance et un écart type.",
+        "Je sais interpréter l'espérance dans un problème."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fr.terminale",
+   "label": "Terminale",
+   "kind": "grade",
+   "order": 26,
+   "age_range": "",
+   "programme": "Programme français",
+   "group": "Lycée",
+   "units": [
+    {
+     "id": "fr.terminale.les-suites",
+     "title": "Les suites",
+     "order": 1,
+     "lessons": [
+      {
+       "id": "fr.terminale.les-suites.l1",
+       "title": "Raisonnement par récurrence",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.terminale.les-suites.l1.c1",
+         "title": "Je sais rédiger une démonstration par récurrence."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais rédiger une démonstration par récurrence."
+       ]
+      },
+      {
+       "id": "fr.terminale.les-suites.l2",
+       "title": "Limites de suites",
+       "order": 2,
+       "prerequisites": [
+        "fr.terminale.les-suites.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.terminale.les-suites.l2.c1",
+         "title": "Je sais déterminer la limite d'une suite."
+        },
+        {
+         "id": "fr.terminale.les-suites.l2.c2",
+         "title": "Je connais le théorème de convergence monotone et le théorème des gendarmes."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais déterminer la limite d'une suite.",
+        "Je connais le théorème de convergence monotone et le théorème des gendarmes."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.terminale.limite-des-fonctions",
+     "title": "Limite des fonctions",
+     "order": 2,
+     "lessons": [
+      {
+       "id": "fr.terminale.limite-des-fonctions.l1",
+       "title": "Limites en l'infini et en un point",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.terminale.limite-des-fonctions.l1.c1",
+         "title": "Je sais déterminer une limite en l'infini et en un réel."
+        },
+        {
+         "id": "fr.terminale.limite-des-fonctions.l1.c2",
+         "title": "Je sais interpréter une asymptote."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais déterminer une limite en l'infini et en un réel.",
+        "Je sais interpréter une asymptote."
+       ]
+      },
+      {
+       "id": "fr.terminale.limite-des-fonctions.l2",
+       "title": "Opérations et formes indéterminées",
+       "order": 2,
+       "prerequisites": [
+        "fr.terminale.limite-des-fonctions.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.terminale.limite-des-fonctions.l2.c1",
+         "title": "Je connais les opérations sur les limites."
+        },
+        {
+         "id": "fr.terminale.limite-des-fonctions.l2.c2",
+         "title": "Je sais lever une forme indéterminée."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais les opérations sur les limites.",
+        "Je sais lever une forme indéterminée."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.terminale.derivation",
+     "title": "Dérivation",
+     "order": 3,
+     "lessons": [
+      {
+       "id": "fr.terminale.derivation.l1",
+       "title": "Dérivée d'une composée",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.terminale.derivation.l1.c1",
+         "title": "Je sais dériver une fonction composée."
+        },
+        {
+         "id": "fr.terminale.derivation.l1.c2",
+         "title": "Je sais dériver $e^{u}$, $\\ln(u)$ et $\\sqrt{u}$."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais dériver une fonction composée.",
+        "Je sais dériver $e^{u}$, $\\ln(u)$ et $\\sqrt{u}$."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.terminale.continuite-des-fonctions",
+     "title": "Continuité des fonctions",
+     "order": 4,
+     "lessons": [
+      {
+       "id": "fr.terminale.continuite-des-fonctions.l1",
+       "title": "Continuité",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.terminale.continuite-des-fonctions.l1.c1",
+         "title": "Je connais la définition de la continuité."
+        },
+        {
+         "id": "fr.terminale.continuite-des-fonctions.l1.c2",
+         "title": "Je sais utiliser la continuité d'une fonction dérivable."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais la définition de la continuité.",
+        "Je sais utiliser la continuité d'une fonction dérivable."
+       ]
+      },
+      {
+       "id": "fr.terminale.continuite-des-fonctions.l2",
+       "title": "Théorème des valeurs intermédiaires",
+       "order": 2,
+       "prerequisites": [
+        "fr.terminale.continuite-des-fonctions.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.terminale.continuite-des-fonctions.l2.c1",
+         "title": "Je sais appliquer le théorème des valeurs intermédiaires."
+        },
+        {
+         "id": "fr.terminale.continuite-des-fonctions.l2.c2",
+         "title": "Je sais déterminer un encadrement d'une solution."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais appliquer le théorème des valeurs intermédiaires.",
+        "Je sais déterminer un encadrement d'une solution."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.terminale.convexite",
+     "title": "Convexité",
+     "order": 5,
+     "lessons": [
+      {
+       "id": "fr.terminale.convexite.l1",
+       "title": "Convexité et dérivée seconde",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.terminale.convexite.l1.c1",
+         "title": "Je connais la définition d'une fonction convexe et concave."
+        },
+        {
+         "id": "fr.terminale.convexite.l1.c2",
+         "title": "Je sais utiliser le signe de la dérivée seconde."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais la définition d'une fonction convexe et concave.",
+        "Je sais utiliser le signe de la dérivée seconde."
+       ]
+      },
+      {
+       "id": "fr.terminale.convexite.l2",
+       "title": "Points d'inflexion",
+       "order": 2,
+       "prerequisites": [
+        "fr.terminale.convexite.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.terminale.convexite.l2.c1",
+         "title": "Je sais déterminer les points d'inflexion d'une courbe."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais déterminer les points d'inflexion d'une courbe."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.terminale.fonction-logarithme-neperien",
+     "title": "Fonction logarithme népérien",
+     "order": 6,
+     "lessons": [
+      {
+       "id": "fr.terminale.fonction-logarithme-neperien.l1",
+       "title": "Définition et propriétés",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.terminale.fonction-logarithme-neperien.l1.c1",
+         "title": "Je connais la définition du logarithme népérien."
+        },
+        {
+         "id": "fr.terminale.fonction-logarithme-neperien.l1.c2",
+         "title": "Je connais les propriétés algébriques du logarithme."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais la définition du logarithme népérien.",
+        "Je connais les propriétés algébriques du logarithme."
+       ]
+      },
+      {
+       "id": "fr.terminale.fonction-logarithme-neperien.l2",
+       "title": "Étude de la fonction",
+       "order": 2,
+       "prerequisites": [
+        "fr.terminale.fonction-logarithme-neperien.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.terminale.fonction-logarithme-neperien.l2.c1",
+         "title": "Je connais la dérivée, les limites et les variations de $\\ln$."
+        },
+        {
+         "id": "fr.terminale.fonction-logarithme-neperien.l2.c2",
+         "title": "Je sais résoudre une équation et une inéquation avec $\\ln$."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais la dérivée, les limites et les variations de $\\ln$.",
+        "Je sais résoudre une équation et une inéquation avec $\\ln$."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.terminale.fonctions-trigonometriques",
+     "title": "Fonctions trigonométriques",
+     "order": 7,
+     "lessons": [
+      {
+       "id": "fr.terminale.fonctions-trigonometriques.l1",
+       "title": "Fonctions cosinus et sinus",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.terminale.fonctions-trigonometriques.l1.c1",
+         "title": "Je connais les variations et les courbes de cosinus et sinus."
+        },
+        {
+         "id": "fr.terminale.fonctions-trigonometriques.l1.c2",
+         "title": "Je sais dériver $\\cos$ et $\\sin$."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais les variations et les courbes de cosinus et sinus.",
+        "Je sais dériver $\\cos$ et $\\sin$."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.terminale.primitives-et-eq-differentielles",
+     "title": "Primitives et éq. différentielles",
+     "order": 8,
+     "lessons": [
+      {
+       "id": "fr.terminale.primitives-et-eq-differentielles.l1",
+       "title": "Primitives",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.terminale.primitives-et-eq-differentielles.l1.c1",
+         "title": "Je connais la définition d'une primitive."
+        },
+        {
+         "id": "fr.terminale.primitives-et-eq-differentielles.l1.c2",
+         "title": "Je connais les primitives des fonctions usuelles."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais la définition d'une primitive.",
+        "Je connais les primitives des fonctions usuelles."
+       ]
+      },
+      {
+       "id": "fr.terminale.primitives-et-eq-differentielles.l2",
+       "title": "Équations différentielles",
+       "order": 2,
+       "prerequisites": [
+        "fr.terminale.primitives-et-eq-differentielles.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.terminale.primitives-et-eq-differentielles.l2.c1",
+         "title": "Je sais résoudre $y' = ay$ et $y' = ay + b$."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais résoudre $y' = ay$ et $y' = ay + b$."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.terminale.calcul-integral",
+     "title": "Calcul intégral",
+     "order": 9,
+     "lessons": [
+      {
+       "id": "fr.terminale.calcul-integral.l1",
+       "title": "Intégrale et aire",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.terminale.calcul-integral.l1.c1",
+         "title": "Je connais la définition de l'intégrale comme aire."
+        },
+        {
+         "id": "fr.terminale.calcul-integral.l1.c2",
+         "title": "Je sais calculer une intégrale avec une primitive."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais la définition de l'intégrale comme aire.",
+        "Je sais calculer une intégrale avec une primitive."
+       ]
+      },
+      {
+       "id": "fr.terminale.calcul-integral.l2",
+       "title": "Propriétés de l'intégrale",
+       "order": 2,
+       "prerequisites": [
+        "fr.terminale.calcul-integral.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.terminale.calcul-integral.l2.c1",
+         "title": "Je connais la linéarité et la relation de Chasles."
+        },
+        {
+         "id": "fr.terminale.calcul-integral.l2.c2",
+         "title": "Je sais calculer une valeur moyenne."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais la linéarité et la relation de Chasles.",
+        "Je sais calculer une valeur moyenne."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.terminale.combinatoire-et-denombrement",
+     "title": "Combinatoire et dénombrement",
+     "order": 10,
+     "lessons": [
+      {
+       "id": "fr.terminale.combinatoire-et-denombrement.l1",
+       "title": "Dénombrer",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.terminale.combinatoire-et-denombrement.l1.c1",
+         "title": "Je sais dénombrer des listes, des permutations et des combinaisons."
+        },
+        {
+         "id": "fr.terminale.combinatoire-et-denombrement.l1.c2",
+         "title": "Je connais le coefficient binomial $\\binom{n}{k}$."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais dénombrer des listes, des permutations et des combinaisons.",
+        "Je connais le coefficient binomial $\\binom{n}{k}$."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.terminale.vecteurs-droites-et-plans-de-l-espace",
+     "title": "Vecteurs, droites et plans de l'espace",
+     "order": 11,
+     "lessons": [
+      {
+       "id": "fr.terminale.vecteurs-droites-et-plans-de-l-espace.l1",
+       "title": "Vecteurs de l'espace",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.terminale.vecteurs-droites-et-plans-de-l-espace.l1.c1",
+         "title": "Je sais utiliser des vecteurs coplanaires."
+        },
+        {
+         "id": "fr.terminale.vecteurs-droites-et-plans-de-l-espace.l1.c2",
+         "title": "Je sais utiliser une base et un repère de l'espace."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais utiliser des vecteurs coplanaires.",
+        "Je sais utiliser une base et un repère de l'espace."
+       ]
+      },
+      {
+       "id": "fr.terminale.vecteurs-droites-et-plans-de-l-espace.l2",
+       "title": "Droites et plans",
+       "order": 2,
+       "prerequisites": [
+        "fr.terminale.vecteurs-droites-et-plans-de-l-espace.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.terminale.vecteurs-droites-et-plans-de-l-espace.l2.c1",
+         "title": "Je sais étudier les positions relatives de droites et de plans."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais étudier les positions relatives de droites et de plans."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.terminale.orthogonalite-dans-l-espace",
+     "title": "Orthogonalité dans l'espace",
+     "order": 12,
+     "lessons": [
+      {
+       "id": "fr.terminale.orthogonalite-dans-l-espace.l1",
+       "title": "Produit scalaire dans l'espace",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.terminale.orthogonalite-dans-l-espace.l1.c1",
+         "title": "Je sais calculer un produit scalaire dans l'espace."
+        },
+        {
+         "id": "fr.terminale.orthogonalite-dans-l-espace.l1.c2",
+         "title": "Je sais caractériser l'orthogonalité."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais calculer un produit scalaire dans l'espace.",
+        "Je sais caractériser l'orthogonalité."
+       ]
+      },
+      {
+       "id": "fr.terminale.orthogonalite-dans-l-espace.l2",
+       "title": "Vecteur normal et plan",
+       "order": 2,
+       "prerequisites": [
+        "fr.terminale.orthogonalite-dans-l-espace.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.terminale.orthogonalite-dans-l-espace.l2.c1",
+         "title": "Je sais déterminer une équation cartésienne d'un plan."
+        },
+        {
+         "id": "fr.terminale.orthogonalite-dans-l-espace.l2.c2",
+         "title": "Je sais calculer une distance d'un point à un plan."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais déterminer une équation cartésienne d'un plan.",
+        "Je sais calculer une distance d'un point à un plan."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.terminale.representations-parametriques-et-equations-cartesiennes",
+     "title": "Représentations paramétriques et équations cartésiennes",
+     "order": 13,
+     "lessons": [
+      {
+       "id": "fr.terminale.representations-parametriques-et-equations-cartesiennes.l1",
+       "title": "Représentation paramétrique d'une droite",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.terminale.representations-parametriques-et-equations-cartesiennes.l1.c1",
+         "title": "Je sais déterminer une représentation paramétrique d'une droite."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais déterminer une représentation paramétrique d'une droite."
+       ]
+      },
+      {
+       "id": "fr.terminale.representations-parametriques-et-equations-cartesiennes.l2",
+       "title": "Intersections",
+       "order": 2,
+       "prerequisites": [
+        "fr.terminale.representations-parametriques-et-equations-cartesiennes.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.terminale.representations-parametriques-et-equations-cartesiennes.l2.c1",
+         "title": "Je sais déterminer l'intersection d'une droite et d'un plan."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais déterminer l'intersection d'une droite et d'un plan."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.terminale.loi-binomiale",
+     "title": "Loi binomiale",
+     "order": 14,
+     "lessons": [
+      {
+       "id": "fr.terminale.loi-binomiale.l1",
+       "title": "Schéma de Bernoulli",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.terminale.loi-binomiale.l1.c1",
+         "title": "Je sais reconnaître un schéma de Bernoulli."
+        },
+        {
+         "id": "fr.terminale.loi-binomiale.l1.c2",
+         "title": "Je connais la loi binomiale et ses paramètres."
+        }
+       ],
+       "learning_outcomes": [
+        "Je sais reconnaître un schéma de Bernoulli.",
+        "Je connais la loi binomiale et ses paramètres."
+       ]
+      },
+      {
+       "id": "fr.terminale.loi-binomiale.l2",
+       "title": "Espérance et calculs",
+       "order": 2,
+       "prerequisites": [
+        "fr.terminale.loi-binomiale.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.terminale.loi-binomiale.l2.c1",
+         "title": "Je connais l'espérance et la variance d'une loi binomiale."
+        },
+        {
+         "id": "fr.terminale.loi-binomiale.l2.c2",
+         "title": "Je sais calculer une probabilité avec la loi binomiale."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais l'espérance et la variance d'une loi binomiale.",
+        "Je sais calculer une probabilité avec la loi binomiale."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fr.terminale.loi-des-grands-nombres",
+     "title": "Loi des grands nombres",
+     "order": 15,
+     "lessons": [
+      {
+       "id": "fr.terminale.loi-des-grands-nombres.l1",
+       "title": "Inégalités de concentration",
+       "order": 1,
+       "prerequisites": [],
+       "concepts": [
+        {
+         "id": "fr.terminale.loi-des-grands-nombres.l1.c1",
+         "title": "Je connais l'inégalité de Bienaymé-Tchebychev."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais l'inégalité de Bienaymé-Tchebychev."
+       ]
+      },
+      {
+       "id": "fr.terminale.loi-des-grands-nombres.l2",
+       "title": "Loi des grands nombres",
+       "order": 2,
+       "prerequisites": [
+        "fr.terminale.loi-des-grands-nombres.l1"
+       ],
+       "concepts": [
+        {
+         "id": "fr.terminale.loi-des-grands-nombres.l2.c1",
+         "title": "Je connais la loi des grands nombres et je sais l'interpréter."
+        }
+       ],
+       "learning_outcomes": [
+        "Je connais la loi des grands nombres et je sais l'interpréter."
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

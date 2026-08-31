@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+tests/
+scripts/
+.env
+.pytest_cache/
+adk_agents/

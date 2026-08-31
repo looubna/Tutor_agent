@@ -1,0 +1,1726 @@
+{
+  "curriculum_id": "lang.german.cefr",
+  "subject": "german",
+  "target_language": "de",
+  "framework": "CEFR",
+  "levels": [
+    {
+      "id": "a1-1",
+      "band": "A1",
+      "label": "A1.1 — Anfänger",
+      "order": 1,
+      "description": "",
+      "chapters": [
+        {
+          "id": "a1-1.get-started",
+          "title": "Getting started with German",
+          "order": 1,
+          "emoji": "🎒",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.get-started.l1",
+              "title": "How this course works",
+              "order": 1,
+              "focus": null,
+              "kind": "orientation",
+              "summary": "A short first meeting: what A1.1 covers, how a lesson runs, and what you should be able to do twelve chapters from now.",
+              "objectives": [
+                "I know what the twelve chapters of A1.1 cover.",
+                "I know how a lesson is structured and what is expected of me.",
+                "I can say what I want to be able to do in German."
+              ],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-1.classroom",
+          "title": "I can follow my first German lesson",
+          "order": 2,
+          "emoji": "👋",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.classroom.l1",
+              "title": "Hello and goodbye",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "The greetings that change with the clock, and the two ways to leave a room.",
+              "objectives": [
+                "I can greet someone in German at any time of day.",
+                "I can say goodbye at the end of a class.",
+                "I can tell when to use du and when to use Sie."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.classroom.l2",
+              "title": "Spelling my name out loud",
+              "order": 2,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "The German alphabet, and the handful of phrases that keep a lesson moving when you have not understood.",
+              "objectives": [
+                "I can spell my name letter by letter.",
+                "I can ask someone to repeat something, or to speak more slowly.",
+                "I can ask what a word means and how it is written."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.classroom.l3",
+              "title": "der, die, das",
+              "order": 3,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "Every German noun carries a gender. This lesson is about learning the article together with the word, from the first day.",
+              "objectives": [
+                "I can name the three genders of German nouns.",
+                "I can use der, die and das with the nouns from this chapter.",
+                "I can write down a new noun the way it needs to be learned — with its article and its plural."
+              ],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-1.myself",
+          "title": "I can tell someone my name and where I'm from",
+          "order": 3,
+          "emoji": "🙋",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.myself.l1",
+              "title": "Countries, cities and nationalities",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "The country you come from, the city you live in, and the languages you speak.",
+              "objectives": [
+                "I can name my country and my nationality in German.",
+                "I can say which languages I speak.",
+                "I can understand where someone else is from."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.myself.l2",
+              "title": "Introducing myself",
+              "order": 2,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "Four sentences that will introduce you for the rest of your life in German, and the questions that draw them out of someone else.",
+              "objectives": [
+                "I can introduce myself with my name, my country and my city.",
+                "I can ask someone their name and where they come from.",
+                "I can introduce a third person."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.myself.l3",
+              "title": "Regular verbs in the present",
+              "order": 3,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "One stem, six endings. Once this pattern is in place, most German verbs follow it.",
+              "objectives": [
+                "I can conjugate a regular verb in the present tense.",
+                "I can match the right ending to ich, du, er/sie, wir, ihr and sie/Sie.",
+                "I can build a simple sentence about myself with a regular verb."
+              ],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-1.numbers",
+          "title": "I can give my phone number, my address and my age",
+          "order": 4,
+          "emoji": "🔢",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.numbers.l1",
+              "title": "Numbers from zero to a hundred",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "Counting, and the trick that makes German numbers hard to hear: the units are said before the tens.",
+              "objectives": [
+                "I can count from zero to a hundred.",
+                "I can understand a number said out loud at normal speed.",
+                "I can say my age and my year of birth."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.numbers.l2",
+              "title": "Filling in a form",
+              "order": 2,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "Surname, first name, date of birth, postcode. The fields that appear on every German form, and how to dictate them over a counter.",
+              "objectives": [
+                "I can give my address, my postcode and my phone number.",
+                "I can understand the labels on a simple German form.",
+                "I can ask someone to repeat a number."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.numbers.l3",
+              "title": "sein and haben",
+              "order": 3,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "The two verbs that refuse to follow the pattern, and the two you need most.",
+              "objectives": [
+                "I can conjugate sein and haben in the present tense.",
+                "I can say how old I am and what I have.",
+                "I can tell the difference between where sein is used and where haben is."
+              ],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-1.shopping",
+          "title": "I can buy food and pay for it",
+          "order": 5,
+          "emoji": "🛒",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.shopping.l1",
+              "title": "Food, drink, and the shops that sell them",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "What is sold at the bakery, the butcher and the supermarket, and the words for weights and packets.",
+              "objectives": [
+                "I can name the everyday foods I buy each week.",
+                "I can say which shop sells what.",
+                "I can use the German words for a kilo, a pound and a packet."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.shopping.l2",
+              "title": "At the till",
+              "order": 2,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "Asking for a quantity, hearing a price, and paying without slowing the queue down.",
+              "objectives": [
+                "I can ask for an amount of something.",
+                "I can ask what something costs and understand the answer.",
+                "I can say whether I am paying in cash or by card."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.shopping.l3",
+              "title": "The accusative",
+              "order": 3,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "When a noun is the thing being bought, eaten or taken, der becomes den. This is the first case change in the course.",
+              "objectives": [
+                "I can explain what the accusative marks in a sentence.",
+                "I can use den, die, das and einen, eine, ein after verbs like kaufen and nehmen.",
+                "I can spot the one article that actually changes."
+              ],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-1.eating",
+          "title": "I can order in a café and read a menu",
+          "order": 6,
+          "emoji": "☕",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.eating.l1",
+              "title": "On the menu",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "Breakfast, cake and the drinks list — enough of a Speisekarte to order from without pointing.",
+              "objectives": [
+                "I can read a simple German menu.",
+                "I can name what I usually eat and drink.",
+                "I can say what I do not eat."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.eating.l2",
+              "title": "Ordering and paying at a table",
+              "order": 2,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "Being seated, ordering, asking for the bill, and the small politeness that goes with each.",
+              "objectives": [
+                "I can order food and drink at a table.",
+                "I can ask for the bill and say whether we are paying together or separately.",
+                "I can understand what a waiter asks me."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.eating.l3",
+              "title": "Asking questions",
+              "order": 3,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "Two shapes: the ones that start with a question word, and the ones that start with the verb.",
+              "objectives": [
+                "I can ask a yes/no question by putting the verb first.",
+                "I can use wer, was, wo, wann, wie and wie viel.",
+                "I can tell which of the two question shapes a sentence is using."
+              ],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-1.clock",
+          "title": "I can tell someone what time it is",
+          "order": 7,
+          "emoji": "🕒",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.clock.l1",
+              "title": "The 24-hour clock",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "How Germany writes and says times officially — timetables, opening hours, appointments.",
+              "objectives": [
+                "I can read a time written as 14:30 and say it aloud.",
+                "I can name the parts of the day.",
+                "I can understand opening hours on a sign."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.clock.l2",
+              "title": "Asking and telling the time",
+              "order": 2,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "The everyday spoken clock, where halb drei means half past two and catches everyone out once.",
+              "objectives": [
+                "I can ask what time it is.",
+                "I can say a time using Viertel, halb and vor/nach.",
+                "I can say when something opens, starts or closes."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.clock.l3",
+              "title": "Saying when: um, am, von … bis",
+              "order": 3,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "Small words that decide whether you are talking about a clock time, a day, or a stretch of time.",
+              "objectives": [
+                "I can use um for clock times and am for days.",
+                "I can give a span of time with von … bis.",
+                "I can put a time expression in the right place in a sentence."
+              ],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-1.calendar",
+          "title": "I can name the day, the date and the month",
+          "order": 8,
+          "emoji": "🗓️",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.calendar.l1",
+              "title": "Days, months and seasons",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "The seven days, the twelve months, the four seasons, and the words for yesterday, today and tomorrow.",
+              "objectives": [
+                "I can name the days of the week and the months of the year.",
+                "I can name the four seasons.",
+                "I can say when something happens using heute, morgen and am Wochenende."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.calendar.l2",
+              "title": "Making an appointment",
+              "order": 2,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "Suggesting a time, accepting, refusing politely and moving it — by phone and in person.",
+              "objectives": [
+                "I can suggest a day and a time for a meeting.",
+                "I can accept or turn down a suggested time.",
+                "I can ask to move an appointment."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.calendar.l3",
+              "title": "Dates and ordinal numbers",
+              "order": 3,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "Why the first of May is der erste Mai, and how a German date changes shape depending on where it sits.",
+              "objectives": [
+                "I can form ordinal numbers from one to thirty-one.",
+                "I can say and write a full date.",
+                "I can say the date of my birthday."
+              ],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-1.day",
+          "title": "I can describe an ordinary day",
+          "order": 9,
+          "emoji": "⏰",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.day.l1",
+              "title": "Verbs that come apart",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "aufstehen, anfangen, einkaufen — the daily-routine verbs whose prefix jumps to the end of the sentence.",
+              "objectives": [
+                "I can name the everyday actions that fill a normal day.",
+                "I can recognise a separable verb from its prefix.",
+                "I can send the prefix to the end of the sentence where it belongs."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.day.l2",
+              "title": "Telling someone about my day",
+              "order": 2,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "Stringing the day together in order, from waking up to going to bed, and asking someone about theirs.",
+              "objectives": [
+                "I can describe my day in the order it happens.",
+                "I can say how often I do something.",
+                "I can ask someone what their day looks like."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.day.l3",
+              "title": "The verb comes second",
+              "order": 3,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "German will move almost anything to the front of a sentence — as long as the verb stays in position two.",
+              "objectives": [
+                "I can keep the conjugated verb in second position.",
+                "I can start a sentence with a time expression without breaking it.",
+                "I can order time, manner and place in a sentence."
+              ],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-1.transport",
+          "title": "I can get across town by bus, tram and train",
+          "order": 10,
+          "emoji": "🚆",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.transport.l1",
+              "title": "Buses, trams, trains and tickets",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "The vehicles, the stops, the platforms and the machine that sells you the ticket.",
+              "objectives": [
+                "I can name the kinds of public transport in a German city.",
+                "I can understand the words on a ticket machine.",
+                "I can name the parts of a station."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.transport.l2",
+              "title": "At the station",
+              "order": 2,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "Buying the right ticket, finding the platform, and understanding an announcement well enough not to miss the train.",
+              "objectives": [
+                "I can buy a ticket for a particular journey.",
+                "I can ask which platform a train leaves from.",
+                "I can ask whether this is the right bus or tram."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.transport.l3",
+              "title": "Prepositions that take the dative",
+              "order": 3,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "mit, zu, von, nach, aus, bei — after these, der becomes dem and die becomes der.",
+              "objectives": [
+                "I can list the prepositions that are always followed by the dative.",
+                "I can use dem, der and den with those prepositions.",
+                "I can say how I travel and where I am going."
+              ],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-1.work",
+          "title": "I can say what I do for a living",
+          "order": 11,
+          "emoji": "💼",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.work.l1",
+              "title": "Jobs and workplaces",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "Job titles and the places they are done in — and the fact that German makes a separate word for a woman doing the job.",
+              "objectives": [
+                "I can name common jobs in German.",
+                "I can form the female version of a job title.",
+                "I can say where I work."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.work.l2",
+              "title": "Talking about my working day",
+              "order": 2,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "What you do, who you do it with, and the hours — the answer to the question every new acquaintance asks.",
+              "objectives": [
+                "I can say what my job is and what it involves.",
+                "I can say what hours and days I work.",
+                "I can ask someone else about their job."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.work.l3",
+              "title": "Verbs that change their vowel",
+              "order": 3,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "sprechen becomes du sprichst, fahren becomes du fährst. A small group of very common verbs shifts its vowel for du and er/sie.",
+              "objectives": [
+                "I can recognise the verbs that change their stem vowel.",
+                "I can conjugate them correctly for du and er/sie.",
+                "I can use them to talk about myself and one other person."
+              ],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-1.freetime",
+          "title": "I can say what I like doing and what I don't",
+          "order": 12,
+          "emoji": "🎨",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.freetime.l1",
+              "title": "Hobbies, sport and screens",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "What people actually do with an evening or a Sunday, from football to television.",
+              "objectives": [
+                "I can name my hobbies in German.",
+                "I can name common sports and say which I play.",
+                "I can say what I do at the weekend."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.freetime.l2",
+              "title": "Saying what I like, and suggesting something",
+              "order": 2,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "gern, lieber and am liebsten — and how to turn a preference into an invitation.",
+              "objectives": [
+                "I can say what I like doing using gern.",
+                "I can say what I prefer.",
+                "I can suggest doing something together and respond to a suggestion."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.freetime.l3",
+              "title": "Saying no: nicht and kein",
+              "order": 3,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "German has two negatives and they are not interchangeable. One negates a noun, the other everything else.",
+              "objectives": [
+                "I can choose between nicht and kein.",
+                "I can put nicht in the right place in a sentence.",
+                "I can say what I do not do and do not have."
+              ],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-1.paperwork",
+          "title": "I can handle the post office, the bank and a form",
+          "order": 13,
+          "emoji": "📮",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.paperwork.l1",
+              "title": "The counter, the form and the queue",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "The words that appear on German official paperwork — Antrag, Formular, Schalter, Termin — and the places that hand it to you.",
+              "objectives": [
+                "I can name the services at a post office and a bank.",
+                "I can understand the common words on an official form.",
+                "I can name the documents I am usually asked for."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.paperwork.l2",
+              "title": "Asking for what I need at a counter",
+              "order": 2,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "Stating your business in one sentence, asking for help with a form, and making an appointment at an office.",
+              "objectives": [
+                "I can say what I have come to do.",
+                "I can ask for help filling in a form.",
+                "I can make an appointment at an office."
+              ],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-1.paperwork.l3",
+              "title": "können, müssen, dürfen",
+              "order": 3,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "The verbs for can, must and may — they take a second verb and send it, unchanged, to the end of the sentence.",
+              "objectives": [
+                "I can conjugate können, müssen and dürfen.",
+                "I can put the second verb at the end in its infinitive form.",
+                "I can say what I can, must and am allowed to do."
+              ],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-1.level-check",
+          "title": "Where I stand at the end of A1.1",
+          "order": 14,
+          "emoji": "✅",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-1.level-check.l1",
+              "title": "Level check",
+              "order": 1,
+              "focus": null,
+              "kind": "review",
+              "summary": "A conversation across all twelve chapters, ending with a short written record of what is solid and what to take into A1.2.",
+              "objectives": [
+                "I can hold a short conversation drawing on all twelve chapters.",
+                "I can see which chapters I still need to practise.",
+                "I know what A1.2 will ask of me."
+              ],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-2",
+      "band": "A1",
+      "label": "A1.2 — Anfänger",
+      "order": 2,
+      "description": "",
+      "chapters": [
+        {
+          "id": "a1-2.get-started",
+          "title": "Get started! Welcome to the German A1.2 course",
+          "order": 1,
+          "emoji": "🎒",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-2.get-started.l1",
+              "title": "Orientation German A1.2",
+              "order": 1,
+              "focus": null,
+              "kind": "orientation",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-2.home",
+          "title": "I can talk about my home in German",
+          "order": 2,
+          "emoji": "🏠",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-2.home.l1",
+              "title": "My home",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.home.l2",
+              "title": "Possessive articles",
+              "order": 2,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.home.l3",
+              "title": "At the furniture store",
+              "order": 3,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-2.directions",
+          "title": "I can ask for and give directions in German",
+          "order": 3,
+          "emoji": "🧭",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-2.directions.l1",
+              "title": "Where is the cinema?",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.directions.l2",
+              "title": "Giving directions",
+              "order": 2,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.directions.l3",
+              "title": "What's your stop?",
+              "order": 3,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-2.errands",
+          "title": "I can run errands in town in German",
+          "order": 4,
+          "emoji": "🏪",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-2.errands.l1",
+              "title": "Shops and services in town",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.errands.l2",
+              "title": "Prepositions of place with the dative case",
+              "order": 2,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.errands.l3",
+              "title": "At the post office",
+              "order": 3,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-2.clothes",
+          "title": "I can buy a new outfit in German",
+          "order": 5,
+          "emoji": "👕",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-2.clothes.l1",
+              "title": "Clothes and colours",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.clothes.l2",
+              "title": "Welch- and dies-",
+              "order": 2,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.clothes.l3",
+              "title": "Going shopping",
+              "order": 3,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-2.restaurant",
+          "title": "I can order at a restaurant in German",
+          "order": 6,
+          "emoji": "🍽️",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-2.restaurant.l1",
+              "title": "The menu",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.restaurant.l2",
+              "title": "The past tense of 'sein' and 'haben'",
+              "order": 2,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.restaurant.l3",
+              "title": "Enjoy your meal",
+              "order": 3,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-2.work",
+          "title": "I can communicate with my colleagues at work in German",
+          "order": 7,
+          "emoji": "🧑‍💻",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-2.work.l1",
+              "title": "My tasks at work",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.work.l2",
+              "title": "Giving instructions at work using the imperative",
+              "order": 2,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.work.l3",
+              "title": "Writing an email at work",
+              "order": 3,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-2.doctor",
+          "title": "I can pay a visit to the doctor in German",
+          "order": 8,
+          "emoji": "🩺",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-2.doctor.l1",
+              "title": "I don't feel well",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.doctor.l2",
+              "title": "The modal verbs 'müssen', 'sollen' and 'dürfen'",
+              "order": 2,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.doctor.l3",
+              "title": "At the doctor's",
+              "order": 3,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-2.accommodation",
+          "title": "I can book accommodation in German",
+          "order": 9,
+          "emoji": "🛏️",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-2.accommodation.l1",
+              "title": "Where are we staying?",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.accommodation.l2",
+              "title": "Expressing wishes with 'ich will' and 'ich möchte'",
+              "order": 2,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.accommodation.l3",
+              "title": "Is the apartment still free?",
+              "order": 3,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-2.weather",
+          "title": "I can talk about the weather in German",
+          "order": 10,
+          "emoji": "🌦️",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-2.weather.l1",
+              "title": "The weather",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.weather.l2",
+              "title": "The comparative",
+              "order": 2,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.weather.l3",
+              "title": "Being active outdoors",
+              "order": 3,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-2.holidays",
+          "title": "I can describe past holidays in German",
+          "order": 11,
+          "emoji": "✈️",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-2.holidays.l1",
+              "title": "How do you like to travel?",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.holidays.l2",
+              "title": "The perfect tense with 'haben'",
+              "order": 2,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.holidays.l3",
+              "title": "Where did you go on holiday?",
+              "order": 3,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-2.celebrations",
+          "title": "I can talk about celebrations and holidays in German",
+          "order": 12,
+          "emoji": "🎉",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-2.celebrations.l1",
+              "title": "Celebrations and holidays",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.celebrations.l2",
+              "title": "The perfect tense of irregular verbs",
+              "order": 2,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.celebrations.l3",
+              "title": "Tomorrow is a public holiday",
+              "order": 3,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-2.party",
+          "title": "I can organise a party in German",
+          "order": 13,
+          "emoji": "🥳",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-2.party.l1",
+              "title": "We have to celebrate!",
+              "order": 1,
+              "focus": "vocabulary",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.party.l2",
+              "title": "Personal pronouns in the dative",
+              "order": 2,
+              "focus": "grammar",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a1-2.party.l3",
+              "title": "Writing an invitation",
+              "order": 3,
+              "focus": "communication",
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a1-2.level-check",
+          "title": "Level check German A1.2",
+          "order": 14,
+          "emoji": "✅",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a1-2.level-check.l1",
+              "title": "Level check German A1.2",
+              "order": 1,
+              "focus": null,
+              "kind": "review",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-1",
+      "band": "A2",
+      "label": "A2.1 — Grundstufe",
+      "order": 3,
+      "description": "",
+      "chapters": [
+        {
+          "id": "a2-1.perfekt",
+          "title": "I can talk about last weekend",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a2-1.perfekt.l1",
+              "title": "Das Perfekt",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.perfekt.l2",
+              "title": "Zeitangaben",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.perfekt.l3",
+              "title": "Check: das Wochenende erzählen",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a2-1.dativ",
+          "title": "I can use the dative case",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a2-1.dativ.l1",
+              "title": "Dativ nach Verben und Präpositionen",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.dativ.l2",
+              "title": "Personalpronomen im Dativ",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.dativ.l3",
+              "title": "Check: jemandem etwas geben",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "a2-1.compare",
+          "title": "I can compare people and things",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "a2-1.compare.l1",
+              "title": "Komparativ und Superlativ",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.compare.l2",
+              "title": "Adjektivendungen",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "a2-1.compare.l3",
+              "title": "Check: zwei Städte vergleichen",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-2",
+      "band": "A2",
+      "label": "A2.2 — Grundstufe",
+      "order": 4,
+      "description": "",
+      "chapters": []
+    },
+    {
+      "id": "b1-1",
+      "band": "B1",
+      "label": "B1.1 — Mittelstufe",
+      "order": 5,
+      "description": "",
+      "chapters": [
+        {
+          "id": "b1-1.cases",
+          "title": "I can use the case system with confidence",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b1-1.cases.l1",
+              "title": "Dativ und Genitiv",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.cases.l2",
+              "title": "Wechselpräpositionen",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.cases.l3",
+              "title": "Check: Wegbeschreibung",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "b1-1.clauses",
+          "title": "I can build complex sentences",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b1-1.clauses.l1",
+              "title": "Nebensätze und Wortstellung",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.clauses.l2",
+              "title": "Relativsätze",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.clauses.l3",
+              "title": "Check: eine Geschichte",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "b1-1.konj",
+          "title": "I can be polite and hypothetical",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b1-1.konj.l1",
+              "title": "Konjunktiv II",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.konj.l2",
+              "title": "Höfliche Bitten",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b1-1.konj.l3",
+              "title": "Check: ein Gespräch im Amt",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-2",
+      "band": "B1",
+      "label": "B1.2 — Mittelstufe",
+      "order": 6,
+      "description": "",
+      "chapters": []
+    },
+    {
+      "id": "b2-1",
+      "band": "B2",
+      "label": "B2.1 — Fortgeschritten",
+      "order": 7,
+      "description": "",
+      "chapters": [
+        {
+          "id": "b2-1.passiv",
+          "title": "I can report and describe processes",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b2-1.passiv.l1",
+              "title": "Passiv in allen Zeiten",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.passiv.l2",
+              "title": "Indirekte Rede",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.passiv.l3",
+              "title": "Check: einen Vorgang beschreiben",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "b2-1.nominal",
+          "title": "I can use a written, formal register",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b2-1.nominal.l1",
+              "title": "Nominalstil und Nominalisierung",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.nominal.l2",
+              "title": "Partizipialattribute",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.nominal.l3",
+              "title": "Check: ein formeller Brief",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "b2-1.konnektoren",
+          "title": "I can connect ideas precisely",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "b2-1.konnektoren.l1",
+              "title": "Zweiteilige Konnektoren",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.konnektoren.l2",
+              "title": "Kausal, konzessiv, final",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "b2-1.konnektoren.l3",
+              "title": "Check: eine Argumentation",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-2",
+      "band": "B2",
+      "label": "B2.2 — Fortgeschritten",
+      "order": 8,
+      "description": "",
+      "chapters": []
+    },
+    {
+      "id": "c1-1",
+      "band": "C1",
+      "label": "C1.1 — Oberstufe",
+      "order": 9,
+      "description": "",
+      "chapters": [
+        {
+          "id": "c1-1.konjunktiv1",
+          "title": "I can report speech in writing",
+          "order": 1,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "c1-1.konjunktiv1.l1",
+              "title": "Konjunktiv I",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.konjunktiv1.l2",
+              "title": "Redewiedergabe in der Presse",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.konjunktiv1.l3",
+              "title": "Check: eine Nachricht referieren",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "c1-1.idiom",
+          "title": "I can use idiom and nuance",
+          "order": 2,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "c1-1.idiom.l1",
+              "title": "Feste Wendungen",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.idiom.l2",
+              "title": "Modalpartikeln",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.idiom.l3",
+              "title": "Check: natürlich klingen",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        },
+        {
+          "id": "c1-1.debatte",
+          "title": "I can build and defend a long argument",
+          "order": 3,
+          "emoji": "",
+          "theme": "",
+          "lessons": [
+            {
+              "id": "c1-1.debatte.l1",
+              "title": "Textkohärenz",
+              "order": 1,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.debatte.l2",
+              "title": "Einwände und Zugeständnisse",
+              "order": 2,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            },
+            {
+              "id": "c1-1.debatte.l3",
+              "title": "Check: eine strukturierte Debatte",
+              "order": 3,
+              "focus": null,
+              "kind": "lesson",
+              "summary": "",
+              "objectives": [],
+              "prerequisites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-2",
+      "band": "C1",
+      "label": "C1.2 — Oberstufe",
+      "order": 10,
+      "description": "",
+      "chapters": []
+    }
+  ]
+}

@@ -45,12 +45,12 @@ export function PlottedCurve({
         [158, 12],
         [236, 8],
       ].map(([cx, cy]) => (
-        <circle key={`${cx}-${cy}`} cx={cx} cy={cy} r="3" fill="var(--accent)" opacity={drawn ? 1 : 0} style={{ transition: "opacity 0.4s ease 0.6s" }} />
+        <circle key={`${cx}-${cy}`} cx={cx} cy={cy} r="3" fill="currentColor" opacity={drawn ? 1 : 0} style={{ transition: "opacity 0.4s ease 0.6s" }} />
       ))}
       <path
         ref={pathRef}
         d={CURVE_PATH}
-        stroke="var(--accent)"
+        stroke="currentColor"
         strokeWidth="2.5"
         strokeLinecap="round"
         strokeDasharray={PATH_LENGTH}

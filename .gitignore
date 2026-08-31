@@ -13,3 +13,14 @@ __pycache__/
 
 # node
 node_modules/
+
+# build output
+.next/
+out/
+*.tsbuildinfo
+
+# local database
+*.db
+
+# agent tooling, not the project
+.claude/skills/

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { PlottedCurve } from "@/components/PlottedCurve";
+import { RoadToSun } from "@/components/RoadToSun";
 import { Logo } from "@/components/Logo";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { LanguageToggle } from "@/components/LanguageToggle";
@@ -12,29 +12,25 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <div className="flex min-h-screen w-full flex-col md:flex-row">
-      <div className="relative flex shrink-0 flex-col justify-between overflow-hidden bg-board px-8 py-8 text-board-foreground md:w-[42%] md:px-12 md:py-12">
-        <div className="bg-grid-paper pointer-events-none absolute inset-0" />
+      <div className="relative flex shrink-0 flex-col justify-between overflow-hidden bg-chalk px-8 py-8 text-chalk-ink md:w-[42%] md:px-12 md:py-12">
+        <div className="bg-grid-chalk pointer-events-none absolute inset-0" />
 
         <div className="relative flex items-center justify-between gap-4">
-          <Link href="/" className="flex items-center gap-2">
-            <Logo size={36} variant="dark" />
-            <span className="text-xl font-semibold font-display">Learnora</span>
+          <Link href="/" className="flex items-center">
+            <Logo size={46} />
           </Link>
           <div className="flex items-center gap-2">
-            <ThemeToggle />
-            <LanguageToggle />
+            <ThemeToggle variant="light" />
+            <LanguageToggle variant="light" />
           </div>
         </div>
 
         <div className="relative mt-10 hidden max-w-xs flex-col gap-6 md:flex">
-          <PlottedCurve animate className="h-28 w-full text-accent" />
+          <RoadToSun animate className="h-32 w-full text-accent-ink" />
           <p className="text-2xl font-semibold leading-snug font-display">{t("auth.tagline")}</p>
-          <p className="text-sm text-board-foreground/70">{t("auth.taglineBody")}</p>
+          <p className="text-sm text-chalk-ink/70">{t("auth.taglineBody")}</p>
         </div>
 
-        <p className="relative hidden text-xs text-board-foreground/50 md:block">
-          Learnora — an AI Math Tutor
-        </p>
       </div>
 
       <div className="flex flex-1 flex-col items-center justify-center bg-background px-4 py-12">
